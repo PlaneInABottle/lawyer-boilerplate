@@ -21,5 +21,14 @@
       "IndexPage": {
     "description": "This is a basic example that demonstrates the usage of <code>next-intl</code> with the Next.js App Router. Try changing the locale in the top right corner and see how the content changes.",
     "title": "next-intl example"
+  },
+  "Hero": {
+    "title": "Expert Legal Solutions for",
+    "subtitle": "Complex Challenges",
+    "description": "Our team of experienced attorneys is dedicated to providing exceptional legal services with a commitment to integrity, excellence, and client success.",
+    "contactButton": "Free Consultation",
+    "practiceAreasButton": "Our Services",
+    "yearsExperience": "Years of Experience",
+    "casesWon": "Cases Successfully Resolved"
   }
 }

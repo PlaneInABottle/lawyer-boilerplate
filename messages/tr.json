@@ -20,5 +20,14 @@
     "IndexPage": {
         "description": "Bu, <code>next-intl</code> kullanarak Next.js Uygulama Rotaları ile kullanımını gösteren basit bir örnektir. Dil değiştirmeyi üst sağ köşede deneyin ve içeriğin nasıl değiştiğini görün.",
         "title": "next-intl örneği"
+    },
+    "Hero": {
+        "title": "Uzman Hukuk Çözümleri",
+        "subtitle": "Karmaşık Sorunlar",
+        "description": "Deneyimli avukatlarımızın verdiği mükemmel hukuk hizmetleri, ahlaki, nitelikli ve müşteri başarısıyla birlikte sunulmaktadır.",
+        "contactButton": "Ücretsiz Danışma",
+        "practiceAreasButton": "Hizmetlerimiz",
+        "yearsExperience": "Yıllık Deneyim",
+        "casesWon": "Başarıyla Çözülen Hukuk Durumları"
     }
 }
