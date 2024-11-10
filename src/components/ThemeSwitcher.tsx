@@ -1,20 +1,32 @@
 'use client';
 
 import { useTheme } from '@/context/ThemeContext';
+import { Palette } from 'lucide-react';
 
 export default function ThemeSwitcher() {
   const { theme, setTheme } = useTheme();
 
+  const themes = [
+    { value: 'default', label: 'Classic Law' },
+    { value: 'modern', label: 'Modern' },
+    { value: 'elegant', label: 'Elegant' },
+  ];
+
   return (
-    <select
-      value={theme}
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      onChange={(e) => setTheme(e.target.value as any)}
-      className="bg-primary text-primary-foreground border border-border rounded-md px-2 py-1"
-    >
-      <option value="default">Classic Law</option>
-      <option value="modern">Modern</option>
-      <option value="elegant">Elegant</option>
-    </select>
+    <div className="flex items-center gap-2">
+      <Palette className="h-4 w-4 text-white" />
+      <select
+        value={theme}
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        onChange={(e) => setTheme(e.target.value as any)}
+        className="bg-transparent text-white border-none text-sm focus:ring-0 focus:outline-none"
+      >
+        {themes.map((t) => (
+          <option key={t.value} value={t.value} className="text-primary bg-background">
+            {t.label}
+          </option>
+        ))}
+      </select>
+    </div>
   );
 }
