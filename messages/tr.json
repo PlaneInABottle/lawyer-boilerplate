@@ -5,7 +5,10 @@
     },
     "Navigation": {
         "home": "Anasayfa",
-        "pathnames": "Yol Adları"
+        "practiceAreas": "Uzmanlık Alanları",
+        "attorneys": "Avukatlar",
+        "about": "Hakkımızda",
+        "contact": "İletişim"
     },
     "LocaleSwitcher": {
         "label": "Dil Değiştir",

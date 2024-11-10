@@ -5,7 +5,10 @@
     },
     "Navigation": {
         "home": "الرئيسية",
-        "pathnames": "أسماء المسارات"
+        "practiceAreas": "مجالات الممارسة",
+        "attorneys": "المحامين",
+        "about": "معلومات عنا",
+        "contact": "اتصل بنا"
     },
     "LocaleSwitcher": {
         "label": "تغيير اللغة",

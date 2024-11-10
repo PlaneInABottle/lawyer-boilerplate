@@ -5,7 +5,10 @@
     },
     "Navigation": {
       "home": "Home",
-      "pathnames": "Pathnames"
+      "practiceAreas": "Practice Areas",
+      "attorneys": "Attorneys",
+      "about": "About Us",
+      "contact": "Contact"
     },
     "LocaleSwitcher": {
       "label": "Change language",
