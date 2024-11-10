@@ -1,0 +1,21 @@
+{
+    "HomePage": {
+        "title": "مرحبا بالعالم!",
+        "about": "اذهب إلى صفحة المعلومات"
+    },
+    "Navigation": {
+        "home": "الرئيسية",
+        "pathnames": "أسماء المسارات"
+    },
+    "LocaleSwitcher": {
+        "label": "تغيير اللغة",
+        "locale": "{locale, select, en {🇺🇸 English} tr {🇹🇷 Türkçe} ar {🇸🇦 العربية} other {Unknown}}"
+    },
+    "LocaleLayout": {
+        "title": "مثال next-intl"
+    },
+    "IndexPage": {
+        "description": "هذا مثال بسيط يوضح استخدام <code>next-intl</code> مع محرك الأسطورة التالي. حاول تغيير اللغة في الزاوية العلوية اليمنى وانظر كيف تتغير المحتويات.",
+        "title": "مثال next-intl"
+    }
+}

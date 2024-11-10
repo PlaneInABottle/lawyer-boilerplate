@@ -1,0 +1,21 @@
+{
+    "HomePage": {
+        "title": "Merhaba Dünya!",
+        "about": "Hakkımızda sayfasına git"
+    },
+    "Navigation": {
+        "home": "Anasayfa",
+        "pathnames": "Yol Adları"
+    },
+    "LocaleSwitcher": {
+        "label": "Dil Değiştir",
+        "locale": "{locale, select, en {🇺🇸 English} tr {🇹🇷 Türkçe} ar {🇸🇦 العربية} other {Unknown}}"
+    },
+    "LocaleLayout": {
+        "title": "next-intl örneği"
+    },
+    "IndexPage": {
+        "description": "Bu, <code>next-intl</code> kullanarak Next.js Uygulama Rotaları ile kullanımını gösteren basit bir örnektir. Dil değiştirmeyi üst sağ köşede deneyin ve içeriğin nasıl değiştiğini görün.",
+        "title": "next-intl örneği"
+    }
+}
