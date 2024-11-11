@@ -3,6 +3,10 @@
         "title": "Merhaba Dünya!",
         "about": "Hakkımızda sayfasına git"
     },
+    "Common": {
+        "contactUs": "Bize Ulaşın",
+        "learnMore": "Daha Fazla Bilgi Edinin"
+    },
     "Navigation": {
         "home": "Anasayfa",
         "practiceAreas": "Uzmanlık Alanları",
@@ -59,102 +63,205 @@
             "description": "Karmaşık maddi durumlara yönelik uzman temsil."
         }
     },
-     "AboutFirm": {
-    "title": "Hukuki Mükemmelliğin Mirası",
-    "subtitle": "Otuz yılı aşkın süredir güvenilir hukuk danışmanlığı, müşterilere dürüstlük ve özveriyle hizmet vermekteyiz.",
-    "description": "Firmamız, derin hukuk uzmanlığını müşteri hizmetleri taahhüdü ile birleştirir. Her davanın benzersiz olduğunu ve özel ilgi gerektirdiğini anlıyoruz. Deneyimli avukatlarımız, müşterilerimiz için en iyi sonuçları elde etmek amacıyla yorulmadan çalışmaktadır.",
-    "established": "1990",
-    "legacy": "Yılların Hukuki Mükemmelliği",
-    "learnMore": "Firmamız Hakkında",
-    "stats": {
-      "experience": {
-        "value": "30+",
-        "label": "Yıllık Deneyim"
-      },
-      "clients": {
-        "value": "1000+",
-        "label": "Memnun Müşteri"
-      },
-      "awards": {
-        "value": "50+",
-        "label": "Sektör Ödülleri"
-      }
+    "AboutFirm": {
+        "title": "Hukuki Mükemmelliğin Mirası",
+        "subtitle": "Otuz yılı aşkın süredir güvenilir hukuk danışmanlığı, müşterilere dürüstlük ve özveriyle hizmet vermekteyiz.",
+        "description": "Firmamız, derin hukuk uzmanlığını müşteri hizmetleri taahhüdü ile birleştirir. Her davanın benzersiz olduğunu ve özel ilgi gerektirdiğini anlıyoruz. Deneyimli avukatlarımız, müşterilerimiz için en iyi sonuçları elde etmek amacıyla yorulmadan çalışmaktadır.",
+        "established": "1990",
+        "legacy": "Yılların Hukuki Mükemmelliği",
+        "learnMore": "Firmamız Hakkında",
+        "stats": {
+            "experience": {
+                "value": "30+",
+                "label": "Yıllık Deneyim"
+            },
+            "clients": {
+                "value": "1000+",
+                "label": "Memnun Müşteri"
+            },
+            "awards": {
+                "value": "50+",
+                "label": "Sektör Ödülleri"
+            }
+        }
+    },
+    "Testimonials": {
+        "title": "Müşterilerimiz Ne Diyor",
+        "subtitle": "Değerli müşterilerimizin hukuki hizmetlerimizle ilgili deneyimlerini okuyun",
+        "testimonial1": {
+            "name": "John Smith",
+            "role": "Kurumsal Müşteri",
+            "content": "Ekip, kurumsal yeniden yapılandırmamız süresince olağanüstü hukuki rehberlik sağladı. Uzmanlıkları ve profesyonellikleri karmaşık bir süreci yönetilebilir hale getirdi."
+        },
+        "testimonial2": {
+            "name": "Sarah Johnson",
+            "role": "Aile Hukuku Müvekkili",
+            "content": "Zor bir dönemde hem şefkat hem de yetkinlik gösterdiler. Davama olan bağlılıkları en iyi sonucun elde edilmesini sağladı."
+        },
+        "testimonial3": {
+            "name": "Michael Chen",
+            "role": "Gayrimenkul Geliştiricisi",
+            "content": "Gayrimenkul hukukuna olan derin bilgileri ve ayrıntılara verdikleri önem, bizi olası sorunlardan korudu. Her türlü emlak işlemi için kesinlikle tavsiye ederim."
+        }
+    },
+    "Lawyers": {
+        "title": "Avukatlarımız",
+        "subtitle": "İhtiyaçlarınıza hizmet etmek için çalışan deneyimli hukuk profesyonellerinden oluşan ekibimizle tanışın",
+        "viewAll": "Tüm Avukatları Görüntüle",
+        "viewProfile": "Profili Görüntüle",
+        "contact": "İletişim",
+        "about": "Hakkında",
+        "expertise": "Uzmanlık Alanları",
+
+        "sectionTitles": {
+            "specialties": "Çalışma Alanları",
+            "education": "Eğitim",
+            "barAdmissions": "Baro Kabulü",
+            "languages": "Diller"
+        },
+
+        "roles": {
+            "seniorPartner": "Kıdemli Ortak",
+            "partner": "Ortak",
+            "associate": "Yardımcı"
+        },
+
+        "practiceAreas": {
+            "corporate": "Ticaret Hukuku",
+            "mergers": "Birleşme ve Satın Almalar",
+            "securities": "Sermaye Piyasası Hukuku",
+            "litigation": "Dava Hukuku",
+            "familyLaw": "Aile Hukuku",
+            "realEstate": "Gayrimenkul Hukuku",
+            "intellectual": "Fikri Mülkiyet"
+        },
+
+        "languages": {
+            "english": "İngilizce",
+            "spanish": "İspanyolca",
+            "turkish": "Türkçe",
+            "arabic": "Arapça"
+        },
+
+        "education": {
+            "harvard": "Harvard Hukuk Fakültesi, J.D.",
+            "yale": "Yale Üniversitesi, B.A.",
+            "stanford": "Stanford Hukuk Fakültesi, J.D.",
+            "columbia": "Columbia Üniversitesi, B.A."
+        },
+
+        "barAdmissions": {
+            "newYorkBar": "New York Eyalet Barosu",
+            "californiaBar": "Kaliforniya Eyalet Barosu",
+            "texasBar": "Teksas Eyalet Barosu"
+        },
+
+        "bios": {
+            "jane-doe": "Jane Doe, ticaret hukuku ve birleşme & satın almalar konusunda 20 yılı aşkın deneyime sahip Kıdemli Ortak..."
+        }
+    },
+    "PracticeAreas": {
+        "pageTitle": "Çalışma Alanları | Hukuk Bürosu",
+        "pageDescription": "Çeşitli çalışma alanlarında kapsamlı hukuki hizmetlerimizi keşfedin.",
+        "title": "Çalışma Alanlarımız",
+        "description": "Geniş bir yelpazede kapsamlı hukuki hizmetler sunuyoruz. Deneyimli avukatlarımız, özel ihtiyaçlarınıza göre uyarlanmış üstün bir hukuki temsil sağlamaya kendini adamıştır.",
+        "contactUs": "Bizimle İletişime Geçin",
+        "areas": {
+            "corporate": {
+                "title": "Ticaret Hukuku",
+                "description": "Her boyuttaki işletmeler için kapsamlı hukuki çözümler.",
+                "services": {
+                    "formation": "İşletme Kuruluşu ve Yapılandırma",
+                    "compliance": "Düzenleyici Uyum",
+                    "mergers": "Birleşme ve Satın Almalar",
+                    "contracts": "Sözleşme Müzakeresi ve Taslağı",
+                    "governance": "Kurumsal Yönetim"
+                },
+                "longDescription": "Kurumsal hukuk alanımız, küçük girişimlerden çok uluslu şirketlere kadar her ölçekteki işletmelere kapsamlı yasal çözümler sunar. Müşterilerimizin hedeflerine ulaşmalarına yardımcı olmak için derin bir hukuki uzmanlığı pratik iş bilgisi ile birleştiriyoruz.",
+                "serviceDescriptions": {
+                    "formation": "İhtiyaçlarınıza ve hedeflerinize uygun iş yapınızı kurmada uzman rehberlik.",
+                    "compliance": "Karmaşık düzenleyici gereksinimlerde rehberlik ve uyum sağlama desteği.",
+                    "mergers": "Birleşme, devralma ve diğer kurumsal işlemlerde stratejik tavsiye ve temsil.",
+                    "contracts": "Çeşitli ticari anlaşmalar ve sözleşmelerin profesyonelce hazırlanması ve müzakere desteği."
+                },
+                "serviceFeatures": {
+                    "formation": {
+                        "1": "Kuruluş ve tüzel kişilik seçimi",
+                        "2": "Şirket yönetim yapıları",
+                        "3": "Ortaklık sözleşmeleri"
+                    },
+                    "compliance": {
+                        "1": "Düzenleyici uyum programları",
+                        "2": "Risk değerlendirme ve yönetimi",
+                        "3": "Şirket politikaları ve prosedürleri"
+                    },
+                    "mergers": {
+                        "1": "Özenle yapılmış inceleme araştırmaları",
+                        "2": "İşlem yapılandırması",
+                        "3": "Birleşme sonrası entegrasyon"
+                    },
+                    "contracts": {
+                        "1": "Ticari sözleşme hazırlığı",
+                        "2": "Müzakere desteği",
+                        "3": "Sözleşme inceleme ve analizi"
+                    }
+                }
+            },
+            "family": {
+                "title": "Aile Hukuku",
+                "description": "Aile meseleleri için şefkatli hukuki destek.",
+                "services": {
+                    "divorce": "Boşanma ve Ayrılık",
+                    "custody": "Çocuk Velayeti ve Ziyaret Hakkı",
+                    "support": "Çocuk ve Eş Destekleri",
+                    "adoption": "Evlat Edinme Hizmetleri",
+                    "mediation": "Aile Arabuluculuğu"
+                }
+            },
+            "criminal": {
+                "title": "Ceza Hukuku",
+                "description": "Ceza davalarında stratejik savunma ve temsil.",
+                "services": {
+                    "defense": "Ceza Savunması",
+                    "appeals": "Ceza Temyizleri",
+                    "federal": "Federal Suç Savunması",
+                    "state": "Eyalet Suçu Savunması",
+                    "investigation": "Ceza Soruşturması"
+                }
+            },
+            "realEstate": {
+                "title": "Gayrimenkul Hukuku",
+                "description": "Gayrimenkul hukukunun tüm yönlerinde uzman rehberlik.",
+                "services": {
+                    "transactions": "Gayrimenkul İşlemleri",
+                    "development": "Mülk Geliştirme",
+                    "leasing": "Ticari Kiralama",
+                    "zoning": "İmar ve Arazi Kullanımı",
+                    "disputes": "Mülk Anlaşmazlıkları"
+                }
+            },
+            "intellectual": {
+                "title": "Fikri Mülkiyet",
+                "description": "Fikri mülkiyet haklarının korunması ve uygulanması.",
+                "services": {
+                    "patents": "Patent Başvuruları ve Koruma",
+                    "trademarks": "Marka Tescili",
+                    "copyright": "Telif Hakkı Koruması",
+                    "licensing": "Fikri Mülkiyet Lisanslama ve Devir",
+                    "litigation": "Fikri Mülkiyet Davaları"
+                }
+            },
+            "litigation": {
+                "title": "Dava ve Uyuşmazlık Çözümü",
+                "description": "Karmaşık hukuki anlaşmazlıklarda etkili temsil.",
+                "services": {
+                    "civil": "Medeni Dava",
+                    "commercial": "Ticari Anlaşmazlıklar",
+                    "arbitration": "Uluslararası Tahkim",
+                    "mediation": "Alternatif Uyuşmazlık Çözümü",
+                    "appeals": "Temyiz ve Yargı Denetimi"
+                }
+            }
+        }
     }
-  },
-  "Testimonials": {
-    "title": "Müşterilerimiz Ne Diyor",
-    "subtitle": "Değerli müşterilerimizin hukuki hizmetlerimizle ilgili deneyimlerini okuyun",
-    "testimonial1": {
-      "name": "John Smith",
-      "role": "Kurumsal Müşteri",
-      "content": "Ekip, kurumsal yeniden yapılandırmamız süresince olağanüstü hukuki rehberlik sağladı. Uzmanlıkları ve profesyonellikleri karmaşık bir süreci yönetilebilir hale getirdi."
-    },
-    "testimonial2": {
-      "name": "Sarah Johnson",
-      "role": "Aile Hukuku Müvekkili",
-      "content": "Zor bir dönemde hem şefkat hem de yetkinlik gösterdiler. Davama olan bağlılıkları en iyi sonucun elde edilmesini sağladı."
-    },
-    "testimonial3": {
-      "name": "Michael Chen",
-      "role": "Gayrimenkul Geliştiricisi",
-      "content": "Gayrimenkul hukukuna olan derin bilgileri ve ayrıntılara verdikleri önem, bizi olası sorunlardan korudu. Her türlü emlak işlemi için kesinlikle tavsiye ederim."
-    }
-  },
-  "Lawyers": {
-    "title": "Avukatlarımız",
-    "subtitle": "İhtiyaçlarınıza hizmet etmek için çalışan deneyimli hukuk profesyonellerinden oluşan ekibimizle tanışın",
-    "viewAll": "Tüm Avukatları Görüntüle",
-    "viewProfile": "Profili Görüntüle",
-    "contact": "İletişim",
-    "about": "Hakkında",
-    "expertise": "Uzmanlık Alanları",
-    
-    "sectionTitles": {
-      "specialties": "Çalışma Alanları",
-      "education": "Eğitim",
-      "barAdmissions": "Baro Kabulü",
-      "languages": "Diller"
-    },
-
-    "roles": {
-      "seniorPartner": "Kıdemli Ortak",
-      "partner": "Ortak",
-      "associate": "Yardımcı"
-    },
-
-    "practiceAreas": {
-      "corporate": "Ticaret Hukuku",
-      "mergers": "Birleşme ve Satın Almalar",
-      "securities": "Sermaye Piyasası Hukuku",
-      "litigation": "Dava Hukuku",
-      "familyLaw": "Aile Hukuku",
-      "realEstate": "Gayrimenkul Hukuku",
-      "intellectual": "Fikri Mülkiyet"
-    },
-
-    "languages": {
-      "english": "İngilizce",
-      "spanish": "İspanyolca",
-      "turkish": "Türkçe",
-      "arabic": "Arapça"
-    },
-
-    "education": {
-      "harvard": "Harvard Hukuk Fakültesi, J.D.",
-      "yale": "Yale Üniversitesi, B.A.",
-      "stanford": "Stanford Hukuk Fakültesi, J.D.",
-      "columbia": "Columbia Üniversitesi, B.A."
-    },
-
-    "barAdmissions": {
-      "newYorkBar": "New York Eyalet Barosu",
-      "californiaBar": "Kaliforniya Eyalet Barosu",
-      "texasBar": "Teksas Eyalet Barosu"
-    },
-
-    "bios": {
-      "jane-doe": "Jane Doe, ticaret hukuku ve birleşme & satın almalar konusunda 20 yılı aşkın deneyime sahip Kıdemli Ortak..."
-    }
-  }
-
 }
