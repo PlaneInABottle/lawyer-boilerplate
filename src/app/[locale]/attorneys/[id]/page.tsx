@@ -66,7 +66,7 @@ const {id} = await params;
             <h2 className="text-2xl font-semibold mb-2">{t('about')}</h2>
             <p className="text-muted-foreground">{t(`bios.${lawyer.id}`)}</p>
           </div>
-
+            
           <div>
             <h2 className="text-2xl font-semibold mb-4">{t('expertise')}</h2>
             <div className="grid sm:grid-cols-2 gap-6">

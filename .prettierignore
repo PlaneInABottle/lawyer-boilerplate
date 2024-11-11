@@ -1,0 +1,26 @@
+# Dependency directories
+node_modules
+.next
+build
+dist
+
+# Cache
+.cache
+.eslintcache
+
+# Logs
+*.log
+
+# Environment variables
+.env*
+
+# Coverage directory
+coverage
+
+# Generated files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# OS generated files
+.DS_Store 
