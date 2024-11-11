@@ -1,17 +1,40 @@
 import { Lawyer } from '@/types/lawyer';
 
 export const lawyers: Lawyer[] = [
-  {
-    id: 'jane-doe',
-    name: 'Jane Doe',
-    role: 'seniorPartner',
-    imageUrl: '/images/lawyers/jane-doe.jpg',
-    specialties: ['corporate', 'mergers', 'securities'],
-    education: ['harvard', 'yale'],
-    barAdmissions: ['newYorkBar', 'californiaBar'],
-    languages: ['english', 'spanish'],
-    email: 'jane.doe@lawfirm.com',
-    linkedin: 'https://linkedin.com/in/jane-doe'
-  },
-  // Add more lawyers...
-]; 
+    {
+        id: 'sarah-mitchell',
+        name: 'Sarah Mitchell',
+        role: 'seniorPartner',
+        imageUrl: '/images/lawyers/sarah-mitchell.jpeg',
+        specialties: ['corporate', 'mergers'],
+        education: ['harvard', 'yale'],
+        barAdmissions: ['newYorkBar'],
+        languages: ['english', 'spanish'],
+        email: 'sarah.mitchell@lawfirm.com',
+        linkedin: 'https://linkedin.com/in/sarah-mitchell',
+    },
+    {
+        id: 'james-wilson',
+        name: 'James Wilson',
+        role: 'partner',
+        imageUrl: '/images/lawyers/james-wilson.jpeg',
+        specialties: ['litigation', 'intellectual'],
+        education: ['stanford', 'columbia'],
+        barAdmissions: ['californiaBar'],
+        languages: ['english', 'arabic'],
+        email: 'james.wilson@lawfirm.com',
+        linkedin: 'https://linkedin.com/in/james-wilson',
+    },
+    {
+        id: 'emma-rodriguez',
+        name: 'Roberto Rodriguez',
+        role: 'associate',
+        imageUrl: '/images/lawyers/emma-rodriguez.jpeg',
+        specialties: ['familyLaw', 'realEstate'],
+        education: ['yale', 'columbia'],
+        barAdmissions: ['newYorkBar', 'californiaBar'],
+        languages: ['english', 'spanish'],
+        email: 'emma.rodriguez@lawfirm.com',
+        linkedin: 'https://linkedin.com/in/emma-rodriguez',
+    },
+];

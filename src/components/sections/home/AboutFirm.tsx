@@ -6,6 +6,7 @@ import { Link } from '@/i18n/routing';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import { ArrowRight, Award, Scale, Users } from 'lucide-react';
+import firmBuilding from '/public/images/about/firm-building.jpeg';
 
 const stats = [
     {
@@ -42,7 +43,7 @@ export default function AboutFirm() {
                     >
                         <div className="relative h-[500px] rounded-lg overflow-hidden">
                             <Image
-                                src="/images/about/firm-building.jpg"
+                                src={firmBuilding}
                                 alt="Law Firm Building"
                                 fill
                                 className="object-cover"
