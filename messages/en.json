@@ -81,5 +81,24 @@
         "label": "Industry Awards"
       }
     }
+  },
+  "Testimonials": {
+    "title": "What Our Clients Say",
+    "subtitle": "Read testimonials from our valued clients about their experience with our legal services",
+    "testimonial1": {
+      "name": "John Smith",
+      "role": "Corporate Client",
+      "content": "The team provided exceptional legal guidance throughout our corporate restructuring. Their expertise and professionalism made a complex process manageable."
+    },
+    "testimonial2": {
+      "name": "Sarah Johnson",
+      "role": "Family Law Client",
+      "content": "During a difficult time, they showed both compassion and competence. Their dedication to my case brought the best possible outcome."
+    },
+    "testimonial3": {
+      "name": "Michael Chen",
+      "role": "Real Estate Developer",
+      "content": "Their deep understanding of real estate law and attention to detail saved us from potential issues. Highly recommended for any property matters."
+    }
   }
 }

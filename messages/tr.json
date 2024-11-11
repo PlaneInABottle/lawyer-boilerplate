@@ -80,5 +80,24 @@
         "label": "Sektör Ödülleri"
       }
     }
+  },
+  "Testimonials": {
+    "title": "Müşterilerimiz Ne Diyor",
+    "subtitle": "Değerli müşterilerimizin hukuki hizmetlerimizle ilgili deneyimlerini okuyun",
+    "testimonial1": {
+      "name": "John Smith",
+      "role": "Kurumsal Müşteri",
+      "content": "Ekip, kurumsal yeniden yapılandırmamız süresince olağanüstü hukuki rehberlik sağladı. Uzmanlıkları ve profesyonellikleri karmaşık bir süreci yönetilebilir hale getirdi."
+    },
+    "testimonial2": {
+      "name": "Sarah Johnson",
+      "role": "Aile Hukuku Müvekkili",
+      "content": "Zor bir dönemde hem şefkat hem de yetkinlik gösterdiler. Davama olan bağlılıkları en iyi sonucun elde edilmesini sağladı."
+    },
+    "testimonial3": {
+      "name": "Michael Chen",
+      "role": "Gayrimenkul Geliştiricisi",
+      "content": "Gayrimenkul hukukuna olan derin bilgileri ve ayrıntılara verdikleri önem, bizi olası sorunlardan korudu. Her türlü emlak işlemi için kesinlikle tavsiye ederim."
+    }
   }
 }
