@@ -100,5 +100,62 @@
       "role": "Real Estate Developer",
       "content": "Their deep understanding of real estate law and attention to detail saved us from potential issues. Highly recommended for any property matters."
     }
+  },
+  "Lawyers": {
+    "title": "Our Attorneys",
+    "subtitle": "Meet our team of experienced legal professionals dedicated to serving your needs",
+    "viewAll": "View All Attorneys",
+    "viewProfile": "View Profile",
+    "contact": "Contact",
+    "about": "About",
+    "expertise": "Areas of Expertise",
+    
+    "sectionTitles": {
+      "specialties": "Practice Areas",
+      "education": "Education",
+      "barAdmissions": "Bar Admissions",
+      "languages": "Languages"
+    },
+
+    "roles": {
+      "seniorPartner": "Senior Partner",
+      "partner": "Partner",
+      "associate": "Associate"
+    },
+
+    "practiceAreas": {
+      "corporate": "Corporate Law",
+      "mergers": "Mergers & Acquisitions",
+      "securities": "Securities Law",
+      "litigation": "Litigation",
+      "familyLaw": "Family Law",
+      "realEstate": "Real Estate Law",
+      "intellectual": "Intellectual Property"
+    },
+
+    "languages": {
+      "english": "English",
+      "spanish": "Spanish",
+      "turkish": "Turkish",
+      "arabic": "Arabic"
+    },
+
+    "education": {
+      "harvard": "Harvard Law School, J.D.",
+      "yale": "Yale University, B.A.",
+      "stanford": "Stanford Law School, J.D.",
+      "columbia": "Columbia University, B.A."
+    },
+
+    "barAdmissions": {
+      "newYorkBar": "New York State Bar",
+      "californiaBar": "California State Bar",
+      "texasBar": "Texas State Bar"
+    },
+
+    "bios": {
+      "jane-doe": "Jane Doe is a Senior Partner with over 20 years of experience in corporate law and mergers & acquisitions..."
+    }
   }
+
 }

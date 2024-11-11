@@ -99,5 +99,62 @@
       "role": "Gayrimenkul Geliştiricisi",
       "content": "Gayrimenkul hukukuna olan derin bilgileri ve ayrıntılara verdikleri önem, bizi olası sorunlardan korudu. Her türlü emlak işlemi için kesinlikle tavsiye ederim."
     }
+  },
+  "Lawyers": {
+    "title": "Avukatlarımız",
+    "subtitle": "İhtiyaçlarınıza hizmet etmek için çalışan deneyimli hukuk profesyonellerinden oluşan ekibimizle tanışın",
+    "viewAll": "Tüm Avukatları Görüntüle",
+    "viewProfile": "Profili Görüntüle",
+    "contact": "İletişim",
+    "about": "Hakkında",
+    "expertise": "Uzmanlık Alanları",
+    
+    "sectionTitles": {
+      "specialties": "Çalışma Alanları",
+      "education": "Eğitim",
+      "barAdmissions": "Baro Kabulü",
+      "languages": "Diller"
+    },
+
+    "roles": {
+      "seniorPartner": "Kıdemli Ortak",
+      "partner": "Ortak",
+      "associate": "Yardımcı"
+    },
+
+    "practiceAreas": {
+      "corporate": "Ticaret Hukuku",
+      "mergers": "Birleşme ve Satın Almalar",
+      "securities": "Sermaye Piyasası Hukuku",
+      "litigation": "Dava Hukuku",
+      "familyLaw": "Aile Hukuku",
+      "realEstate": "Gayrimenkul Hukuku",
+      "intellectual": "Fikri Mülkiyet"
+    },
+
+    "languages": {
+      "english": "İngilizce",
+      "spanish": "İspanyolca",
+      "turkish": "Türkçe",
+      "arabic": "Arapça"
+    },
+
+    "education": {
+      "harvard": "Harvard Hukuk Fakültesi, J.D.",
+      "yale": "Yale Üniversitesi, B.A.",
+      "stanford": "Stanford Hukuk Fakültesi, J.D.",
+      "columbia": "Columbia Üniversitesi, B.A."
+    },
+
+    "barAdmissions": {
+      "newYorkBar": "New York Eyalet Barosu",
+      "californiaBar": "Kaliforniya Eyalet Barosu",
+      "texasBar": "Teksas Eyalet Barosu"
+    },
+
+    "bios": {
+      "jane-doe": "Jane Doe, ticaret hukuku ve birleşme & satın almalar konusunda 20 yılı aşkın deneyime sahip Kıdemli Ortak..."
+    }
   }
+
 }
