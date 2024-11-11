@@ -29,5 +29,56 @@
         "practiceAreasButton": "Hizmetlerimiz",
         "yearsExperience": "Yıllık Deneyim",
         "casesWon": "Başarıyla Çözülen Hukuk Durumları"
+    },
+    "Services": {
+        "title": "Uzmanlık Alanlarımız",
+        "description": "Biz, çeşitli uzmanlık alanlarında tam hukuk hizmetleri sağlar, müşteri ihtiyaçlarına uygun olarak özel olarak tasarlanmıştır.",
+        "learnMore": "Daha Fazla Bilgi",
+        "corporate": {
+            "title": "Kurumsal Hukuk",
+            "description": "İşletmeler için uzman hukuk danışmanlığı, kuruluş, uyum, birleşme ve alım-satım dahil."
+        },
+        "family": {
+            "title": "Aile Hukuku",
+            "description": "Aileye yönelik duygusal temsil, boşanma, bakım ve diğer aile hakkında hukuk durumları."
+        },
+        "criminal": {
+            "title": "Ceza Hukuku",
+            "description": "Karmaşık savunma stratejileri ve yerel ve federal düzeydeki suçlara temsil."
+        },
+        "realEstate": {
+            "title": "Emlak Hukuku",
+            "description": "Gerçek durumlara yönelik tam hukuk hizmetleri, işlemler, geliştirme ve maddi durumlar."
+        },
+        "intellectual": {
+            "title": "Fikri Mülkiyet Hukuku",
+            "description": "Bakım ve yürürlükteki patentler, ticari markalar, telif hakları ve ticari gizli bilgileri koruma ve uygulama."
+        },
+        "litigation": {
+            "title": "Maddi Hukuk",
+            "description": "Karmaşık maddi durumlara yönelik uzman temsil."
+        }
+    },
+     "AboutFirm": {
+    "title": "Hukuki Mükemmelliğin Mirası",
+    "subtitle": "Otuz yılı aşkın süredir güvenilir hukuk danışmanlığı, müşterilere dürüstlük ve özveriyle hizmet vermekteyiz.",
+    "description": "Firmamız, derin hukuk uzmanlığını müşteri hizmetleri taahhüdü ile birleştirir. Her davanın benzersiz olduğunu ve özel ilgi gerektirdiğini anlıyoruz. Deneyimli avukatlarımız, müşterilerimiz için en iyi sonuçları elde etmek amacıyla yorulmadan çalışmaktadır.",
+    "established": "1990",
+    "legacy": "Yılların Hukuki Mükemmelliği",
+    "learnMore": "Firmamız Hakkında",
+    "stats": {
+      "experience": {
+        "value": "30+",
+        "label": "Yıllık Deneyim"
+      },
+      "clients": {
+        "value": "1000+",
+        "label": "Memnun Müşteri"
+      },
+      "awards": {
+        "value": "50+",
+        "label": "Sektör Ödülleri"
+      }
     }
+  }
 }

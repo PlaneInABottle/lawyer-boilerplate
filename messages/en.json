@@ -30,5 +30,56 @@
     "practiceAreasButton": "Our Services",
     "yearsExperience": "Years of Experience",
     "casesWon": "Cases Successfully Resolved"
+  },
+  "Services": {
+    "title": "Our Practice Areas",
+    "description": "We provide comprehensive legal services across various practice areas, tailored to meet your specific needs.",
+    "learnMore": "Learn More",
+    "corporate": {
+      "title": "Corporate Law",
+      "description": "Expert legal guidance for businesses, including formation, compliance, mergers, and acquisitions."
+    },
+    "family": {
+      "title": "Family Law",
+      "description": "Compassionate representation in divorce, custody, and other family-related legal matters."
+    },
+    "criminal": {
+      "title": "Criminal Defense",
+      "description": "Strong defense strategies and representation in criminal cases at both state and federal levels."
+    },
+    "realEstate": {
+      "title": "Real Estate Law",
+      "description": "Comprehensive legal services for real estate transactions, development, and disputes."
+    },
+    "intellectual": {
+      "title": "Intellectual Property",
+      "description": "Protection and enforcement of patents, trademarks, copyrights, and trade secrets."
+    },
+    "litigation": {
+      "title": "Civil Litigation",
+      "description": "Skilled representation in complex civil disputes and litigation proceedings."
+    }
+  },
+    "AboutFirm": {
+    "title": "A Legacy of Legal Excellence",
+    "subtitle": "Trusted legal counsel for over three decades, serving clients with integrity and dedication.",
+    "description": "Our firm combines deep legal expertise with a commitment to client service. We understand that each case is unique and requires personalized attention. Our team of experienced attorneys works tirelessly to achieve the best possible outcomes for our clients.",
+    "established": "1990",
+    "legacy": "Years of Legal Excellence",
+    "learnMore": "About Our Firm",
+    "stats": {
+      "experience": {
+        "value": "30+",
+        "label": "Years Experience"
+      },
+      "clients": {
+        "value": "1000+",
+        "label": "Satisfied Clients"
+      },
+      "awards": {
+        "value": "50+",
+        "label": "Industry Awards"
+      }
+    }
   }
 }
