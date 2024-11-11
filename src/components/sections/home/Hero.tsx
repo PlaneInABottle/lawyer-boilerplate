@@ -1,5 +1,4 @@
 import { useTranslations } from 'next-intl';
-import Container from '@/components/common/Container';
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -10,7 +9,7 @@ export default function Hero() {
 
     return (
         <section className="relative bg-gradient-to-b from-primary/10 to-transparent pt-32 pb-16 md:pt-40 md:pb-24">
-            <Container className="relative z-10">
+            <div className="container relative z-10">
                 <div className="grid lg:grid-cols-2 gap-12 items-center">
                     <div className="space-y-8">
                         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground">
@@ -64,7 +63,7 @@ export default function Hero() {
                         />
                     </div>
                 </div>
-            </Container>
+            </div>
 
             {/* Background Elements */}
             <div className="absolute inset-0 z-0">
