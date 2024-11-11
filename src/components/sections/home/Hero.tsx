@@ -13,11 +13,9 @@ export default function Hero() {
             <Container className="relative z-10">
                 <div className="grid lg:grid-cols-2 gap-12 items-center">
                     <div className="space-y-8">
-                        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white">
+                        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground">
                             {t('title')}
-                            <span className="text-primary block mt-2 dark:text-primary-foreground">
-                                {t('subtitle')}
-                            </span>
+                            <span className="text-primary block mt-2">{t('subtitle')}</span>
                         </h1>
 
                         <p className="text-lg md:text-xl text-gray-600 dark:text-gray-200 max-w-xl">
