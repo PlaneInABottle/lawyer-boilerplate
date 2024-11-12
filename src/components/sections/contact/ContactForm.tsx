@@ -21,7 +21,7 @@ export default function ContactForm() {
         const data = new FormData(form);
 
         try {
-            const response = await fetch(`/${locale}/__forms.html`, {
+            const response = await fetch(`/${locale}`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
                 // eslint-disable-next-line @typescript-eslint/no-explicit-any
