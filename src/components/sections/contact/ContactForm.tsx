@@ -7,8 +7,36 @@ import { useState } from 'react';
 
 export default function ContactForm() {
     const t = useTranslations('Contact.form');
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const [isSubmitting, setIsSubmitting] = useState(false);
+
+    const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+        e.preventDefault();
+        setIsSubmitting(true);
+
+        const form = e.target as HTMLFormElement;
+        const data = new FormData(form);
+
+        try {
+            const response = await fetch('/', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                // eslint-disable-next-line @typescript-eslint/no-explicit-any
+                body: new URLSearchParams(data as any).toString(),
+            });
+
+            if (response.ok) {
+                form.reset();
+                alert('Thank you for your message. We will get back to you soon!');
+            } else {
+                throw new Error('Form submission failed');
+            }
+            // eslint-disable-next-line @typescript-eslint/no-unused-vars
+        } catch (error) {
+            alert('Sorry, there was an error submitting the form. Please try again.');
+        } finally {
+            setIsSubmitting(false);
+        }
+    };
 
     return (
         <Card>
@@ -21,6 +49,7 @@ export default function ContactForm() {
                     name="contact"
                     method="POST"
                     data-netlify="true"
+                    onSubmit={handleSubmit}
                     className="space-y-6"
                     netlify-honeypot="bot-field"
                 >
