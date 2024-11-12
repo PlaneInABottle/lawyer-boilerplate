@@ -9,7 +9,7 @@ import { Link } from '@/i18n/routing';
 
 export default function Hero() {
     const t = useTranslations('Hero');
-
+    const commonT = useTranslations('Common');
     return (
         <section className="relative min-h-[calc(100vh-64px)]">
             {/* Background Image with Overlay */}
@@ -40,7 +40,7 @@ export default function Hero() {
                     <div className="flex flex-col sm:flex-row gap-4">
                         <Button asChild size="lg" className="text-base">
                             <Link href="/contact">
-                                {t('contactUs')}
+                                {commonT('contactUs')}
                                 <ArrowRight className="ml-2 h-5 w-5" />
                             </Link>
                         </Button>
