@@ -268,5 +268,78 @@
                 }
             }
         }
+    },
+    "About": {
+        "pageTitle": "About Us | Law Firm",
+        "pageDescription": "Learn about our history, values, and commitment to excellence in legal services.",
+
+        "hero": {
+            "title": "A Legacy of Legal Excellence",
+            "subtitle": "For over 25 years, we have been providing exceptional legal services and building lasting relationships with our clients. Our commitment to excellence and integrity has made us one of the most trusted law firms in the region.",
+            "stats": {
+                "years": "Years of Experience",
+                "lawyers": "Expert Lawyers",
+                "cases": "Cases Won"
+            }
+        },
+
+        "values": {
+            "title": "Our Core Values",
+            "subtitle": "The principles that guide our practice and shape our commitment to clients",
+            "items": {
+                "integrity": {
+                    "title": "Integrity",
+                    "description": "We maintain the highest ethical standards in all our dealings"
+                },
+                "clientFocus": {
+                    "title": "Client Focus",
+                    "description": "Your success is our priority - we're dedicated to achieving your goals"
+                },
+                "excellence": {
+                    "title": "Excellence",
+                    "description": "We strive for excellence in every aspect of our practice"
+                },
+                "community": {
+                    "title": "Community",
+                    "description": "We're committed to making a positive impact in our community"
+                }
+            }
+        },
+
+        "history": {
+            "title": "Our Journey",
+            "subtitle": "Key milestones in our firm's history of legal excellence",
+            "milestones": {
+                "1998": "Founded with a vision to provide exceptional legal services",
+                "2005": "Expanded our practice areas and opened our second office",
+                "2012": "Recognized as one of the top law firms in the region",
+                "2018": "Established our international practice",
+                "2023": "Celebrating 25 years of legal excellence"
+            }
+        },
+
+        "team": {
+            "title": "Our Leadership Team",
+            "subtitle": "Meet the experienced professionals who lead our firm with expertise and dedication",
+            "viewAll": "View All Attorneys",
+            "stats": {
+                "offices": {
+                    "value": "4",
+                    "label": "Global Offices"
+                },
+                "lawyers": {
+                    "value": "50+",
+                    "label": "Expert Attorneys"
+                },
+                "experience": {
+                    "value": "25+",
+                    "label": "Years of Experience"
+                },
+                "success": {
+                    "value": "98%",
+                    "label": "Success Rate"
+                }
+            }
+        }
     }
 }

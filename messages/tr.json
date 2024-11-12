@@ -265,5 +265,78 @@
                 }
             }
         }
+    },
+    "About": {
+        "pageTitle": "Hakkımızda | Hukuk Bürosu",
+        "pageDescription": "Tarihimiz, değerlerimiz ve hukuki hizmetlerde mükemmelliğe bağlılığımız hakkında bilgi edinin.",
+
+        "hero": {
+            "title": "Hukukta Mükemmeliyetin Mirası",
+            "subtitle": "25 yılı aşkın süredir, üstün hukuk hizmetleri sunarak müşterilerimizle kalıcı ilişkiler kuruyoruz. Mükemmellik ve dürüstlüğe olan bağlılığımız, bizi bölgemizin en güvenilir hukuk bürolarından biri yapmıştır.",
+            "stats": {
+                "years": "Yıllık Deneyim",
+                "lawyers": "Uzman Avukatlar",
+                "cases": "Kazanılan Davalar"
+            }
+        },
+
+        "values": {
+            "title": "Temel Değerlerimiz",
+            "subtitle": "Uygulamalarımızı yönlendiren ve müşterilerimize olan bağlılığımızı şekillendiren ilkeler",
+            "items": {
+                "integrity": {
+                    "title": "Dürüstlük",
+                    "description": "Tüm işlerimizde en yüksek etik standartları koruruz"
+                },
+                "clientFocus": {
+                    "title": "Müşteri Odaklılık",
+                    "description": "Başarınız önceliğimizdir - hedeflerinize ulaşmak için çalışıyoruz"
+                },
+                "excellence": {
+                    "title": "Mükemmellik",
+                    "description": "Uygulamalarımızın her alanında mükemmeliyeti hedefliyoruz"
+                },
+                "community": {
+                    "title": "Toplum",
+                    "description": "Toplumumuzda olumlu bir etki yaratmaya kararlıyız"
+                }
+            }
+        },
+
+        "history": {
+            "title": "Yolculuğumuz",
+            "subtitle": "Hukuk büromuzun mükemmeliyet dolu tarihindeki önemli dönüm noktaları",
+            "milestones": {
+                "1998": "Üstün hukuk hizmetleri sunma vizyonuyla kuruldu",
+                "2005": "Uygulama alanlarımızı genişlettik ve ikinci ofisimizi açtık",
+                "2012": "Bölgedeki en iyi hukuk bürolarından biri olarak tanındık",
+                "2018": "Uluslararası uygulamamızı başlattık",
+                "2023": "Hukukta 25 yılı aşkın mükemmeliyeti kutluyoruz"
+            }
+        },
+
+        "team": {
+            "title": "Liderlik Ekibimiz",
+            "subtitle": "Firmamızı uzmanlık ve özveriyle yöneten deneyimli profesyonellerle tanışın",
+            "viewAll": "Tüm Avukatları Görüntüle",
+            "stats": {
+                "offices": {
+                    "value": "4",
+                    "label": "Global Ofis"
+                },
+                "lawyers": {
+                    "value": "50+",
+                    "label": "Uzman Avukat"
+                },
+                "experience": {
+                    "value": "25+",
+                    "label": "Yıllık Deneyim"
+                },
+                "success": {
+                    "value": "%98",
+                    "label": "Başarı Oranı"
+                }
+            }
+        }
     }
 }
