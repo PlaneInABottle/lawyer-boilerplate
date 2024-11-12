@@ -4,14 +4,14 @@ import { useTranslations } from 'next-intl';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader } from '@/components/ui/card';
 import { useState } from 'react';
-import { usePathname } from 'next/navigation';
+// import { usePathname } from 'next/navigation';
 
 export default function ContactForm() {
     const t = useTranslations('Contact.form');
     const [isSubmitting, setIsSubmitting] = useState(false);
-    const pathname = usePathname();
+    // const pathname = usePathname();
 
-    const locale = pathname.split('/')[1]; // Get current locale from path
+    // const locale = pathname.split('/')[1]; // Get current locale from path
 
     const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
@@ -21,7 +21,7 @@ export default function ContactForm() {
         const data = new FormData(form);
 
         try {
-            const response = await fetch(`/${locale}`, {
+            const response = await fetch(`/__forms.html`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
                 // eslint-disable-next-line @typescript-eslint/no-explicit-any

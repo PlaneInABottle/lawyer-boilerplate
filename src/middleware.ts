@@ -8,6 +8,6 @@ export const config = {
     matcher: [
         '/',
         '/(tr|en|ar)/:path*',
-        '/((?!api|_next/static|_next/image|images|favicon.ico).*)',
+        '/((?!api|_next/static|_next/image|images|favicon.ico|__forms.html).*)',
     ],
 };
