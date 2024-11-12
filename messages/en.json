@@ -32,7 +32,10 @@
         "contactButton": "Free Consultation",
         "practiceAreasButton": "Our Services",
         "yearsExperience": "Years of Experience",
-        "casesWon": "Cases Successfully Resolved"
+        "casesWon": "Cases Successfully Resolved",
+        "scrollToExplore": "Scroll to explore",
+        "contactUs": "Contact Us",
+        "learnMore": "Learn More"
     },
     "Services": {
         "title": "Our Practice Areas",
@@ -157,7 +160,9 @@
         },
 
         "bios": {
-            "jane-doe": "Jane Doe is a Senior Partner with over 20 years of experience in corporate law and mergers & acquisitions..."
+            "sarah-mitchell": "Sarah Mitchell is a Senior Partner with over 15 years of experience in corporate law and mergers & acquisitions. She has successfully led numerous high-profile corporate transactions and provides strategic counsel to Fortune 500 companies. Sarah is known for her practical approach to complex legal challenges and her commitment to client success.",
+            "james-wilson": "James Wilson brings extensive experience in intellectual property law and commercial litigation. As a Partner, he has represented clients in numerous landmark cases and specializes in protecting and enforcing intellectual property rights. His strategic approach and deep technical knowledge make him a valuable asset in complex litigation matters.",
+            "emma-rodriguez": "Roberto Rodriguez is an Associate specializing in family law and real estate transactions. With a compassionate approach to family matters and a sharp eye for detail in property transactions, Roberto has built a strong reputation for achieving favorable outcomes for his clients. He is particularly skilled in handling complex cross-border family and real estate matters."
         }
     },
     "PracticeAreas": {

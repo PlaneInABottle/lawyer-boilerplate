@@ -157,7 +157,9 @@
         },
 
         "bios": {
-            "jane-doe": "Jane Doe, ticaret hukuku ve birleşme & satın almalar konusunda 20 yılı aşkın deneyime sahip Kıdemli Ortak..."
+            "sarah-mitchell": "Sarah Mitchell, kurumsal hukuk ve şirket birleşme ve satın almaları konusunda 15 yılı aşkın deneyime sahip Kıdemli Ortak'tır. Birçok yüksek profilli kurumsal işleme başarıyla liderlik etmiş ve Fortune 500 şirketlerine stratejik danışmanlık sağlamıştır. Sarah, karmaşık yasal zorluklara pratik yaklaşımı ve müşteri başarısına olan bağlılığı ile tanınır.",
+            "james-wilson": "James Wilson, fikri mülkiyet hukuku ve ticari davalar konusunda kapsamlı deneyim getiriyor. Ortak olarak, çok sayıda önemli davada müvekkilleri temsil etmiş ve fikri mülkiyet haklarının korunması ve uygulanması konusunda uzmanlaşmıştır. Stratejik yaklaşımı ve derin teknik bilgisi, onu karmaşık dava konularında değerli bir varlık haline getiriyor.",
+            "emma-rodriguez": "Roberto Rodriguez, aile hukuku ve gayrimenkul işlemlerinde uzmanlaşmış bir Avukat'tır. Aile meselelerine şefkatli yaklaşımı ve mülk işlemlerindeki detaycı bakış açısıyla Roberto, müvekkilleri için olumlu sonuçlar elde etme konusunda güçlü bir itibar oluşturmuştur. Özellikle sınır ötesi aile ve gayrimenkul konularını ele alma konusunda yeteneklidir."
         }
     },
     "PracticeAreas": {

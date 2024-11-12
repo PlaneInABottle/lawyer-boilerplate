@@ -1,75 +1,93 @@
+'use client';
+
 import { useTranslations } from 'next-intl';
 import { Button } from '@/components/ui/button';
-import Image from 'next/image';
-import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
+import Image from 'next/image';
+import { motion } from 'framer-motion';
+import { Link } from '@/i18n/routing';
 
 export default function Hero() {
     const t = useTranslations('Hero');
 
     return (
-        <section className="relative bg-gradient-to-b from-primary/10 to-transparent pt-32 pb-16 md:pt-40 md:pb-24">
-            <div className="container relative z-10">
-                <div className="grid lg:grid-cols-2 gap-12 items-center">
-                    <div className="space-y-8">
-                        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground">
-                            {t('title')}
-                            <span className="text-primary block mt-2">{t('subtitle')}</span>
-                        </h1>
+        <section className="relative min-h-[calc(100vh-64px)]">
+            {/* Background Image with Overlay */}
+            <div className="absolute inset-0">
+                <Image
+                    src="/images/hero/hero-law.jpeg"
+                    alt="Law Firm Building"
+                    fill
+                    className="object-cover"
+                    priority
+                />
+                <div className="absolute inset-0 bg-black/50" />
+            </div>
 
-                        <p className="text-lg md:text-xl text-gray-600 dark:text-gray-200 max-w-xl">
-                            {t('description')}
-                        </p>
+            {/* Content */}
+            <div className="container relative h-[calc(100vh-64px)] flex items-center">
+                <motion.div
+                    className="max-w-2xl text-white"
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.5 }}
+                >
+                    <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+                        {t('title')}
+                    </h1>
+                    <p className="text-lg md:text-xl mb-8 text-gray-200">{t('subtitle')}</p>
 
-                        <div className="flex flex-wrap gap-4">
-                            <Button asChild size="lg">
-                                <Link href="/contact">
-                                    {t('contactButton')}
-                                    <ArrowRight className="ml-2 h-4 w-4" />
-                                </Link>
-                            </Button>
-                            <Button asChild variant="outline" size="lg">
-                                <Link href="/practice-areas">{t('practiceAreasButton')}</Link>
-                            </Button>
-                        </div>
-
-                        <div className="flex items-center gap-8 pt-4">
-                            <div className="flex items-center gap-2">
-                                <span className="text-4xl font-bold text-primary dark:text-primary-foreground">
-                                    25+
-                                </span>
-                                <span className="text-sm text-gray-600 dark:text-gray-300 leading-tight">
-                                    {t('yearsExperience')}
-                                </span>
-                            </div>
-                            <div className="flex items-center gap-2">
-                                <span className="text-4xl font-bold text-primary dark:text-primary-foreground">
-                                    1000+
-                                </span>
-                                <span className="text-sm text-gray-600 dark:text-gray-300 leading-tight">
-                                    {t('casesWon')}
-                                </span>
-                            </div>
-                        </div>
+                    <div className="flex flex-col sm:flex-row gap-4">
+                        <Button asChild size="lg" className="text-base">
+                            <Link href="/contact">
+                                {t('contactUs')}
+                                <ArrowRight className="ml-2 h-5 w-5" />
+                            </Link>
+                        </Button>
+                        <Button
+                            asChild
+                            size="lg"
+                            variant="outline"
+                            className="text-base bg-transparent text-white border-white hover:bg-white/10"
+                        >
+                            <Link href="/practice-areas">
+                                {t('learnMore')}
+                                <ArrowRight className="ml-2 h-5 w-5" />
+                            </Link>
+                        </Button>
                     </div>
 
-                    <div className="relative h-[400px] lg:h-[600px]">
-                        <Image
-                            src={'/images/hero/hero-law.jpeg'}
-                            alt="Law Firm Building"
-                            fill
-                            className="object-cover rounded-lg shadow-2xl"
-                            priority
-                        />
+                    <div className="flex items-center gap-8 mt-12">
+                        <div className="flex items-center gap-2">
+                            <span className="text-4xl font-bold">25+</span>
+                            <span className="text-sm leading-tight">{t('yearsExperience')}</span>
+                        </div>
+                        <div className="flex items-center gap-2">
+                            <span className="text-4xl font-bold">1000+</span>
+                            <span className="text-sm leading-tight">{t('casesWon')}</span>
+                        </div>
                     </div>
+                </motion.div>
+            </div>
+
+            {/* Scroll Indicator */}
+            <motion.div
+                className="absolute bottom-8 left-1/2 -translate-x-1/2"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 1 }}
+            >
+                <div className="flex flex-col items-center text-white">
+                    <span className="text-sm mb-2">{t('scrollToExplore')}</span>
+                    <motion.div
+                        className="w-6 h-10 border-2 border-white rounded-full p-2"
+                        animate={{ y: [0, 10, 0] }}
+                        transition={{ repeat: Infinity, duration: 1.5 }}
+                    >
+                        <div className="w-1.5 h-1.5 bg-white rounded-full" />
+                    </motion.div>
                 </div>
-            </div>
-
-            {/* Background Elements */}
-            <div className="absolute inset-0 z-0">
-                <div className="absolute right-0 top-0 w-1/3 h-1/3 bg-primary/5 rounded-bl-full" />
-                <div className="absolute left-0 bottom-0 w-1/4 h-1/4 bg-primary/5 rounded-tr-full" />
-            </div>
+            </motion.div>
         </section>
     );
 }

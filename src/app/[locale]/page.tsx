@@ -6,13 +6,13 @@ import Testimonials from '@/components/sections/home/Testimonials';
 import Lawyers from '@/components/sections/home/Lawyers';
 
 export default function Home() {
-  return (
-    <PageLayout fullWidth>
-      <Hero />
-      <Services />
-      <AboutFirm />
-      <Lawyers />
-      <Testimonials />
-    </PageLayout>
-  );
+    return (
+        <PageLayout fullWidth>
+            <Hero />
+            <Services />
+            <AboutFirm />
+            <Lawyers />
+            <Testimonials />
+        </PageLayout>
+    );
 }
