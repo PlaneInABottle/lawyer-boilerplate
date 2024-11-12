@@ -338,5 +338,47 @@
                 }
             }
         }
+    },
+    "Footer": {
+        "officeHours": "ساعات العمل",
+        "contactUs": "اتصل بنا",
+        "quickLinks": "روابط سريعة",
+        "privacyPolicy": "سياسة الخصوصية",
+        "termsOfService": "شروط الخدمة",
+        "cookiePolicy": "سياسة ملفات تعريف الارتباط",
+        "allRightsReserved": "جميع الحقوق محفوظة."
+    },
+    "Contact": {
+        "pageTitle": "اتصل بنا",
+        "pageDescription": "تواصل مع فريقنا القانوني",
+        "form": {
+            "title": "أرسل لنا رسالة",
+            "subtitle": "املأ النموذج أدناه وسنعاود الاتصال بك في أقرب وقت ممكن.",
+            "firstName": "الاسم الأول",
+            "lastName": "اسم العائلة",
+            "email": "البريد الإلكتروني",
+            "phone": "الهاتف",
+            "practiceArea": "مجال الممارسة",
+            "selectPracticeArea": "اختر مجال الممارسة",
+            "message": "الرسالة",
+            "send": "أرسل الرسالة",
+            "sending": "جارٍ الإرسال...",
+            "areas": {
+                "corporate": "القانون التجاري",
+                "family": "قانون الأسرة",
+                "criminal": "الدفاع الجنائي",
+                "realEstate": "العقارات",
+                "intellectual": "الملكية الفكرية",
+                "litigation": "التقاضي"
+            }
+        },
+        "info": {
+            "title": "معلومات الاتصال",
+            "subtitle": "تواصل معنا عبر أي من هذه الوسائل",
+            "emailTitle": "البريد الإلكتروني",
+            "phoneTitle": "الهاتف",
+            "addressTitle": "العنوان",
+            "hoursTitle": "ساعات العمل"
+        }
     }
 }

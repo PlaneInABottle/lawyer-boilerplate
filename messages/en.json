@@ -341,5 +341,47 @@
                 }
             }
         }
+    },
+    "Footer": {
+        "officeHours": "Office Hours",
+        "contactUs": "Contact Us",
+        "quickLinks": "Quick Links",
+        "privacyPolicy": "Privacy Policy",
+        "termsOfService": "Terms of Service",
+        "cookiePolicy": "Cookie Policy",
+        "allRightsReserved": "All rights reserved."
+    },
+    "Contact": {
+        "pageTitle": "Contact Us",
+        "pageDescription": "Get in touch with our legal team",
+        "form": {
+            "title": "Send us a Message",
+            "subtitle": "Fill out the form below and we'll get back to you as soon as possible.",
+            "firstName": "First Name",
+            "lastName": "Last Name",
+            "email": "Email",
+            "phone": "Phone",
+            "practiceArea": "Practice Area",
+            "selectPracticeArea": "Select Practice Area",
+            "message": "Message",
+            "send": "Send Message",
+            "sending": "Sending...",
+            "areas": {
+                "corporate": "Corporate Law",
+                "family": "Family Law",
+                "criminal": "Criminal Defense",
+                "realEstate": "Real Estate",
+                "intellectual": "Intellectual Property",
+                "litigation": "Litigation"
+            }
+        },
+        "info": {
+            "title": "Contact Information",
+            "subtitle": "Get in touch with us through any of these channels",
+            "emailTitle": "Email",
+            "phoneTitle": "Phone",
+            "addressTitle": "Address",
+            "hoursTitle": "Office Hours"
+        }
     }
 }

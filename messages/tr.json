@@ -338,5 +338,47 @@
                 }
             }
         }
+    },
+    "Footer": {
+        "officeHours": "Çalışma Saatleri",
+        "contactUs": "Bize Ulaşın",
+        "quickLinks": "Hızlı Bağlantılar",
+        "privacyPolicy": "Gizlilik Politikası",
+        "termsOfService": "Hizmet Şartları",
+        "cookiePolicy": "Çerez Politikası",
+        "allRightsReserved": "Tüm hakları saklıdır."
+    },
+    "Contact": {
+        "pageTitle": "Bize Ulaşın",
+        "pageDescription": "Hukuk ekibimizle iletişime geçin",
+        "form": {
+            "title": "Bize Mesaj Gönderin",
+            "subtitle": "Aşağıdaki formu doldurun, en kısa sürede size geri dönüş yapacağız.",
+            "firstName": "Ad",
+            "lastName": "Soyad",
+            "email": "E-posta",
+            "phone": "Telefon",
+            "practiceArea": "Hukuk Alanı",
+            "selectPracticeArea": "Hukuk Alanını Seçin",
+            "message": "Mesaj",
+            "send": "Mesajı Gönder",
+            "sending": "Gönderiliyor...",
+            "areas": {
+                "corporate": "Ticaret Hukuku",
+                "family": "Aile Hukuku",
+                "criminal": "Ceza Savunması",
+                "realEstate": "Gayrimenkul",
+                "intellectual": "Fikri Mülkiyet",
+                "litigation": "Dava"
+            }
+        },
+        "info": {
+            "title": "İletişim Bilgileri",
+            "subtitle": "Bizimle bu kanallardan iletişime geçebilirsiniz",
+            "emailTitle": "E-posta",
+            "phoneTitle": "Telefon",
+            "addressTitle": "Adres",
+            "hoursTitle": "Ofis Saatleri"
+        }
     }
 }
