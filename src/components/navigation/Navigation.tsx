@@ -1,16 +1,32 @@
+'use client';
+
 import { useTranslations } from 'next-intl';
+import { useEffect, useState } from 'react';
 import LocaleSwitcher from '../LocaleSwitcher';
 import NavigationLink from './NavigationLink';
 import ThemeSwitcher from '../ThemeSwitcher';
 import MobileMenu from './MobileMenu';
 
 export default function Navigation() {
-    // Remove the useEffect and useState hooks
+    const [scrolled, setScrolled] = useState(false);
     const t = useTranslations('common.navigation');
-    // TODO: Add scroll effect
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const isScrolled = window.scrollY > 20;
+            setScrolled(isScrolled);
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
 
     return (
-        <div className="bg-primary sticky top-0 z-50">
+        <div
+            className={`fixed w-full top-0 z-50 transition-all duration-300 ${
+                scrolled ? 'bg-primary shadow-md' : 'bg-black/40 backdrop-blur-sm'
+            }`}
+        >
             <nav className="container flex justify-between p-4 text-white">
                 {/* Logo */}
                 <div className="flex items-center">

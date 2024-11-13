@@ -11,7 +11,7 @@ export default function Hero() {
     const t = useTranslations('pages.home.hero');
     const commonT = useTranslations('common.buttons');
     return (
-        <section className="relative min-h-screen">
+        <section className="relative min-h-screen -mt-20">
             {/* Background Image with Overlay */}
             <div className="absolute inset-0">
                 <Image
