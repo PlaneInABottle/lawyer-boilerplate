@@ -1,18 +1,24 @@
+import { Suspense } from 'react';
+import dynamic from 'next/dynamic';
 import PageLayout from '@/components/layout/PageLayout';
 import Hero from '@/components/sections/home/Hero';
-import Services from '@/components/sections/home/Services';
-import AboutFirm from '@/components/sections/home/AboutFirm';
-import Testimonials from '@/components/sections/home/Testimonials';
-import Lawyers from '@/components/sections/home/Lawyers';
+import LoadingSkeleton from '@/components/LoadingSkeleton';
+
+const Services = dynamic(() => import('@/components/sections/home/Services'));
+const AboutFirm = dynamic(() => import('@/components/sections/home/AboutFirm'));
+const Lawyers = dynamic(() => import('@/components/sections/home/Lawyers'));
+const Testimonials = dynamic(() => import('@/components/sections/home/Testimonials'));
 
 export default function Home() {
     return (
         <PageLayout fullWidth>
             <Hero />
-            <Services />
-            <AboutFirm />
-            <Lawyers />
-            <Testimonials />
+            <Suspense fallback={<LoadingSkeleton />}>
+                <Services />
+                <AboutFirm />
+                <Lawyers />
+                <Testimonials />
+            </Suspense>
         </PageLayout>
     );
 }
