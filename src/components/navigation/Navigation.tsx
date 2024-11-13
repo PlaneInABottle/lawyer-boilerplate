@@ -5,6 +5,7 @@ import ThemeSwitcher from '../ThemeSwitcher';
 import MobileMenu from './MobileMenu';
 
 export default function Navigation() {
+    // Remove the useEffect and useState hooks
     const t = useTranslations('common.navigation');
     // TODO: Add scroll effect
 
