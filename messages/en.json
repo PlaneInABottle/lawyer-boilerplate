@@ -201,6 +201,29 @@
                         "leasing": "Commercial Leasing",
                         "zoning": "Zoning & Land Use"
                     }
+                },
+                "intellectual": {
+                    "title": "Intellectual Property",
+                    "description": "Expert guidance in all aspects of intellectual property law.",
+                    "services": {
+                        "protection": "Intellectual Property Protection",
+                        "enforcement": "Intellectual Property Enforcement",
+                        "litigation": "Intellectual Property Litigation",
+                        "trademarks": "Trademark Registration & Protection",
+                        "copyrights": "Copyright Registration & Protection",
+                        "patents": "Patent Registration & Protection"
+                    }
+                },
+                "litigation": {
+                    "title": "Civil Litigation",
+                    "description": "Skilled representation in complex civil disputes and litigation proceedings.",
+                    "services": {
+                        "litigation": "Civil Litigation",
+                        "disputes": "Dispute Resolution",
+                        "arbitration": "Arbitration & Mediation",
+                        "classActions": "Class Actions",
+                        "consumer": "Consumer Litigation"
+                    }
                 }
             }
         },

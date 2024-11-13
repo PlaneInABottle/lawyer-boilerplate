@@ -29,11 +29,18 @@ export const practiceAreas = [
     {
         id: 'intellectual',
         imageUrl: intellectualProperty,
-        services: ['patents', 'trademarks', 'copyright', 'licensing', 'litigation'],
+        services: [
+            'protection',
+            'enforcement',
+            'litigation',
+            'trademarks',
+            'copyrights',
+            'patents',
+        ],
     },
     {
         id: 'litigation',
         imageUrl: litigation,
-        services: ['civil', 'commercial', 'arbitration', 'mediation', 'appeals'],
+        services: ['litigation', 'disputes', 'arbitration', 'classActions', 'consumer'],
     },
 ];
