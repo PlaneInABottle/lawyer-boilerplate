@@ -21,20 +21,16 @@ export default function Hero() {
                     alt="Law Firm Building"
                     fill
                     priority
-                    quality={85}
+                    quality={70} // Lowered quality to reduce file size
                     placeholder="blur"
-                    sizes="100vw"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 75vw, 50vw" // Adaptive sizing
                     className="object-cover"
                     style={{
                         objectPosition: 'center 30%',
                     }}
                 />
-                <div
-                    className="absolute inset-0 bg-gradient-to-b from-black/40 to-black/30"
-                    style={{
-                        backdropFilter: 'brightness(1.0)',
-                    }}
-                />
+
+                <div className="absolute inset-0 bg-gradient-to-b from-black/40 to-black/30" />
             </div>
 
             {/* Content */}
