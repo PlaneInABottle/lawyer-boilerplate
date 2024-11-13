@@ -27,7 +27,7 @@ const stats = [
 ];
 
 export default function AboutFirm() {
-    const t = useTranslations('AboutFirm');
+    const t = useTranslations('pages.home.aboutFirm');
 
     return (
         <section className="py-16 md:py-24">

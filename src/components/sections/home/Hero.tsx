@@ -8,8 +8,8 @@ import { motion } from 'framer-motion';
 import { Link } from '@/i18n/routing';
 
 export default function Hero() {
-    const t = useTranslations('Hero');
-    const commonT = useTranslations('Common');
+    const t = useTranslations('pages.home.hero');
+    const commonT = useTranslations('common');
     return (
         <section className="relative min-h-[calc(100vh-64px)]">
             {/* Background Image with Overlay */}

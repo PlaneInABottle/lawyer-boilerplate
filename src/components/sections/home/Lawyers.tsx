@@ -9,7 +9,7 @@ import { lawyers } from '@/data/lawyers';
 import { ArrowRight } from 'lucide-react';
 
 export default function Lawyers() {
-    const t = useTranslations('Lawyers');
+    const t = useTranslations('pages.attorneys');
 
     const containerVariants = {
         hidden: { opacity: 0 },

@@ -1,387 +1,258 @@
 {
-    "HomePage": {
-        "title": "Hello world!",
-        "about": "Go to the about page"
-    },
-    "Common": {
-        "contactUs": "Contact Us",
-        "learnMore": "Learn More"
-    },
-    "Navigation": {
-        "home": "Home",
-        "practiceAreas": "Practice Areas",
-        "attorneys": "Attorneys",
-        "about": "About Us",
-        "contact": "Contact"
-    },
-    "LocaleSwitcher": {
-        "label": "Change language",
-        "locale": "{locale, select, en {🇺🇸 English} tr {🇹🇷 Türkçe} ar {🇸🇦 العربية} other {Unknown}}"
-    },
-    "LocaleLayout": {
-        "title": "next-intl example"
-    },
-    "IndexPage": {
-        "description": "This is a basic example that demonstrates the usage of <code>next-intl</code> with the Next.js App Router. Try changing the locale in the top right corner and see how the content changes.",
-        "title": "next-intl example"
-    },
-    "Hero": {
-        "title": "Expert Legal Solutions for",
-        "subtitle": "Complex Challenges",
-        "description": "Our team of experienced attorneys is dedicated to providing exceptional legal services with a commitment to integrity, excellence, and client success.",
-        "contactButton": "Free Consultation",
-        "practiceAreasButton": "Our Services",
-        "yearsExperience": "Years of Experience",
-        "casesWon": "Cases Successfully Resolved",
-        "scrollToExplore": "Scroll to explore",
-        "contactUs": "Contact Us",
-        "learnMore": "Learn More"
-    },
-    "Services": {
-        "title": "Our Practice Areas",
-        "description": "We provide comprehensive legal services across various practice areas, tailored to meet your specific needs.",
-        "learnMore": "Learn More",
-        "corporate": {
-            "title": "Corporate Law",
-            "description": "Expert legal guidance for businesses, including formation, compliance, mergers, and acquisitions."
-        },
-        "family": {
-            "title": "Family Law",
-            "description": "Compassionate representation in divorce, custody, and other family-related legal matters."
-        },
-        "criminal": {
-            "title": "Criminal Defense",
-            "description": "Strong defense strategies and representation in criminal cases at both state and federal levels."
-        },
-        "realEstate": {
-            "title": "Real Estate Law",
-            "description": "Comprehensive legal services for real estate transactions, development, and disputes."
-        },
-        "intellectual": {
-            "title": "Intellectual Property",
-            "description": "Protection and enforcement of patents, trademarks, copyrights, and trade secrets."
-        },
-        "litigation": {
-            "title": "Civil Litigation",
-            "description": "Skilled representation in complex civil disputes and litigation proceedings."
-        }
-    },
-    "AboutFirm": {
-        "title": "A Legacy of Legal Excellence",
-        "subtitle": "Trusted legal counsel for over three decades, serving clients with integrity and dedication.",
-        "description": "Our firm combines deep legal expertise with a commitment to client service. We understand that each case is unique and requires personalized attention. Our team of experienced attorneys works tirelessly to achieve the best possible outcomes for our clients.",
-        "established": "1990",
-        "legacy": "Years of Legal Excellence",
-        "learnMore": "About Our Firm",
-        "stats": {
-            "experience": {
-                "value": "30+",
-                "label": "Years Experience"
+    "metadata": {
+        "pages": {
+            "home": {
+                "title": "Home | Law Firm",
+                "description": "Expert legal solutions for complex challenges"
             },
-            "clients": {
-                "value": "1000+",
-                "label": "Satisfied Clients"
+            "about": {
+                "title": "About Us | Law Firm",
+                "description": "Learn about our history, values, and commitment to excellence in legal services"
             },
-            "awards": {
-                "value": "50+",
-                "label": "Industry Awards"
+            "practiceAreas": {
+                "title": "Practice Areas | Law Firm",
+                "description": "Explore our comprehensive legal services across various practice areas"
+            },
+            "attorneys": {
+                "title": "Our Attorneys | Law Firm",
+                "description": "Meet our team of experienced legal professionals"
+            },
+            "contact": {
+                "title": "Contact Us | Law Firm",
+                "description": "Get in touch with our legal team"
             }
         }
     },
-    "Testimonials": {
-        "title": "What Our Clients Say",
-        "subtitle": "Read testimonials from our valued clients about their experience with our legal services",
-        "testimonial1": {
-            "name": "John Smith",
-            "role": "Corporate Client",
-            "content": "The team provided exceptional legal guidance throughout our corporate restructuring. Their expertise and professionalism made a complex process manageable."
+    "common": {
+        "buttons": {
+            "contactUs": "Contact Us",
+            "learnMore": "Learn More",
+            "viewProfile": "View Profile",
+            "freeConsultation": "Free Consultation"
         },
-        "testimonial2": {
-            "name": "Sarah Johnson",
-            "role": "Family Law Client",
-            "content": "During a difficult time, they showed both compassion and competence. Their dedication to my case brought the best possible outcome."
+        "navigation": {
+            "home": "Home",
+            "practiceAreas": "Practice Areas",
+            "attorneys": "Attorneys",
+            "about": "About Us",
+            "contact": "Contact"
         },
-        "testimonial3": {
-            "name": "Michael Chen",
-            "role": "Real Estate Developer",
-            "content": "Their deep understanding of real estate law and attention to detail saved us from potential issues. Highly recommended for any property matters."
+        "footer": {
+            "officeHours": "Office Hours",
+            "contactUs": "Contact Us",
+            "quickLinks": "Quick Links",
+            "privacyPolicy": "Privacy Policy",
+            "termsOfService": "Terms of Service",
+            "cookiePolicy": "Cookie Policy",
+            "allRightsReserved": "All rights reserved",
+            "links": {
+                "home": "Home",
+                "practiceAreas": "Practice Areas",
+                "attorneys": "Attorneys",
+                "about": "About Us",
+                "contact": "Contact"
+            }
+        },
+        "localeSwitcher": {
+            "label": "Change language",
+            "locale": "{locale, select, en {🇺🇸 English} tr {🇹🇷 Türkçe} ar {🇸🇦 العربية} other {Unknown}}"
         }
     },
-    "Lawyers": {
-        "title": "Our Attorneys",
-        "subtitle": "Meet our team of experienced legal professionals dedicated to serving your needs",
-        "viewAll": "View All Attorneys",
-        "viewProfile": "View Profile",
-        "contact": "Contact",
-        "about": "About",
-        "expertise": "Areas of Expertise",
-
-        "sectionTitles": {
-            "specialties": "Practice Areas",
-            "education": "Education",
-            "barAdmissions": "Bar Admissions",
-            "languages": "Languages"
-        },
-
-        "roles": {
-            "seniorPartner": "Senior Partner",
-            "partner": "Partner",
-            "associate": "Associate"
-        },
-
-        "practiceAreas": {
-            "corporate": "Corporate Law",
-            "mergers": "Mergers & Acquisitions",
-            "securities": "Securities Law",
-            "litigation": "Litigation",
-            "familyLaw": "Family Law",
-            "realEstate": "Real Estate Law",
-            "intellectual": "Intellectual Property"
-        },
-
-        "languages": {
-            "english": "English",
-            "spanish": "Spanish",
-            "turkish": "Turkish",
-            "arabic": "Arabic"
-        },
-
-        "education": {
-            "harvard": "Harvard Law School, J.D.",
-            "yale": "Yale University, B.A.",
-            "stanford": "Stanford Law School, J.D.",
-            "columbia": "Columbia University, B.A."
-        },
-
-        "barAdmissions": {
-            "newYorkBar": "New York State Bar",
-            "californiaBar": "California State Bar",
-            "texasBar": "Texas State Bar"
-        },
-
-        "bios": {
-            "sarah-mitchell": "Sarah Mitchell is a Senior Partner with over 15 years of experience in corporate law and mergers & acquisitions. She has successfully led numerous high-profile corporate transactions and provides strategic counsel to Fortune 500 companies. Sarah is known for her practical approach to complex legal challenges and her commitment to client success.",
-            "james-wilson": "James Wilson brings extensive experience in intellectual property law and commercial litigation. As a Partner, he has represented clients in numerous landmark cases and specializes in protecting and enforcing intellectual property rights. His strategic approach and deep technical knowledge make him a valuable asset in complex litigation matters.",
-            "emma-rodriguez": "Roberto Rodriguez is an Associate specializing in family law and real estate transactions. With a compassionate approach to family matters and a sharp eye for detail in property transactions, Roberto has built a strong reputation for achieving favorable outcomes for his clients. He is particularly skilled in handling complex cross-border family and real estate matters."
-        }
-    },
-    "PracticeAreas": {
-        "pageTitle": "Practice Areas | Law Firm",
-        "pageDescription": "Explore our comprehensive legal services across various practice areas.",
-        "title": "Our Practice Areas",
-        "description": "We offer comprehensive legal services across a wide range of practice areas. Our experienced attorneys are dedicated to providing exceptional legal representation tailored to your specific needs.",
-        "contactUs": "Contact Us",
-        "areas": {
-            "corporate": {
-                "title": "Corporate Law",
-                "description": "Comprehensive legal solutions for businesses of all sizes.",
-                "services": {
-                    "formation": "Business Formation & Structuring",
-                    "compliance": "Regulatory Compliance",
-                    "mergers": "Mergers & Acquisitions",
-                    "contracts": "Contract Negotiation & Drafting",
-                    "governance": "Corporate Governance"
+    "pages": {
+        "home": {
+            "hero": {
+                "title": "Expert Legal Solutions for",
+                "subtitle": "Complex Challenges",
+                "description": "Our team of experienced attorneys is dedicated to providing exceptional legal services with a commitment to integrity, excellence, and client success",
+                "contactButton": "Free Consultation",
+                "practiceAreasButton": "Our Services",
+                "yearsExperience": "Years of Experience",
+                "casesWon": "Cases Successfully Resolved",
+                "scrollToExplore": "Scroll to explore",
+                "contactUs": "Contact Us",
+                "learnMore": "Learn More"
+            },
+            "services": {
+                "title": "Our Practice Areas",
+                "description": "We provide comprehensive legal services across various practice areas, tailored to meet your specific needs.",
+                "learnMore": "Learn More",
+                "corporate": {
+                    "title": "Corporate Law",
+                    "description": "Expert legal guidance for businesses, including formation, compliance, mergers, and acquisitions."
                 },
-                "longDescription": "Our corporate law practice provides comprehensive legal solutions to businesses of all sizes, from startups to multinational corporations. We combine deep legal expertise with practical business acumen to deliver strategic advice and solutions that help our clients achieve their objectives.",
-                "serviceDescriptions": {
-                    "formation": "Expert guidance in establishing and structuring your business entity to meet your specific needs and objectives.",
-                    "compliance": "Comprehensive assistance in navigating complex regulatory requirements and maintaining compliance.",
-                    "mergers": "Strategic advice and representation in mergers, acquisitions, and other corporate transactions.",
-                    "contracts": "Skilled drafting and negotiation of various commercial agreements and contracts."
+                "family": {
+                    "title": "Family Law",
+                    "description": "Compassionate representation in divorce, custody, and other family-related legal matters."
                 },
-                "serviceFeatures": {
-                    "formation": {
-                        "1": "Entity selection and formation",
-                        "2": "Corporate governance structures",
-                        "3": "Shareholder agreements"
+                "criminal": {
+                    "title": "Criminal Defense",
+                    "description": "Strong defense strategies and representation in criminal cases at both state and federal levels."
+                },
+                "realEstate": {
+                    "title": "Real Estate Law",
+                    "description": "Comprehensive legal services for real estate transactions, development, and disputes."
+                },
+                "intellectual": {
+                    "title": "Intellectual Property",
+                    "description": "Protection and enforcement of patents, trademarks, copyrights, and trade secrets."
+                },
+                "litigation": {
+                    "title": "Civil Litigation",
+                    "description": "Skilled representation in complex civil disputes and litigation proceedings."
+                }
+            },
+            "aboutFirm": {
+                "title": "A Legacy of Legal Excellence",
+                "subtitle": "Trusted legal counsel for over three decades, serving clients with integrity and dedication.",
+                "description": "Our firm combines deep legal expertise with a commitment to client service. We understand that each case is unique and requires personalized attention. Our team of experienced attorneys works tirelessly to achieve the best possible outcomes for our clients.",
+                "established": "1990",
+                "legacy": "Years of Legal Excellence",
+                "learnMore": "About Our Firm",
+                "stats": {
+                    "experience": {
+                        "value": "30+",
+                        "label": "Years Experience"
                     },
-                    "compliance": {
-                        "1": "Regulatory compliance programs",
-                        "2": "Risk assessment and management",
-                        "3": "Corporate policies and procedures"
+                    "clients": {
+                        "value": "1000+",
+                        "label": "Satisfied Clients"
                     },
-                    "mergers": {
-                        "1": "Due diligence investigations",
-                        "2": "Transaction structuring",
-                        "3": "Post-merger integration"
-                    },
-                    "contracts": {
-                        "1": "Commercial contract drafting",
-                        "2": "Negotiation support",
-                        "3": "Contract review and analysis"
+                    "awards": {
+                        "value": "50+",
+                        "label": "Industry Awards"
                     }
                 }
             },
-            "family": {
-                "title": "Family Law",
-                "description": "Compassionate legal support for family matters.",
-                "services": {
-                    "divorce": "Divorce & Separation",
-                    "custody": "Child Custody & Visitation",
-                    "support": "Child & Spousal Support",
-                    "adoption": "Adoption Services",
-                    "mediation": "Family Mediation"
-                }
-            },
-            "criminal": {
-                "title": "Criminal Law",
-                "description": "Strategic defense and representation in criminal matters.",
-                "services": {
-                    "defense": "Criminal Defense",
-                    "appeals": "Criminal Appeals",
-                    "federal": "Federal Crime Defense",
-                    "state": "State Crime Defense",
-                    "investigation": "Criminal Investigation"
-                }
-            },
-            "realEstate": {
-                "title": "Real Estate Law",
-                "description": "Expert guidance in all aspects of real estate law.",
-                "services": {
-                    "transactions": "Real Estate Transactions",
-                    "development": "Property Development",
-                    "leasing": "Commercial Leasing",
-                    "zoning": "Zoning & Land Use",
-                    "disputes": "Property Disputes"
-                }
-            },
-            "intellectual": {
-                "title": "Intellectual Property",
-                "description": "Protection and enforcement of intellectual property rights.",
-                "services": {
-                    "patents": "Patent Applications & Protection",
-                    "trademarks": "Trademark Registration",
-                    "copyright": "Copyright Protection",
-                    "licensing": "IP Licensing & Transfers",
-                    "litigation": "IP Litigation"
-                }
-            },
-            "litigation": {
-                "title": "Litigation & Dispute Resolution",
-                "description": "Effective representation in complex legal disputes.",
-                "services": {
-                    "civil": "Civil Litigation",
-                    "commercial": "Commercial Disputes",
-                    "arbitration": "International Arbitration",
-                    "mediation": "Alternative Dispute Resolution",
-                    "appeals": "Appeals & Judicial Review"
+            "testimonials": {
+                "title": "What Our Clients Say",
+                "subtitle": "Read testimonials from our valued clients about their experience with our legal services",
+                "testimonial1": {
+                    "name": "John Smith",
+                    "role": "Corporate Client",
+                    "content": "The team provided exceptional legal guidance throughout our corporate restructuring. Their expertise and professionalism made a complex process manageable."
+                },
+                "testimonial2": {
+                    "name": "Sarah Johnson",
+                    "role": "Family Law Client",
+                    "content": "During a difficult time, they showed both compassion and competence. Their dedication to my case brought the best possible outcome."
+                },
+                "testimonial3": {
+                    "name": "Michael Chen",
+                    "role": "Real Estate Developer",
+                    "content": "Their deep understanding of real estate law and attention to detail saved us from potential issues. Highly recommended for any property matters."
                 }
             }
-        }
-    },
-    "About": {
-        "pageTitle": "About Us | Law Firm",
-        "pageDescription": "Learn about our history, values, and commitment to excellence in legal services.",
-
-        "hero": {
+        },
+        "about": {
             "title": "A Legacy of Legal Excellence",
-            "subtitle": "For over 25 years, we have been providing exceptional legal services and building lasting relationships with our clients. Our commitment to excellence and integrity has made us one of the most trusted law firms in the region.",
-            "stats": {
-                "years": "Years of Experience",
-                "lawyers": "Expert Lawyers",
-                "cases": "Cases Won"
-            }
+            "subtitle": "Trusted legal counsel for over three decades, serving clients with integrity and dedication.",
+            "description": "Our firm combines deep legal expertise with a commitment to client service. We understand that each case is unique and requires personalized attention. Our team of experienced attorneys works tirelessly to achieve the best possible outcomes for our clients.",
+            "established": "1990",
+            "legacy": "Years of Legal Excellence"
         },
-
-        "values": {
-            "title": "Our Core Values",
-            "subtitle": "The principles that guide our practice and shape our commitment to clients",
-            "items": {
-                "integrity": {
-                    "title": "Integrity",
-                    "description": "We maintain the highest ethical standards in all our dealings"
-                },
-                "clientFocus": {
-                    "title": "Client Focus",
-                    "description": "Your success is our priority - we're dedicated to achieving your goals"
-                },
-                "excellence": {
-                    "title": "Excellence",
-                    "description": "We strive for excellence in every aspect of our practice"
-                },
-                "community": {
-                    "title": "Community",
-                    "description": "We're committed to making a positive impact in our community"
-                }
-            }
-        },
-
-        "history": {
-            "title": "Our Journey",
-            "subtitle": "Key milestones in our firm's history of legal excellence",
-            "milestones": {
-                "1998": "Founded with a vision to provide exceptional legal services",
-                "2005": "Expanded our practice areas and opened our second office",
-                "2012": "Recognized as one of the top law firms in the region",
-                "2018": "Established our international practice",
-                "2023": "Celebrating 25 years of legal excellence"
-            }
-        },
-
-        "team": {
-            "title": "Our Leadership Team",
-            "subtitle": "Meet the experienced professionals who lead our firm with expertise and dedication",
-            "viewAll": "View All Attorneys",
-            "stats": {
-                "offices": {
-                    "value": "4",
-                    "label": "Global Offices"
-                },
-                "lawyers": {
-                    "value": "50+",
-                    "label": "Expert Attorneys"
-                },
-                "experience": {
-                    "value": "25+",
-                    "label": "Years of Experience"
-                },
-                "success": {
-                    "value": "98%",
-                    "label": "Success Rate"
-                }
-            }
-        }
-    },
-    "Footer": {
-        "officeHours": "Office Hours",
-        "contactUs": "Contact Us",
-        "quickLinks": "Quick Links",
-        "privacyPolicy": "Privacy Policy",
-        "termsOfService": "Terms of Service",
-        "cookiePolicy": "Cookie Policy",
-        "allRightsReserved": "All rights reserved."
-    },
-    "Contact": {
-        "pageTitle": "Contact Us",
-        "pageDescription": "Get in touch with our legal team",
-        "form": {
-            "title": "Send us a Message",
-            "subtitle": "Fill out the form below and we'll get back to you as soon as possible.",
-            "firstName": "First Name",
-            "lastName": "Last Name",
-            "email": "Email",
-            "phone": "Phone",
-            "practiceArea": "Practice Area",
-            "selectPracticeArea": "Select Practice Area",
-            "message": "Message",
-            "send": "Send Message",
-            "sending": "Sending...",
+        "practiceAreas": {
+            "pageTitle": "Practice Areas | Law Firm",
+            "pageDescription": "Explore our comprehensive legal services across various practice areas.",
+            "title": "Our Practice Areas",
+            "description": "We offer comprehensive legal services across a wide range of practice areas. Our experienced attorneys are dedicated to providing exceptional legal representation tailored to your specific needs.",
+            "contactUs": "Contact Us",
             "areas": {
-                "corporate": "Corporate Law",
-                "family": "Family Law",
-                "criminal": "Criminal Defense",
-                "realEstate": "Real Estate",
-                "intellectual": "Intellectual Property",
-                "litigation": "Litigation"
+                "corporate": {
+                    "title": "Corporate Law",
+                    "description": "Comprehensive legal solutions for businesses of all sizes.",
+                    "services": {
+                        "formation": "Business Formation & Structuring",
+                        "compliance": "Regulatory Compliance",
+                        "mergers": "Mergers & Acquisitions",
+                        "contracts": "Contract Negotiation & Drafting",
+                        "governance": "Corporate Governance"
+                    },
+                    "longDescription": "Our corporate law practice provides comprehensive legal solutions to businesses of all sizes, from startups to multinational corporations. We combine deep legal expertise with practical business acumen to deliver strategic advice and solutions that help our clients achieve their objectives."
+                },
+                "family": {
+                    "title": "Family Law",
+                    "description": "Compassionate legal support for family matters.",
+                    "services": {
+                        "divorce": "Divorce & Separation",
+                        "custody": "Child Custody & Visitation",
+                        "support": "Child & Spousal Support",
+                        "adoption": "Adoption Services",
+                        "mediation": "Family Mediation"
+                    }
+                },
+                "criminal": {
+                    "title": "Criminal Law",
+                    "description": "Strategic defense and representation in criminal matters.",
+                    "services": {
+                        "defense": "Criminal Defense",
+                        "appeals": "Criminal Appeals",
+                        "federal": "Federal Crime Defense",
+                        "state": "State Crime Defense",
+                        "investigation": "Criminal Investigation"
+                    }
+                },
+                "realEstate": {
+                    "title": "Real Estate Law",
+                    "description": "Expert guidance in all aspects of real estate law.",
+                    "services": {
+                        "transactions": "Real Estate Transactions",
+                        "development": "Property Development",
+                        "disputes": "Real Estate Disputes",
+                        "leasing": "Commercial Leasing",
+                        "zoning": "Zoning & Land Use"
+                    }
+                }
             }
         },
-        "info": {
-            "title": "Contact Information",
-            "subtitle": "Get in touch with us through any of these channels",
-            "emailTitle": "Email",
-            "phoneTitle": "Phone",
-            "addressTitle": "Address",
-            "hoursTitle": "Office Hours"
+        "attorneys": {
+            "title": "Our Attorneys",
+            "subtitle": "Meet our team of experienced legal professionals dedicated to serving your needs",
+            "viewAll": "View All Attorneys",
+            "viewProfile": "View Profile",
+            "contact": "Contact",
+            "about": "About",
+            "expertise": "Areas of Expertise",
+            "sectionTitles": {
+                "specialties": "Practice Areas",
+                "education": "Education",
+                "barAdmissions": "Bar Admissions",
+                "languages": "Languages"
+            },
+            "roles": {
+                "seniorPartner": "Senior Partner",
+                "partner": "Partner",
+                "associate": "Associate"
+            },
+            "practiceAreas": {
+                "corporate": "Corporate Law",
+                "mergers": "Mergers & Acquisitions",
+                "securities": "Securities Law",
+                "litigation": "Litigation",
+                "familyLaw": "Family Law",
+                "realEstate": "Real Estate Law"
+            },
+            "languages": {
+                "english": "English",
+                "turkish": "Turkish",
+                "arabic": "Arabic",
+                "french": "French",
+                "spanish": "Spanish"
+            }
+        },
+        "contact": {
+            "title": "Contact Us",
+            "description": "We look forward to discussing your legal needs. Reach out to us through the form or by contacting our office directly.",
+            "form": {
+                "name": "Name",
+                "email": "Email",
+                "message": "Message",
+                "submit": "Submit"
+            },
+            "contactInfo": {
+                "address": "123 Main Street, Suite 100, New York, NY 10001",
+                "phone": "(123) 456-7890",
+                "email": "contact@lawfirm.com"
+            }
         }
     }
 }

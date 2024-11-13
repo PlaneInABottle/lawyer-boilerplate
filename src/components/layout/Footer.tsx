@@ -3,7 +3,7 @@ import { useTranslations } from 'next-intl';
 import { Mail, Phone, MapPin, Linkedin, Twitter } from 'lucide-react';
 
 export default function Footer() {
-    const t = useTranslations('Navigation');
+    const t = useTranslations('common.footer');
 
     return (
         <footer className="bg-primary text-primary-foreground">
@@ -35,7 +35,7 @@ export default function Footer() {
                                     href="/"
                                     className="text-primary-foreground/80 hover:text-primary-foreground"
                                 >
-                                    {t('home')}
+                                    {t('links.home')}
                                 </Link>
                             </li>
                             <li>
@@ -43,7 +43,7 @@ export default function Footer() {
                                     href="/practice-areas"
                                     className="text-primary-foreground/80 hover:text-primary-foreground"
                                 >
-                                    {t('practiceAreas')}
+                                    {t('links.practiceAreas')}
                                 </Link>
                             </li>
                             <li>
@@ -51,7 +51,7 @@ export default function Footer() {
                                     href="/attorneys"
                                     className="text-primary-foreground/80 hover:text-primary-foreground"
                                 >
-                                    {t('attorneys')}
+                                    {t('links.attorneys')}
                                 </Link>
                             </li>
                             <li>
@@ -59,7 +59,7 @@ export default function Footer() {
                                     href="/about"
                                     className="text-primary-foreground/80 hover:text-primary-foreground"
                                 >
-                                    {t('about')}
+                                    {t('links.about')}
                                 </Link>
                             </li>
                             <li>
@@ -67,7 +67,7 @@ export default function Footer() {
                                     href="/contact"
                                     className="text-primary-foreground/80 hover:text-primary-foreground"
                                 >
-                                    {t('contact')}
+                                    {t('links.contact')}
                                 </Link>
                             </li>
                         </ul>

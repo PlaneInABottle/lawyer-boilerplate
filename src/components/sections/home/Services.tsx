@@ -7,47 +7,41 @@ import Image from 'next/image';
 import { ArrowRight } from 'lucide-react';
 import { Link } from '@/i18n/routing';
 import { motion } from 'framer-motion'; // You'll need to install framer-motion
-import corporateLaw from '/public/images/services/corporate-law.jpeg';
-import familyLaw from '/public/images/services/family-law.jpeg';
-import criminalLaw from '/public/images/services/criminal-law.jpeg';
-import realEstateLaw from '/public/images/services/real-estate-law.jpeg';
-import intellectualProperty from '/public/images/services/intellectual-property.jpeg';
-import litigation from '/public/images/services/litigation.jpeg';
 const serviceCards = [
     {
         id: 'corporate',
-        imageUrl: corporateLaw,
+        imageUrl: '/images/services/corporate-law.jpeg',
         translationKey: 'corporate',
     },
     {
         id: 'family',
-        imageUrl: familyLaw,
+        imageUrl: '/images/services/family-law.jpeg',
         translationKey: 'family',
     },
     {
         id: 'criminal',
-        imageUrl: criminalLaw,
+        imageUrl: '/images/services/criminal-law.jpeg',
         translationKey: 'criminal',
     },
     {
         id: 'real-estate',
-        imageUrl: realEstateLaw,
+        imageUrl: '/images/services/real-estate-law.jpeg',
         translationKey: 'realEstate',
     },
     {
         id: 'intellectual',
-        imageUrl: intellectualProperty,
+        imageUrl: '/images/services/intellectual-property.jpeg',
         translationKey: 'intellectual',
     },
     {
         id: 'litigation',
-        imageUrl: litigation,
+        imageUrl: '/images/services/litigation.jpeg',
         translationKey: 'litigation',
     },
 ];
 
 export default function Services() {
-    const t = useTranslations('Services');
+    const t = useTranslations('pages.home.services');
 
     return (
         <section className="py-16 md:py-24 bg-muted">

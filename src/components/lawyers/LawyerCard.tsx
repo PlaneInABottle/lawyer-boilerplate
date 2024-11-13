@@ -14,7 +14,7 @@ type LawyerCardProps = {
 };
 
 export default function LawyerCard({ lawyer, variant = 'default' }: LawyerCardProps) {
-    const t = useTranslations('Lawyers');
+    const t = useTranslations('pages.attorneys');
 
     return (
         <Card className="group h-full overflow-hidden">
