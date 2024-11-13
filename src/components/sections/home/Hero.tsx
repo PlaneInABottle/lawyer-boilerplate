@@ -7,7 +7,18 @@ import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { Link } from '@/i18n/routing';
 import heroImage from '/public/images/hero/hero-law.jpeg';
+const fadeInUp = {
+    initial: { opacity: 0, y: 20 },
+    animate: { opacity: 1, y: 0 },
+    transition: { duration: 0.4 },
+};
 
+// Create a reusable scroll indicator animation
+const scrollIndicator = {
+    initial: { opacity: 0 },
+    animate: { opacity: 1 },
+    transition: { delay: 0.8 },
+};
 export default function Hero() {
     const t = useTranslations('pages.home.hero');
     const commonT = useTranslations('common.buttons');
@@ -21,13 +32,15 @@ export default function Hero() {
                     alt="Law Firm Building"
                     fill
                     priority
-                    quality={70} // Lowered quality to reduce file size
+                    quality={50} // Reduced quality further
                     placeholder="blur"
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 75vw, 50vw" // Adaptive sizing
+                    sizes="100vw" // Simplified sizes as it's full-width
                     className="object-cover"
                     style={{
                         objectPosition: 'center 30%',
                     }}
+                    loading="eager"
+                    fetchPriority="high"
                 />
 
                 <div className="absolute inset-0 bg-gradient-to-b from-black/40 to-black/30" />
@@ -35,12 +48,7 @@ export default function Hero() {
 
             {/* Content */}
             <div className="container relative h-[calc(100vh-64px)] flex items-center">
-                <motion.div
-                    className="max-w-2xl text-white"
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.5 }}
-                >
+                <motion.div className="max-w-2xl text-white" {...fadeInUp}>
                     <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
                         {t('title')}
                     </h1>
@@ -82,9 +90,7 @@ export default function Hero() {
             {/* Scroll Indicator */}
             <motion.div
                 className="absolute bottom-8 left-1/2 -translate-x-1/2"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ delay: 1 }}
+                {...scrollIndicator}
             >
                 <div className="flex flex-col items-center text-white">
                     <span className="text-sm mb-2">{t('scrollToExplore')}</span>
