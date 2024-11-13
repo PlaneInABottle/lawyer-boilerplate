@@ -30,9 +30,9 @@ export default function Hero() {
                     }}
                 />
                 <div
-                    className="absolute inset-0 bg-gradient-to-b from-black/70 to-black/50"
+                    className="absolute inset-0 bg-gradient-to-b from-black/40 to-black/30"
                     style={{
-                        backdropFilter: 'brightness(0.8)',
+                        backdropFilter: 'brightness(1.0)',
                     }}
                 />
             </div>
