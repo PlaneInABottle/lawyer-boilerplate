@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { Scale, Users, Trophy, Heart } from 'lucide-react';
 
 export default function OurValues() {
-    const t = useTranslations('About');
+    const t = useTranslations('pages.about.values');
 
     const values = [
         { icon: Scale, key: 'integrity' },
@@ -23,8 +23,8 @@ export default function OurValues() {
                     viewport={{ once: true }}
                     className="text-center max-w-3xl mx-auto mb-16"
                 >
-                    <h2 className="text-3xl font-bold mb-4">{t('values.title')}</h2>
-                    <p className="text-muted-foreground">{t('values.subtitle')}</p>
+                    <h2 className="text-3xl font-bold mb-4">{t('title')}</h2>
+                    <p className="text-muted-foreground">{t('subtitle')}</p>
                 </motion.div>
 
                 <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -43,10 +43,10 @@ export default function OurValues() {
                                     <Icon className="w-8 h-8 text-primary" />
                                 </div>
                                 <h3 className="text-xl font-semibold mb-2">
-                                    {t(`values.items.${value.key}.title`)}
+                                    {t(`items.${value.key}.title`)}
                                 </h3>
                                 <p className="text-muted-foreground">
-                                    {t(`values.items.${value.key}.description`)}
+                                    {t(`items.${value.key}.description`)}
                                 </p>
                             </motion.div>
                         );

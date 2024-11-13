@@ -1,11 +1,10 @@
 'use client';
-
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 
 export default function AboutHero() {
-    const t = useTranslations('About');
+    const t = useTranslations('pages.about');
 
     return (
         <section className="relative py-20 bg-muted">

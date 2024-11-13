@@ -1,5 +1,8 @@
 {
     "metadata": {
+        "layout": {
+            "title": "Law Firm"
+        },
         "pages": {
             "home": {
                 "title": "Home | Law Firm",
@@ -148,7 +151,72 @@
             "subtitle": "Trusted legal counsel for over three decades, serving clients with integrity and dedication.",
             "description": "Our firm combines deep legal expertise with a commitment to client service. We understand that each case is unique and requires personalized attention. Our team of experienced attorneys works tirelessly to achieve the best possible outcomes for our clients.",
             "established": "1990",
-            "legacy": "Years of Legal Excellence"
+            "legacy": "Years of Legal Excellence",
+            "hero": {
+                "title": "About Us",
+                "subtitle": "Our Values, History, and Team",
+                "stats": {
+                    "years": "Years of Legal Excellence",
+                    "lawyers": "Attorneys",
+                    "cases": "Cases Successfully Resolved"
+                }
+            },
+            "values": {
+                "title": "Our Values",
+                "subtitle": "Core Principles that Guide Our Work",
+                "items": {
+                    "integrity": {
+                        "title": "Integrity",
+                        "description": "We are committed to the highest standards of professional conduct and ethical behavior."
+                    },
+                    "excellence": {
+                        "title": "Excellence",
+                        "description": "We strive for excellence in all aspects of our work, from the quality of our legal services to the professionalism of our team."
+                    },
+                    "clientFocus": {
+                        "title": "Client Focus",
+                        "description": "We are dedicated to achieving the best possible outcomes for our clients."
+                    },
+                    "community": {
+                        "title": "Community",
+                        "description": "We are committed to making a positive impact in our community through our legal services and our support of local organizations."
+                    }
+                }
+            },
+            "history": {
+                "title": "Our History",
+                "subtitle": "Milestones and Achievements",
+                "milestones": {
+                    "1998": "Firm established",
+                    "2005": "First major case win",
+                    "2012": "Expansion into new practice areas",
+                    "2018": "National recognition",
+                    "2023": "Firm celebrates 25 years of excellence"
+                }
+            },
+            "team": {
+                "title": "Our Team",
+                "subtitle": "Meet Our Experienced Attorneys",
+                "viewAll": "View All Attorneys",
+                "stats": {
+                    "offices": {
+                        "label": "Offices",
+                        "value": "3"
+                    },
+                    "lawyers": {
+                        "label": "Attorneys",
+                        "value": "25"
+                    },
+                    "experience": {
+                        "label": "Years of Experience",
+                        "value": "30+"
+                    },
+                    "success": {
+                        "label": "Cases Successfully Resolved",
+                        "value": "1000+"
+                    }
+                }
+            }
         },
         "practiceAreas": {
             "pageTitle": "Practice Areas | Law Firm",
@@ -166,6 +234,40 @@
                         "mergers": "Mergers & Acquisitions",
                         "contracts": "Contract Negotiation & Drafting",
                         "governance": "Corporate Governance"
+                    },
+                    "serviceDescriptions": {
+                        "formation": "Comprehensive legal solutions for business formation and structuring.",
+                        "compliance": "Expert guidance on regulatory compliance and compliance issues.",
+                        "mergers": "Strategic advice and solutions for mergers and acquisitions.",
+                        "contracts": "Expert negotiation and drafting of contracts.",
+                        "governance": "Comprehensive corporate governance solutions."
+                    },
+                    "serviceFeatures": {
+                        "formation": {
+                            "1": "Comprehensive legal solutions for business formation and structuring.",
+                            "2": "Expert guidance on regulatory compliance and compliance issues.",
+                            "3": "Strategic advice and solutions for mergers and acquisitions."
+                        },
+                        "compliance": {
+                            "1": "Expert guidance on regulatory compliance and compliance issues.",
+                            "2": "Strategic advice and solutions for mergers and acquisitions.",
+                            "3": "Expert negotiation and drafting of contracts."
+                        },
+                        "mergers": {
+                            "1": "Strategic advice and solutions for mergers and acquisitions.",
+                            "2": "Expert negotiation and drafting of contracts.",
+                            "3": "Comprehensive corporate governance solutions."
+                        },
+                        "contracts": {
+                            "1": "Expert negotiation and drafting of contracts.",
+                            "2": "Comprehensive corporate governance solutions.",
+                            "3": "Strategic advice and solutions for mergers and acquisitions."
+                        },
+                        "governance": {
+                            "1": "Comprehensive corporate governance solutions.",
+                            "2": "Strategic advice and solutions for mergers and acquisitions.",
+                            "3": "Expert negotiation and drafting of contracts."
+                        }
                     },
                     "longDescription": "Our corporate law practice provides comprehensive legal solutions to businesses of all sizes, from startups to multinational corporations. We combine deep legal expertise with practical business acumen to deliver strategic advice and solutions that help our clients achieve their objectives."
                 },
@@ -252,7 +354,8 @@
                 "securities": "Securities Law",
                 "litigation": "Litigation",
                 "familyLaw": "Family Law",
-                "realEstate": "Real Estate Law"
+                "realEstate": "Real Estate Law",
+                "intellectual": "Intellectual Property"
             },
             "languages": {
                 "english": "English",
@@ -260,21 +363,47 @@
                 "arabic": "Arabic",
                 "french": "French",
                 "spanish": "Spanish"
+            },
+            "bios": {
+                "sarah-mitchell": "Sarah Mitchell is a seasoned corporate lawyer with over 20 years of experience. She specializes in mergers and acquisitions, securities law, and litigation. Sarah is known for her strategic approach and her ability to navigate complex legal landscapes."
+            },
+            "education": {
+                "harvard": "Harvard Law School",
+                "yale": "Yale Law School"
+            },
+            "barAdmissions": {
+                "newYork": "New York",
+                "california": "California"
             }
         },
         "contact": {
-            "title": "Contact Us",
-            "description": "We look forward to discussing your legal needs. Reach out to us through the form or by contacting our office directly.",
-            "form": {
-                "name": "Name",
-                "email": "Email",
-                "message": "Message",
-                "submit": "Submit"
+            "info": {
+                "title": "Contact Us",
+                "subtitle": "We look forward to discussing your legal needs. Reach out to us through the form or by contacting our office directly.",
+                "emailTitle": "Email",
+                "phoneTitle": "Phone",
+                "addressTitle": "Address",
+                "hoursTitle": "Office Hours"
             },
-            "contactInfo": {
-                "address": "123 Main Street, Suite 100, New York, NY 10001",
-                "phone": "(123) 456-7890",
-                "email": "contact@lawfirm.com"
+            "form": {
+                "title": "Send Us a Message",
+                "subtitle": "Please fill out the form below to send us a message. We will get back to you as soon as possible.",
+                "firstName": "First Name",
+                "lastName": "Last Name",
+                "email": "Email",
+                "phone": "Phone",
+                "message": "Message",
+                "send": "Send",
+                "practiceArea": "Practice Area",
+                "selectPracticeArea": "Select Practice Area",
+                "areas": {
+                    "corporate": "Corporate Law",
+                    "family": "Family Law",
+                    "criminal": "Criminal Law",
+                    "realEstate": "Real Estate Law",
+                    "intellectual": "Intellectual Property",
+                    "litigation": "Civil Litigation"
+                }
             }
         }
     }

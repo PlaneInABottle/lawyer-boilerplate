@@ -21,7 +21,7 @@ export default async function LawyerProfile({ params }: Props) {
         notFound();
     }
 
-    const t = await getTranslations('Lawyers');
+    const t = await getTranslations('pages.attorneys');
 
     return (
         <PageLayout title={lawyer.name}>

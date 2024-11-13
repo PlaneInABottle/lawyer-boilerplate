@@ -4,10 +4,10 @@ import ContactForm from '@/components/sections/contact/ContactForm';
 import ContactInfo from '@/components/sections/contact/ContactInfo';
 
 export async function generateMetadata() {
-    const t = await getTranslations('Contact');
+    const t = await getTranslations('metadata.pages.contact');
     return {
-        title: t('pageTitle'),
-        description: t('pageDescription'),
+        title: t('title'),
+        description: t('description'),
     };
 }
 

@@ -9,10 +9,10 @@ import PracticeAreas from '@/components/sections/practice-areas/PracticeAreas';
 // export async function generateMetadata({ params }: Props) {
 // const { locale } = await params;
 export async function generateMetadata() {
-    const t = await getTranslations('PracticeAreas');
+    const t = await getTranslations('metadata.pages.practiceAreas');
     return {
-        title: t('pageTitle'),
-        description: t('pageDescription'),
+        title: t('title'),
+        description: t('description'),
     };
 }
 

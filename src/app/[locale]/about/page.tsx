@@ -5,10 +5,10 @@ import OurValues from '@/components/sections/about/OurValues';
 import OurHistory from '@/components/sections/about/OurHistory';
 import TeamSection from '@/components/sections/about/TeamSection';
 export async function generateMetadata() {
-    const t = await getTranslations('About');
+    const t = await getTranslations('metadata.pages.about');
     return {
-        title: t('pageTitle'),
-        description: t('pageDescription'),
+        title: t('title'),
+        description: t('description'),
     };
 }
 

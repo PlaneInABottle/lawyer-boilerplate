@@ -9,7 +9,7 @@ import { ArrowRight } from 'lucide-react';
 import { Link } from '@/i18n/routing';
 
 export default function TeamSection() {
-    const t = useTranslations('About');
+    const t = useTranslations('pages.about.team');
 
     const containerVariants = {
         hidden: { opacity: 0 },
@@ -43,8 +43,8 @@ export default function TeamSection() {
                     viewport={{ once: true }}
                     className="text-center max-w-3xl mx-auto mb-16"
                 >
-                    <h2 className="text-3xl font-bold mb-4">{t('team.title')}</h2>
-                    <p className="text-muted-foreground">{t('team.subtitle')}</p>
+                    <h2 className="text-3xl font-bold mb-4">{t('title')}</h2>
+                    <p className="text-muted-foreground">{t('subtitle')}</p>
                 </motion.div>
 
                 <motion.div
@@ -69,7 +69,7 @@ export default function TeamSection() {
                 >
                     <Button asChild size="lg">
                         <Link href="/attorneys" className="flex items-center gap-2">
-                            {t('team.viewAll')}
+                            {t('viewAll')}
                             <ArrowRight className="h-4 w-4" />
                         </Link>
                     </Button>
@@ -86,10 +86,10 @@ export default function TeamSection() {
                             className="text-center"
                         >
                             <p className="text-4xl font-bold text-primary mb-2">
-                                {t(`team.stats.${stat}.value`)}
+                                {t(`stats.${stat}.value`)}
                             </p>
                             <p className="text-sm text-muted-foreground">
-                                {t(`team.stats.${stat}.label`)}
+                                {t(`stats.${stat}.label`)}
                             </p>
                         </motion.div>
                     ))}

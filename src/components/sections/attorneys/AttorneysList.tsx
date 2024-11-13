@@ -6,7 +6,7 @@ import LawyerCard from '@/components/lawyers/LawyerCard';
 import { lawyers } from '@/data/lawyers';
 
 export default function AttorneysList() {
-    const t = useTranslations('Lawyers');
+    const t = useTranslations('pages.attorneys');
 
     const containerVariants = {
         hidden: { opacity: 0 },

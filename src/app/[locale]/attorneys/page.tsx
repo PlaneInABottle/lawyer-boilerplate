@@ -3,10 +3,10 @@ import PageLayout from '@/components/layout/PageLayout';
 import AttorneysList from '@/components/sections/attorneys/AttorneysList';
 
 export async function generateMetadata() {
-    const t = await getTranslations('Lawyers');
+    const t = await getTranslations('metadata.pages.attorneys');
     return {
-        title: `${t('title')} | Law Firm`,
-        description: t('subtitle'),
+        title: t('title'),
+        description: t('description'),
     };
 }
 

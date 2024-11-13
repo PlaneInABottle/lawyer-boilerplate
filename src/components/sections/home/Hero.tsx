@@ -9,7 +9,7 @@ import { Link } from '@/i18n/routing';
 
 export default function Hero() {
     const t = useTranslations('pages.home.hero');
-    const commonT = useTranslations('common');
+    const commonT = useTranslations('common.buttons');
     return (
         <section className="relative min-h-[calc(100vh-64px)]">
             {/* Background Image with Overlay */}

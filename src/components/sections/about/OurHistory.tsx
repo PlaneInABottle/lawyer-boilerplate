@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 
 export default function OurHistory() {
-    const t = useTranslations('About');
+    const t = useTranslations('pages.about');
 
     const milestones = [1998, 2005, 2012, 2018, 2023];
 

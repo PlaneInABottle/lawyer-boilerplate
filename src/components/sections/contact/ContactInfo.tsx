@@ -4,7 +4,7 @@ import { useTranslations } from 'next-intl';
 import { Mail, Phone, MapPin, Clock } from 'lucide-react';
 
 export default function ContactInfo() {
-    const t = useTranslations('Contact.info');
+    const t = useTranslations('pages.contact.info');
 
     const contactDetails = [
         {
