@@ -6,22 +6,35 @@ import { ArrowRight } from 'lucide-react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { Link } from '@/i18n/routing';
+import heroImage from '/public/images/hero/hero-law.jpeg';
 
 export default function Hero() {
     const t = useTranslations('pages.home.hero');
     const commonT = useTranslations('common.buttons');
+
     return (
         <section className="relative min-h-screen -mt-20">
-            {/* Background Image with Overlay */}
+            {/* Optimized Background Image */}
             <div className="absolute inset-0">
                 <Image
-                    src="/images/hero/hero-law.jpeg"
+                    src={heroImage}
                     alt="Law Firm Building"
                     fill
-                    className="object-cover"
                     priority
+                    quality={85}
+                    placeholder="blur"
+                    sizes="100vw"
+                    className="object-cover"
+                    style={{
+                        objectPosition: 'center 30%',
+                    }}
                 />
-                <div className="absolute inset-0 bg-black/50" />
+                <div
+                    className="absolute inset-0 bg-gradient-to-b from-black/70 to-black/50"
+                    style={{
+                        backdropFilter: 'brightness(0.8)',
+                    }}
+                />
             </div>
 
             {/* Content */}
