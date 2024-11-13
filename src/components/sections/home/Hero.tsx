@@ -37,7 +37,7 @@ export default function Hero() {
     const t = useTranslations('pages.home.hero');
     const commonT = useTranslations('common.buttons');
     const [contentRef, isContentInView] = useInView({ threshold: 0.1 });
-    const [scrollRef, isScrollInView] = useInView({ threshold: 0.1 });
+    // const [scrollRef, isScrollInView] = useInView({ threshold: 0.1 });
 
     return (
         <section className="relative min-h-screen -mt-20">
@@ -109,7 +109,7 @@ export default function Hero() {
             </div>
 
             {/* Scroll Indicator */}
-            <div
+            {/* <div
                 ref={scrollRef}
                 className={`absolute bottom-8 left-1/2 -translate-x-1/2 transition-opacity duration-500
                     ${isScrollInView ? 'opacity-100' : 'opacity-0'}`}
@@ -120,7 +120,7 @@ export default function Hero() {
                         <div className="w-1.5 h-1.5 bg-white rounded-full absolute left-1/2 -translate-x-1/2 animate-bounce" />
                     </div>
                 </div>
-            </div>
+            </div> */}
         </section>
     );
 }
