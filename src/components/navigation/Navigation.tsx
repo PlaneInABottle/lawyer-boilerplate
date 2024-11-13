@@ -6,6 +6,7 @@ import MobileMenu from './MobileMenu';
 
 export default function Navigation() {
     const t = useTranslations('common.navigation');
+    // TODO: Add scroll effect
 
     return (
         <div className="bg-primary sticky top-0 z-50">
