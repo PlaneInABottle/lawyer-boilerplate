@@ -55,7 +55,7 @@ export default function Hero() {
                         </Button>
                     </div>
 
-                    <div className="flex items-center gap-8 mt-12">
+                    <div className="flex flex-col md:flex-row items-center gap-8 mt-12">
                         <div className="flex items-center gap-2">
                             <span className="text-4xl font-bold">25+</span>
                             <span className="text-sm leading-tight">{t('yearsExperience')}</span>

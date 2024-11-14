@@ -58,7 +58,7 @@
         },
         "localeSwitcher": {
             "label": "Change language",
-            "locale": "{locale, select, en {🇺🇸 English} tr {🇹🇷 Türkçe} ar {🇸🇦 العربية} other {Unknown}}"
+            "locale": "{locale, select, en {🇺🇸 En} tr {🇹🇷 Tr} ar {🇸🇦 Ar} other {Unknown}}"
         }
     },
     "pages": {
