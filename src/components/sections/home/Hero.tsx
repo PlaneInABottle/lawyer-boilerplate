@@ -3,7 +3,7 @@
 // import { ArrowRight } from 'lucide-react';
 import Image from 'next/image';
 // import { Link } from '@/i18n/routing';
-import heroImage from '/public/images/hero/hero-law.webp';
+// import heroImage from '/public/images/hero/hero-law.webp';
 
 export default function Hero() {
     // const t = useTranslations('pages.home.hero');
@@ -14,12 +14,12 @@ export default function Hero() {
             {/* Optimized Background Image */}
             <div className="absolute inset-0">
                 <Image
-                    src={heroImage}
+                    src="https://images.pexels.com/photos/7716946/pexels-photo-7716946.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                     alt="Law Firm Building"
                     fill
                     priority
                     quality={50}
-                    placeholder="blur"
+                    // placeholder="blur"
                     sizes="100vw"
                     className="object-cover"
                     loading="eager"
