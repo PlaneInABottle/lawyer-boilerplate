@@ -3,7 +3,7 @@
 // import { ArrowRight } from 'lucide-react';
 import Image from 'next/image';
 // import { Link } from '@/i18n/routing';
-import heroImage from '/public/images/hero/hero-law.jpeg';
+import heroImage from '/public/images/hero/hero-law.webp';
 
 export default function Hero() {
     // const t = useTranslations('pages.home.hero');
@@ -22,9 +22,6 @@ export default function Hero() {
                     placeholder="blur"
                     sizes="100vw"
                     className="object-cover"
-                    style={{
-                        objectPosition: 'center 30%',
-                    }}
                     loading="eager"
                     fetchPriority="high"
                 />
