@@ -7,7 +7,7 @@ import Lawyers from '@/components/sections/home/Lawyers';
 
 export default function Home() {
     return (
-        <PageLayout fullWidth>
+        <PageLayout fullWidth noPadding>
             <Hero />
             <Services />
             <AboutFirm />

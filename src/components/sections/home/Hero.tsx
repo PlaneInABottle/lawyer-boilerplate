@@ -1,18 +1,18 @@
 // import { useTranslations } from 'next-intl';
 // import { Button } from '@/components/ui/button';
 // import { ArrowRight } from 'lucide-react';
-// import Image from 'next/image';
+import Image from 'next/image';
 // import { Link } from '@/i18n/routing';
-// import heroImage from '/public/images/hero/hero-law.jpeg';
+import heroImage from '/public/images/hero/hero-law.jpeg';
 
 export default function Hero() {
     // const t = useTranslations('pages.home.hero');
     // const commonT = useTranslations('common.buttons');
 
     return (
-        <section className="relative min-h-screen -mt-20">
+        <section className="relative min-h-screen ">
             {/* Optimized Background Image */}
-            {/* <div className="absolute inset-0">
+            <div className="absolute inset-0">
                 <Image
                     src={heroImage}
                     alt="Law Firm Building"
@@ -30,7 +30,7 @@ export default function Hero() {
                 />
 
                 <div className="absolute inset-0 bg-gradient-to-b from-black/40 to-black/30" />
-            </div> */}
+            </div>
 
             {/* Content */}
             {/* <div className="container relative h-[calc(100vh-64px)] flex items-center">

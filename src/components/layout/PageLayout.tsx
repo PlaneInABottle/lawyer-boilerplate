@@ -4,11 +4,17 @@ type Props = {
     children?: ReactNode;
     title?: ReactNode;
     fullWidth?: boolean;
+    noPadding?: boolean;
 };
 
-export default function PageLayout({ children, title, fullWidth = false }: Props) {
+export default function PageLayout({
+    children,
+    title,
+    fullWidth = false,
+    noPadding = false,
+}: Props) {
     return (
-        <main className="min-h-screen bg-background pt-20">
+        <main className={`min-h-screen bg-background ${noPadding ? '' : 'pt-20'}`}>
             {title && (
                 <div className="bg-primary py-20">
                     <div className="container relative">
