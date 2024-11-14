@@ -1,25 +1,23 @@
-// import { useTranslations } from 'next-intl';
-// import { Button } from '@/components/ui/button';
-// import { ArrowRight } from 'lucide-react';
+import { useTranslations } from 'next-intl';
+import { Button } from '@/components/ui/button';
+import { ArrowRight } from 'lucide-react';
 import Image from 'next/image';
-// import { Link } from '@/i18n/routing';
-// import heroImage from '/public/images/hero/hero-law.webp';
+import { Link } from '@/i18n/routing';
 
 export default function Hero() {
-    // const t = useTranslations('pages.home.hero');
-    // const commonT = useTranslations('common.buttons');
+    const t = useTranslations('pages.home.hero');
+    const commonT = useTranslations('common.buttons');
 
     return (
         <section className="relative min-h-screen ">
             {/* Optimized Background Image */}
             <div className="absolute inset-0">
                 <Image
-                    src="https://images.pexels.com/photos/7716946/pexels-photo-7716946.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    src="https://images.pexels.com/photos/5668772/pexels-photo-5668772.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                     alt="Law Firm Building"
                     fill
                     priority
                     quality={50}
-                    // placeholder="blur"
                     sizes="100vw"
                     className="object-cover"
                     loading="eager"
@@ -30,7 +28,7 @@ export default function Hero() {
             </div>
 
             {/* Content */}
-            {/* <div className="container relative h-[calc(100vh-64px)] flex items-center">
+            <div className="container relative h-[calc(100vh-64px)] flex items-center">
                 <div className="max-w-2xl text-white">
                     <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
                         {t('title')}
@@ -68,17 +66,17 @@ export default function Hero() {
                         </div>
                     </div>
                 </div>
-            </div> */}
+            </div>
 
             {/* Static Scroll Indicator */}
-            {/* <div className="absolute bottom-8 left-1/2 -translate-x-1/2">
+            <div className="absolute bottom-8 left-1/2 -translate-x-1/2">
                 <div className="flex flex-col items-center text-white">
                     <span className="text-sm mb-2">{t('scrollToExplore')}</span>
                     <div className="w-6 h-10 border-2 border-white rounded-full p-2">
                         <div className="w-1.5 h-1.5 bg-white rounded-full" />
                     </div>
                 </div>
-            </div> */}
+            </div>
         </section>
     );
 }
