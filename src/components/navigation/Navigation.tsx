@@ -24,7 +24,7 @@ export default function Navigation() {
     return (
         <div
             className={`fixed w-full top-0 z-50 transition-all duration-300 ${
-                scrolled ? 'bg-primary shadow-md' : 'bg-black/40 backdrop-blur-sm'
+                scrolled ? 'bg-primary shadow-md' : 'bg-primary-rgba/50 backdrop-blur-sm'
             }`}
         >
             <nav className="container flex justify-between p-4 text-white">
