@@ -228,6 +228,7 @@
                 "corporate": {
                     "title": "Corporate Law",
                     "description": "Comprehensive legal solutions for businesses of all sizes.",
+                    "learnMore": "Corporate Law",
                     "services": {
                         "formation": "Business Formation & Structuring",
                         "compliance": "Regulatory Compliance",
@@ -274,6 +275,7 @@
                 "family": {
                     "title": "Family Law",
                     "description": "Compassionate legal support for family matters.",
+                    "learnMore": "Family Law",
                     "services": {
                         "divorce": "Divorce & Separation",
                         "custody": "Child Custody & Visitation",
@@ -285,6 +287,7 @@
                 "criminal": {
                     "title": "Criminal Law",
                     "description": "Strategic defense and representation in criminal matters.",
+                    "learnMore": "Criminal Law",
                     "services": {
                         "defense": "Criminal Defense",
                         "appeals": "Criminal Appeals",
@@ -296,6 +299,7 @@
                 "realEstate": {
                     "title": "Real Estate Law",
                     "description": "Expert guidance in all aspects of real estate law.",
+                    "learnMore": "Real Estate Law",
                     "services": {
                         "transactions": "Real Estate Transactions",
                         "development": "Property Development",
@@ -307,6 +311,7 @@
                 "intellectual": {
                     "title": "Intellectual Property",
                     "description": "Expert guidance in all aspects of intellectual property law.",
+                    "learnMore": "Intellectual Property",
                     "services": {
                         "protection": "Intellectual Property Protection",
                         "enforcement": "Intellectual Property Enforcement",
@@ -319,6 +324,7 @@
                 "litigation": {
                     "title": "Civil Litigation",
                     "description": "Skilled representation in complex civil disputes and litigation proceedings.",
+                    "learnMore": "Civil Litigation",
                     "services": {
                         "litigation": "Civil Litigation",
                         "disputes": "Dispute Resolution",

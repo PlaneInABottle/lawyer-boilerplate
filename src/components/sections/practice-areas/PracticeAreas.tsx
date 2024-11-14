@@ -11,7 +11,7 @@ import Link from 'next/link';
 
 export default function PracticeAreas() {
     const t = useTranslations('pages.practiceAreas');
-    const commonT = useTranslations('common');
+    // const commonT = useTranslations('common');
 
     const containerVariants = {
         hidden: { opacity: 0 },
@@ -87,7 +87,7 @@ export default function PracticeAreas() {
                                                 href={`/practice-areas/${area.id}`}
                                                 className="flex items-center gap-2"
                                             >
-                                                {commonT('buttons.learnMore')}
+                                                {t(`areas.${area.id}.learnMore`)}
                                                 <ArrowRight className="h-4 w-4" />
                                             </Link>
                                         </Button>

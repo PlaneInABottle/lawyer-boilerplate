@@ -4,7 +4,7 @@ import CorporateLawService from '@/components/sections/practice-areas/corporate/
 
 // export async function generateMetadata({ params: { locale } }: { params: { locale: string } }) {
 export async function generateMetadata() {
-    const t = await getTranslations('PracticeAreas.areas.corporate');
+    const t = await getTranslations('metadata.pages.practiceAreas');
     return {
         title: `${t('title')} | Law Firm`,
         description: t('description'),
