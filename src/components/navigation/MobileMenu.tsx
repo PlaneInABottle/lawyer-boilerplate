@@ -3,10 +3,56 @@
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import NavigationLink from './NavigationLink';
+import { motion, AnimatePresence } from 'framer-motion';
 
 export default function MobileMenu() {
     const [isOpen, setIsOpen] = useState(false);
     const t = useTranslations('common.navigation');
+
+    const menuVariants = {
+        closed: {
+            opacity: 0,
+            y: -20,
+            transition: {
+                duration: 0.2,
+            },
+        },
+        open: {
+            opacity: 1,
+            y: 0,
+            transition: {
+                duration: 0.2,
+            },
+        },
+    };
+
+    const linkVariants = {
+        closed: {
+            opacity: 0,
+            x: -20,
+        },
+        open: {
+            opacity: 1,
+            x: 0,
+            transition: {
+                duration: 0.2,
+            },
+        },
+    };
+
+    const containerVariants = {
+        open: {
+            transition: {
+                staggerChildren: 0.1,
+            },
+        },
+        closed: {
+            transition: {
+                staggerChildren: 0.05,
+                staggerDirection: -1,
+            },
+        },
+    };
 
     return (
         <div className="lg:hidden">
@@ -34,28 +80,52 @@ export default function MobileMenu() {
             </button>
 
             {/* Mobile Menu Overlay */}
-            {isOpen && (
-                <div className="absolute top-full left-0 right-0 bg-primary shadow-lg">
-                    <div className="flex flex-col p-4">
-                        <NavigationLink onClick={() => setIsOpen(false)} href="/">
-                            {t('home')}
-                        </NavigationLink>
+            <AnimatePresence>
+                {isOpen && (
+                    <motion.div
+                        initial="closed"
+                        animate="open"
+                        exit="closed"
+                        variants={menuVariants}
+                        className="absolute top-full left-0 right-0 bg-primary shadow-lg"
+                    >
+                        <motion.div variants={containerVariants} className="flex flex-col p-4">
+                            <motion.div variants={linkVariants}>
+                                <NavigationLink onClick={() => setIsOpen(false)} href="/">
+                                    {t('home')}
+                                </NavigationLink>
+                            </motion.div>
 
-                        <NavigationLink onClick={() => setIsOpen(false)} href="/practice-areas">
-                            {t('practiceAreas')}
-                        </NavigationLink>
-                        <NavigationLink onClick={() => setIsOpen(false)} href="/attorneys">
-                            {t('attorneys')}
-                        </NavigationLink>
-                        <NavigationLink onClick={() => setIsOpen(false)} href="/about">
-                            {t('about')}
-                        </NavigationLink>
-                        <NavigationLink onClick={() => setIsOpen(false)} href="/contact">
-                            {t('contact')}
-                        </NavigationLink>
-                    </div>
-                </div>
-            )}
+                            <motion.div variants={linkVariants}>
+                                <NavigationLink
+                                    onClick={() => setIsOpen(false)}
+                                    href="/practice-areas"
+                                >
+                                    {t('practiceAreas')}
+                                </NavigationLink>
+                            </motion.div>
+
+                            <motion.div variants={linkVariants}>
+                                <NavigationLink onClick={() => setIsOpen(false)} href="/attorneys">
+                                    {t('attorneys')}
+                                </NavigationLink>
+                            </motion.div>
+
+                            <motion.div variants={linkVariants}>
+                                <NavigationLink onClick={() => setIsOpen(false)} href="/about">
+                                    {t('about')}
+                                </NavigationLink>
+                            </motion.div>
+
+                            <motion.div variants={linkVariants}>
+                                <NavigationLink onClick={() => setIsOpen(false)} href="/contact">
+                                    {t('contact')}
+                                </NavigationLink>
+                            </motion.div>
+                        </motion.div>
+                    </motion.div>
+                )}
+            </AnimatePresence>
         </div>
     );
 }
