@@ -12,10 +12,7 @@ export default function Footer() {
                     {/* Company Info */}
                     <div className="space-y-4">
                         <h3 className="text-xl font-semibold">Law Firm</h3>
-                        <p className="text-primary-foreground/80 text-sm">
-                            Providing exceptional legal services with integrity and dedication since
-                            1990.
-                        </p>
+                        <p className="text-primary-foreground/80 text-sm">{t('description')}</p>
                         <div className="flex space-x-4">
                             <a href="#" className="hover:text-accent" aria-label="LinkedIn">
                                 <Linkedin className="h-5 w-5" />
@@ -28,7 +25,7 @@ export default function Footer() {
 
                     {/* Quick Links */}
                     <div className="space-y-4">
-                        <h3 className="text-lg font-semibold">Quick Links</h3>
+                        <h3 className="text-lg font-semibold">{t('quickLinks')}</h3>
                         <ul className="space-y-2">
                             <li>
                                 <Link
@@ -75,42 +72,40 @@ export default function Footer() {
 
                     {/* Contact Info */}
                     <div className="space-y-4">
-                        <h3 className="text-lg font-semibold">Contact Us</h3>
+                        <h3 className="text-lg font-semibold">{t('contactUs')}</h3>
                         <ul className="space-y-3">
                             <li className="flex items-center space-x-3 text-primary-foreground/80">
                                 <Mail className="h-5 w-5" />
-                                <span>contact@lawfirm.com</span>
+                                <span>{t('email')}</span>
                             </li>
                             <li className="flex items-center space-x-3 text-primary-foreground/80">
                                 <Phone className="h-5 w-5" />
-                                <span>+1 (555) 123-4567</span>
+                                <span>{t('phone')}</span>
                             </li>
                             <li className="flex items-center space-x-3 text-primary-foreground/80">
                                 <MapPin className="h-5 w-5" />
-                                <span>
-                                    123 Legal Street, Suite 100
-                                    <br />
-                                    New York, NY 10001
-                                </span>
+                                <span>{t('address')}</span>
                             </li>
                         </ul>
                     </div>
 
                     {/* Office Hours */}
                     <div className="space-y-4">
-                        <h3 className="text-lg font-semibold">Office Hours</h3>
+                        <h3 className="text-lg font-semibold">{t('officeHoursTitle')}</h3>
                         <ul className="space-y-2 text-primary-foreground/80">
                             <li className="flex justify-between">
-                                <span>Monday - Friday:</span>
+                                <span>
+                                    {t('days.monday')} - {t('days.friday')}
+                                </span>
                                 <span>9:00 AM - 6:00 PM</span>
                             </li>
                             <li className="flex justify-between">
-                                <span>Saturday:</span>
+                                <span>{t('days.saturday')}</span>
                                 <span>10:00 AM - 2:00 PM</span>
                             </li>
                             <li className="flex justify-between">
-                                <span>Sunday:</span>
-                                <span>Closed</span>
+                                <span>{t('days.sunday')}</span>
+                                <span>{t('close')}</span>
                             </li>
                         </ul>
                     </div>
@@ -120,17 +115,17 @@ export default function Footer() {
                 <div className="mt-12 pt-8 border-t border-primary-foreground/10">
                     <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
                         <p className="text-sm text-primary-foreground/80">
-                            © {new Date().getFullYear()} Law Firm. All rights reserved.
+                            © {new Date().getFullYear()} {t('allRightsReserved')}
                         </p>
                         <div className="flex space-x-6 text-sm text-primary-foreground/80">
                             <a href="#" className="hover:text-primary-foreground">
-                                Privacy Policy
+                                {t('privacyPolicy')}
                             </a>
                             <a href="#" className="hover:text-primary-foreground">
-                                Terms of Service
+                                {t('termsOfService')}
                             </a>
                             <a href="#" className="hover:text-primary-foreground">
-                                Cookie Policy
+                                {t('cookiePolicy')}
                             </a>
                         </div>
                     </div>

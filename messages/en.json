@@ -41,6 +41,7 @@
             "contact": "Contact"
         },
         "footer": {
+            "description": "Providing trusted legal advice with integrity and commitment since 1990.",
             "officeHours": "Office Hours",
             "contactUs": "Contact Us",
             "quickLinks": "Quick Links",
@@ -48,11 +49,26 @@
             "termsOfService": "Terms of Service",
             "cookiePolicy": "Cookie Policy",
             "allRightsReserved": "All rights reserved",
+            "officeHoursTitle": "Office Hours",
+            "email": "info@lawfirm.com",
+            "phone": "+90 555 123 45 67",
+            "address": "123 Legal Street, Suite 100, New York, NY 10001",
+            "days": {
+                "monday": "Monday",
+                "tuesday": "Tuesday",
+                "wednesday": "Wednesday",
+                "thursday": "Thursday",
+                "friday": "Friday",
+                "saturday": "Saturday",
+                "sunday": "Sunday"
+            },
+            "close": "Closed",
             "links": {
+                "title": "Quick Links",
                 "home": "Home",
                 "practiceAreas": "Practice Areas",
                 "attorneys": "Attorneys",
-                "about": "About Us",
+                "about": "About",
                 "contact": "Contact"
             }
         },

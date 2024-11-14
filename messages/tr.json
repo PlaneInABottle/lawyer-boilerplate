@@ -1,384 +1,438 @@
 {
-    "HomePage": {
-        "title": "Merhaba Dünya!",
-        "about": "Hakkımızda sayfasına git"
-    },
-    "Common": {
-        "contactUs": "Bize Ulaşın",
-        "learnMore": "Daha Fazla Bilgi Edinin"
-    },
-    "Navigation": {
-        "home": "Anasayfa",
-        "practiceAreas": "Uzmanlık Alanları",
-        "attorneys": "Avukatlar",
-        "about": "Hakkımızda",
-        "contact": "İletişim"
-    },
-    "LocaleSwitcher": {
-        "label": "Dil Değiştir",
-        "locale": "{locale, select, en {🇺🇸 English} tr {🇹🇷 Türkçe} ar {🇸🇦 العربية} other {Unknown}}"
-    },
-    "LocaleLayout": {
-        "title": "next-intl örneği"
-    },
-    "IndexPage": {
-        "description": "Bu, <code>next-intl</code> kullanarak Next.js Uygulama Rotaları ile kullanımını gösteren basit bir örnektir. Dil değiştirmeyi üst sağ köşede deneyin ve içeriğin nasıl değiştiğini görün.",
-        "title": "next-intl örneği"
-    },
-    "Hero": {
-        "title": "Uzman Hukuk Çözümleri",
-        "subtitle": "Karmaşık Sorunlar",
-        "description": "Deneyimli avukatlarımızın verdiği mükemmel hukuk hizmetleri, ahlaki, nitelikli ve müşteri başarısıyla birlikte sunulmaktadır.",
-        "contactButton": "Ücretsiz Danışma",
-        "practiceAreasButton": "Hizmetlerimiz",
-        "yearsExperience": "Yıllık Deneyim",
-        "casesWon": "Başarıyla Çözülen Hukuk Durumları"
-    },
-    "Services": {
-        "title": "Uzmanlık Alanlarımız",
-        "description": "Biz, çeşitli uzmanlık alanlarında tam hukuk hizmetleri sağlar, müşteri ihtiyaçlarına uygun olarak özel olarak tasarlanmıştır.",
-        "learnMore": "Daha Fazla Bilgi",
-        "corporate": {
-            "title": "Kurumsal Hukuk",
-            "description": "İşletmeler için uzman hukuk danışmanlığı, kuruluş, uyum, birleşme ve alım-satım dahil."
+    "metadata": {
+        "layout": {
+            "title": "Hukuk Bürosu"
         },
-        "family": {
-            "title": "Aile Hukuku",
-            "description": "Aileye yönelik duygusal temsil, boşanma, bakım ve diğer aile hakkında hukuk durumları."
-        },
-        "criminal": {
-            "title": "Ceza Hukuku",
-            "description": "Karmaşık savunma stratejileri ve yerel ve federal düzeydeki suçlara temsil."
-        },
-        "realEstate": {
-            "title": "Emlak Hukuku",
-            "description": "Gerçek durumlara yönelik tam hukuk hizmetleri, işlemler, geliştirme ve maddi durumlar."
-        },
-        "intellectual": {
-            "title": "Fikri Mülkiyet Hukuku",
-            "description": "Bakım ve yürürlükteki patentler, ticari markalar, telif hakları ve ticari gizli bilgileri koruma ve uygulama."
-        },
-        "litigation": {
-            "title": "Maddi Hukuk",
-            "description": "Karmaşık maddi durumlara yönelik uzman temsil."
-        }
-    },
-    "AboutFirm": {
-        "title": "Hukuki Mükemmelliğin Mirası",
-        "subtitle": "Otuz yılı aşkın süredir güvenilir hukuk danışmanlığı, müşterilere dürüstlük ve özveriyle hizmet vermekteyiz.",
-        "description": "Firmamız, derin hukuk uzmanlığını müşteri hizmetleri taahhüdü ile birleştirir. Her davanın benzersiz olduğunu ve özel ilgi gerektirdiğini anlıyoruz. Deneyimli avukatlarımız, müşterilerimiz için en iyi sonuçları elde etmek amacıyla yorulmadan çalışmaktadır.",
-        "established": "1990",
-        "legacy": "Yılların Hukuki Mükemmelliği",
-        "learnMore": "Firmamız Hakkında",
-        "stats": {
-            "experience": {
-                "value": "30+",
-                "label": "Yıllık Deneyim"
+        "pages": {
+            "home": {
+                "title": "Ana Sayfa | Hukuk Bürosu",
+                "description": "Karmaşık zorluklar için uzman hukuk çözümleri"
             },
-            "clients": {
-                "value": "1000+",
-                "label": "Memnun Müşteri"
+            "about": {
+                "title": "Hakkımızda | Hukuk Bürosu",
+                "description": "Tarihimizi, değerlerimizi ve mükemmellik taahhüdümüzü öğrenin"
             },
-            "awards": {
-                "value": "50+",
-                "label": "Sektör Ödülleri"
+            "practiceAreas": {
+                "title": "Uygulama Alanları | Hukuk Bürosu",
+                "description": "Çeşitli uygulama alanlarında kapsamlı hukuk hizmetlerimizi keşfedin"
+            },
+            "attorneys": {
+                "title": "Avukatlarımız | Hukuk Bürosu",
+                "description": "Deneyimli hukuk profesyonelleri ekibimizi tanıyın"
+            },
+            "contact": {
+                "title": "Bize Ulaşın | Hukuk Bürosu",
+                "description": "Hukuk ekibimizle iletişime geçin"
             }
         }
     },
-    "Testimonials": {
-        "title": "Müşterilerimiz Ne Diyor",
-        "subtitle": "Değerli müşterilerimizin hukuki hizmetlerimizle ilgili deneyimlerini okuyun",
-        "testimonial1": {
-            "name": "John Smith",
-            "role": "Kurumsal Müşteri",
-            "content": "Ekip, kurumsal yeniden yapılandırmamız süresince olağanüstü hukuki rehberlik sağladı. Uzmanlıkları ve profesyonellikleri karmaşık bir süreci yönetilebilir hale getirdi."
+    "common": {
+        "buttons": {
+            "contactUs": "Bize Ulaşın",
+            "learnMore": "Daha Fazla Bilgi Edinin",
+            "viewProfile": "Profili Görüntüle",
+            "freeConsultation": "Ücretsiz Danışmanlık"
         },
-        "testimonial2": {
-            "name": "Sarah Johnson",
-            "role": "Aile Hukuku Müvekkili",
-            "content": "Zor bir dönemde hem şefkat hem de yetkinlik gösterdiler. Davama olan bağlılıkları en iyi sonucun elde edilmesini sağladı."
+        "navigation": {
+            "home": "Ana Sayfa",
+            "practiceAreas": "Uygulama Alanları",
+            "attorneys": "Avukatlar",
+            "about": "Hakkımızda",
+            "contact": "İletişim"
         },
-        "testimonial3": {
-            "name": "Michael Chen",
-            "role": "Gayrimenkul Geliştiricisi",
-            "content": "Gayrimenkul hukukuna olan derin bilgileri ve ayrıntılara verdikleri önem, bizi olası sorunlardan korudu. Her türlü emlak işlemi için kesinlikle tavsiye ederim."
+        "footer": {
+            "description": "1990 yılından beri güvenilir hukuk danışmanlığı, dürüstlük ve bağlılıkla hizmet veriyoruz.",
+            "officeHours": "Çalışma Saatleri",
+            "contactUs": "Bize Ulaşın",
+            "quickLinks": "Hızlı Linkler",
+            "privacyPolicy": "Gizlilik Politikası",
+            "termsOfService": "Hizmet Şartları",
+            "cookiePolicy": "Çerez Politikası",
+            "allRightsReserved": "Tüm hakları saklıdır",
+            "officeHoursTitle": "Çalışma Saatleri",
+            "email": "info@lawfirm.com",
+            "phone": "+90 555 123 45 67",
+            "address": "123 Legal Street, Suite 100, New York, NY 10001",
+            "days": {
+                "monday": "Pazartesi",
+                "tuesday": "Salı",
+                "wednesday": "Çarşamba",
+                "thursday": "Perşembe",
+                "friday": "Cuma",
+                "saturday": "Cumartesi",
+                "sunday": "Pazar"
+            },
+            "close": "Kapalı",
+            "links": {
+                "title": "Hızlı Linkler",
+                "home": "Ana Sayfa",
+                "practiceAreas": "Uygulama Alanları",
+                "attorneys": "Avukatlar",
+                "about": "Hakkımızda",
+                "contact": "İletişim"
+            }
+        },
+        "localeSwitcher": {
+            "label": "Dil Değiştir",
+            "locale": "{locale, select, en {🇺🇸 EN} tr {🇹🇷 TR} ar {🇸🇦 AR} other {Bilinmeyen}}"
         }
     },
-    "Lawyers": {
-        "title": "Avukatlarımız",
-        "subtitle": "İhtiyaçlarınıza hizmet etmek için çalışan deneyimli hukuk profesyonellerinden oluşan ekibimizle tanışın",
-        "viewAll": "Tüm Avukatları Görüntüle",
-        "viewProfile": "Profili Görüntüle",
-        "contact": "İletişim",
-        "about": "Hakkında",
-        "expertise": "Uzmanlık Alanları",
-
-        "sectionTitles": {
-            "specialties": "Çalışma Alanları",
-            "education": "Eğitim",
-            "barAdmissions": "Baro Kabulü",
-            "languages": "Diller"
-        },
-
-        "roles": {
-            "seniorPartner": "Kıdemli Ortak",
-            "partner": "Ortak",
-            "associate": "Yardımcı"
-        },
-
-        "practiceAreas": {
-            "corporate": "Ticaret Hukuku",
-            "mergers": "Birleşme ve Satın Almalar",
-            "securities": "Sermaye Piyasası Hukuku",
-            "litigation": "Dava Hukuku",
-            "familyLaw": "Aile Hukuku",
-            "realEstate": "Gayrimenkul Hukuku",
-            "intellectual": "Fikri Mülkiyet"
-        },
-
-        "languages": {
-            "english": "İngilizce",
-            "spanish": "İspanyolca",
-            "turkish": "Türkçe",
-            "arabic": "Arapça"
-        },
-
-        "education": {
-            "harvard": "Harvard Hukuk Fakültesi, J.D.",
-            "yale": "Yale Üniversitesi, B.A.",
-            "stanford": "Stanford Hukuk Fakültesi, J.D.",
-            "columbia": "Columbia Üniversitesi, B.A."
-        },
-
-        "barAdmissions": {
-            "newYorkBar": "New York Eyalet Barosu",
-            "californiaBar": "Kaliforniya Eyalet Barosu",
-            "texasBar": "Teksas Eyalet Barosu"
-        },
-
-        "bios": {
-            "sarah-mitchell": "Sarah Mitchell, kurumsal hukuk ve şirket birleşme ve satın almaları konusunda 15 yılı aşkın deneyime sahip Kıdemli Ortak'tır. Birçok yüksek profilli kurumsal işleme başarıyla liderlik etmiş ve Fortune 500 şirketlerine stratejik danışmanlık sağlamıştır. Sarah, karmaşık yasal zorluklara pratik yaklaşımı ve müşteri başarısına olan bağlılığı ile tanınır.",
-            "james-wilson": "James Wilson, fikri mülkiyet hukuku ve ticari davalar konusunda kapsamlı deneyim getiriyor. Ortak olarak, çok sayıda önemli davada müvekkilleri temsil etmiş ve fikri mülkiyet haklarının korunması ve uygulanması konusunda uzmanlaşmıştır. Stratejik yaklaşımı ve derin teknik bilgisi, onu karmaşık dava konularında değerli bir varlık haline getiriyor.",
-            "emma-rodriguez": "Roberto Rodriguez, aile hukuku ve gayrimenkul işlemlerinde uzmanlaşmış bir Avukat'tır. Aile meselelerine şefkatli yaklaşımı ve mülk işlemlerindeki detaycı bakış açısıyla Roberto, müvekkilleri için olumlu sonuçlar elde etme konusunda güçlü bir itibar oluşturmuştur. Özellikle sınır ötesi aile ve gayrimenkul konularını ele alma konusunda yeteneklidir."
-        }
-    },
-    "PracticeAreas": {
-        "pageTitle": "Çalışma Alanları | Hukuk Bürosu",
-        "pageDescription": "Çeşitli çalışma alanlarında kapsamlı hukuki hizmetlerimizi keşfedin.",
-        "title": "Çalışma Alanlarımız",
-        "description": "Geniş bir yelpazede kapsamlı hukuki hizmetler sunuyoruz. Deneyimli avukatlarımız, özel ihtiyaçlarınıza göre uyarlanmış üstün bir hukuki temsil sağlamaya kendini adamıştır.",
-        "contactUs": "Bizimle İletişime Geçin",
-        "areas": {
-            "corporate": {
-                "title": "Ticaret Hukuku",
-                "description": "Her boyuttaki işletmeler için kapsamlı hukuki çözümler.",
-                "services": {
-                    "formation": "İşletme Kuruluşu ve Yapılandırma",
-                    "compliance": "Düzenleyici Uyum",
-                    "mergers": "Birleşme ve Satın Almalar",
-                    "contracts": "Sözleşme Müzakeresi ve Taslağı",
-                    "governance": "Kurumsal Yönetim"
+    "pages": {
+        "home": {
+            "hero": {
+                "title": "Uzman Hukuk Çözümleri",
+                "subtitle": "Karmaşık Zorluklar İçin",
+                "description": "Deneyimli avukatlarımızdan oluşan ekibimiz, bütünlük, mükemmeliyet ve müşteri başarısına olan bağlılıkla olağanüstü hukuk hizmetleri sunmaktadır.",
+                "contactButton": "Ücretsiz Danışmanlık",
+                "practiceAreasButton": "Hizmetlerimiz",
+                "yearsExperience": "Yıl Deneyim",
+                "casesWon": "Başarıyla Çözülmüş Dava Sayısı",
+                "scrollToExplore": "Keşfetmek İçin Kaydır",
+                "contactUs": "Bize Ulaşın",
+                "learnMore": "Hizmetlerimiz"
+            },
+            "services": {
+                "title": "Uygulama Alanlarımız",
+                "description": "Çeşitli uygulama alanlarında kapsamlı hukuk hizmetleri sunuyoruz, ihtiyaçlarınıza özel olarak uyarlanmıştır.",
+                "learnMore": "Daha Fazla Bilgi Edinin",
+                "corporate": {
+                    "title": "Şirket Hukuku",
+                    "description": "İşletmeler için birleşme ve devralmalar, uyum ve diğer yasal işlemler konusunda uzman rehberlik.",
+                    "learnMore": "Şirket Hukuku"
                 },
-                "longDescription": "Kurumsal hukuk alanımız, küçük girişimlerden çok uluslu şirketlere kadar her ölçekteki işletmelere kapsamlı yasal çözümler sunar. Müşterilerimizin hedeflerine ulaşmalarına yardımcı olmak için derin bir hukuki uzmanlığı pratik iş bilgisi ile birleştiriyoruz.",
-                "serviceDescriptions": {
-                    "formation": "İhtiyaçlarınıza ve hedeflerinize uygun iş yapınızı kurmada uzman rehberlik.",
-                    "compliance": "Karmaşık düzenleyici gereksinimlerde rehberlik ve uyum sağlama desteği.",
-                    "mergers": "Birleşme, devralma ve diğer kurumsal işlemlerde stratejik tavsiye ve temsil.",
-                    "contracts": "Çeşitli ticari anlaşmalar ve sözleşmelerin profesyonelce hazırlanması ve müzakere desteği."
+                "family": {
+                    "title": "Aile Hukuku",
+                    "description": "Boşanma, velayet ve diğer ailevi yasal meselelerde şefkatli temsil.",
+                    "learnMore": "Aile Hukuku Detayları"
                 },
-                "serviceFeatures": {
-                    "formation": {
-                        "1": "Kuruluş ve tüzel kişilik seçimi",
-                        "2": "Şirket yönetim yapıları",
-                        "3": "Ortaklık sözleşmeleri"
+                "criminal": {
+                    "title": "Ceza Savunması",
+                    "description": "Devlet ve federal düzeyde ceza davalarında güçlü savunma stratejileri ve temsil.",
+                    "learnMore": "Ceza Savunması Detayları"
+                },
+                "realEstate": {
+                    "title": "Emlak Hukuku",
+                    "description": "Emlak işlemleri, gelişimi ve ihtilafları için kapsamlı hukuk hizmetleri.",
+                    "learnMore": "Emlak Hukuku Detayları"
+                },
+                "intellectual": {
+                    "title": "Fikri Mülkiyet",
+                    "description": "Patentler, ticari markalar, telif hakları ve ticaret sırlarının korunması ve uygulanması.",
+                    "learnMore": "Fikri Mülkiyet Detayları"
+                },
+                "litigation": {
+                    "title": "Sivil Dava",
+                    "description": "Karmaşık sivil ihtilaflarda ve dava işlemlerinde uzman temsil.",
+                    "learnMore": "Sivil Dava Detayları"
+                }
+            },
+            "aboutFirm": {
+                "title": "Hukukta Bir Miras",
+                "subtitle": "Üç yüzyıldan uzun süredir güvenilen hukuk danışmanlığı, dürüstlük ve adanmışlıkla hizmet veriyoruz.",
+                "description": "Firmamız, derin hukuk bilgisi ile müşteri hizmetlerine olan bağlılığı birleştiriyor. Her davanın benzersiz olduğunu ve kişiselleştirilmiş dikkat gerektirdiğini anlıyoruz. Deneyimli avukatlarımız, mükemmel sonuçlar elde etmek için yorulmadan çalışıyor.",
+                "established": "1990",
+                "legacy": "Hukukta Yılların Mirası",
+                "learnMore": "Firmamız Hakkında",
+                "stats": {
+                    "experience": {
+                        "value": "30+",
+                        "label": "Yıl Deneyim"
                     },
-                    "compliance": {
-                        "1": "Düzenleyici uyum programları",
-                        "2": "Risk değerlendirme ve yönetimi",
-                        "3": "Şirket politikaları ve prosedürleri"
+                    "clients": {
+                        "value": "1000+",
+                        "label": "Memnun Müşteriler"
                     },
-                    "mergers": {
-                        "1": "Özenle yapılmış inceleme araştırmaları",
-                        "2": "İşlem yapılandırması",
-                        "3": "Birleşme sonrası entegrasyon"
-                    },
-                    "contracts": {
-                        "1": "Ticari sözleşme hazırlığı",
-                        "2": "Müzakere desteği",
-                        "3": "Sözleşme inceleme ve analizi"
+                    "awards": {
+                        "value": "50+",
+                        "label": "Sektör Ödülleri"
                     }
                 }
             },
-            "family": {
-                "title": "Aile Hukuku",
-                "description": "Aile meseleleri için şefkatli hukuki destek.",
-                "services": {
-                    "divorce": "Boşanma ve Ayrılık",
-                    "custody": "Çocuk Velayeti ve Ziyaret Hakkı",
-                    "support": "Çocuk ve Eş Destekleri",
-                    "adoption": "Evlat Edinme Hizmetleri",
-                    "mediation": "Aile Arabuluculuğu"
-                }
-            },
-            "criminal": {
-                "title": "Ceza Hukuku",
-                "description": "Ceza davalarında stratejik savunma ve temsil.",
-                "services": {
-                    "defense": "Ceza Savunması",
-                    "appeals": "Ceza Temyizleri",
-                    "federal": "Federal Suç Savunması",
-                    "state": "Eyalet Suçu Savunması",
-                    "investigation": "Ceza Soruşturması"
-                }
-            },
-            "realEstate": {
-                "title": "Gayrimenkul Hukuku",
-                "description": "Gayrimenkul hukukunun tüm yönlerinde uzman rehberlik.",
-                "services": {
-                    "transactions": "Gayrimenkul İşlemleri",
-                    "development": "Mülk Geliştirme",
-                    "leasing": "Ticari Kiralama",
-                    "zoning": "İmar ve Arazi Kullanımı",
-                    "disputes": "Mülk Anlaşmazlıkları"
-                }
-            },
-            "intellectual": {
-                "title": "Fikri Mülkiyet",
-                "description": "Fikri mülkiyet haklarının korunması ve uygulanması.",
-                "services": {
-                    "patents": "Patent Başvuruları ve Koruma",
-                    "trademarks": "Marka Tescili",
-                    "copyright": "Telif Hakkı Koruması",
-                    "licensing": "Fikri Mülkiyet Lisanslama ve Devir",
-                    "litigation": "Fikri Mülkiyet Davaları"
-                }
-            },
-            "litigation": {
-                "title": "Dava ve Uyuşmazlık Çözümü",
-                "description": "Karmaşık hukuki anlaşmazlıklarda etkili temsil.",
-                "services": {
-                    "civil": "Medeni Dava",
-                    "commercial": "Ticari Anlaşmazlıklar",
-                    "arbitration": "Uluslararası Tahkim",
-                    "mediation": "Alternatif Uyuşmazlık Çözümü",
-                    "appeals": "Temyiz ve Yargı Denetimi"
-                }
-            }
-        }
-    },
-    "About": {
-        "pageTitle": "Hakkımızda | Hukuk Bürosu",
-        "pageDescription": "Tarihimiz, değerlerimiz ve hukuki hizmetlerde mükemmelliğe bağlılığımız hakkında bilgi edinin.",
-
-        "hero": {
-            "title": "Hukukta Mükemmeliyetin Mirası",
-            "subtitle": "25 yılı aşkın süredir, üstün hukuk hizmetleri sunarak müşterilerimizle kalıcı ilişkiler kuruyoruz. Mükemmellik ve dürüstlüğe olan bağlılığımız, bizi bölgemizin en güvenilir hukuk bürolarından biri yapmıştır.",
-            "stats": {
-                "years": "Yıllık Deneyim",
-                "lawyers": "Uzman Avukatlar",
-                "cases": "Kazanılan Davalar"
-            }
-        },
-
-        "values": {
-            "title": "Temel Değerlerimiz",
-            "subtitle": "Uygulamalarımızı yönlendiren ve müşterilerimize olan bağlılığımızı şekillendiren ilkeler",
-            "items": {
-                "integrity": {
-                    "title": "Dürüstlük",
-                    "description": "Tüm işlerimizde en yüksek etik standartları koruruz"
+            "testimonials": {
+                "title": "Müşterilerimiz Ne Diyor",
+                "subtitle": "Değerli müşterilerimizin hukuk hizmetlerimizle ilgili deneyimlerini okuyun",
+                "testimonial1": {
+                    "name": "John Smith",
+                    "role": "Kurumsal Müşteri",
+                    "content": "Ekip, kurumsal yeniden yapılanma sürecinde olağanüstü hukuki rehberlik sağladı. Uzmanlıkları ve profesyonellikleri, karmaşık süreci yönetilebilir hale getirdi."
                 },
-                "clientFocus": {
-                    "title": "Müşteri Odaklılık",
-                    "description": "Başarınız önceliğimizdir - hedeflerinize ulaşmak için çalışıyoruz"
+                "testimonial2": {
+                    "name": "Sarah Johnson",
+                    "role": "Aile Hukuku Müşterisi",
+                    "content": "Zor bir dönemde hem şefkat hem de yetkinlik gösterdiler. Davama adanmışlıkları, en iyi sonucu getirdi."
                 },
-                "excellence": {
-                    "title": "Mükemmellik",
-                    "description": "Uygulamalarımızın her alanında mükemmeliyeti hedefliyoruz"
-                },
-                "community": {
-                    "title": "Toplum",
-                    "description": "Toplumumuzda olumlu bir etki yaratmaya kararlıyız"
+                "testimonial3": {
+                    "name": "Michael Chen",
+                    "role": "Emlak Geliştirici",
+                    "content": "Emlak hukukundaki derin anlayışları ve detaylara gösterdikleri özen, bizi olası sorunlardan kurtardı. Herhangi bir emlak işi için şiddetle tavsiye ederim."
                 }
             }
         },
-
-        "history": {
-            "title": "Yolculuğumuz",
-            "subtitle": "Hukuk büromuzun mükemmeliyet dolu tarihindeki önemli dönüm noktaları",
-            "milestones": {
-                "1998": "Üstün hukuk hizmetleri sunma vizyonuyla kuruldu",
-                "2005": "Uygulama alanlarımızı genişlettik ve ikinci ofisimizi açtık",
-                "2012": "Bölgedeki en iyi hukuk bürolarından biri olarak tanındık",
-                "2018": "Uluslararası uygulamamızı başlattık",
-                "2023": "Hukukta 25 yılı aşkın mükemmeliyeti kutluyoruz"
-            }
-        },
-
-        "team": {
-            "title": "Liderlik Ekibimiz",
-            "subtitle": "Firmamızı uzmanlık ve özveriyle yöneten deneyimli profesyonellerle tanışın",
-            "viewAll": "Tüm Avukatları Görüntüle",
-            "stats": {
-                "offices": {
-                    "value": "4",
-                    "label": "Global Ofis"
-                },
-                "lawyers": {
-                    "value": "50+",
-                    "label": "Uzman Avukat"
-                },
-                "experience": {
-                    "value": "25+",
-                    "label": "Yıllık Deneyim"
-                },
-                "success": {
-                    "value": "%98",
-                    "label": "Başarı Oranı"
+        "about": {
+            "title": "Hukukta Bir Miras",
+            "subtitle": "Üç yüzyıldan uzun süredir güvenilen hukuk danışmanlığı, dürüstlük ve adanmışlıkla hizmet veriyoruz.",
+            "description": "Firmamız, derin hukuk bilgisi ile müşteri hizmetlerine olan bağlılığı birleştiriyor. Her davanın benzersiz olduğunu ve kişiselleştirilmiş dikkat gerektirdiğini anlıyoruz. Deneyimli avukatlarımız, mükemmel sonuçlar elde etmek için yorulmadan çalışıyor.",
+            "established": "1990",
+            "legacy": "Hukukta Yılların Mirası",
+            "hero": {
+                "title": "Hakkımızda",
+                "subtitle": "Değerlerimiz, Tarihimiz ve Ekibimiz",
+                "stats": {
+                    "years": "Hukukta Yılların Mirası",
+                    "lawyers": "Avukatlar",
+                    "cases": "Başarıyla Çözülmüş Davalar"
+                }
+            },
+            "values": {
+                "title": "Değerlerimiz",
+                "subtitle": "Çalışmamızı Yönlendiren Temel İlkeler",
+                "items": {
+                    "integrity": {
+                        "title": "Dürüstlük",
+                        "description": "En yüksek profesyonellik ve etik standartlarıyla çalışıyoruz."
+                    },
+                    "excellence": {
+                        "title": "Mükemmellik",
+                        "description": "Her durumda mükemmel sonuçlar elde etmek için çaba gösteriyoruz."
+                    },
+                    "clientFocus": {
+                        "title": "Müşteri Odaklılık",
+                        "description": "Müşteri ihtiyaçlarına en uygun çözümleri bulmak için çalışıyoruz."
+                    },
+                    "community": {
+                        "title": "Toplumsal Katılım",
+                        "description": "Toplumsal sorunları çözmek için çalışıyoruz."
+                    }
+                }
+            },
+            "history": {
+                "title": "Tarihimiz",
+                "subtitle": "Kilometre Taşları ve Başarılar",
+                "milestones": {
+                    "1998": "Firma kuruldu",
+                    "2005": "İlk büyük duruşma başarısı",
+                    "2012": "Yeni uzmanlık alanlarına genişleme",
+                    "2018": "Uluslararası uygulamamızı başlattı",
+                    "2023": "Hukukta 25 yılı aşkın mükemmeliyeti kutluyoruz"
+                }
+            },
+            "team": {
+                "title": "Ekibimiz",
+                "subtitle": "Deneyimli Hukuk Profesyonelleri",
+                "viewAll": "Tüm Avukatları Görüntüle",
+                "stats": {
+                    "offices": {
+                        "value": "3",
+                        "label": "Ofisler"
+                    },
+                    "lawyers": {
+                        "value": "25",
+                        "label": "Avukatlar"
+                    },
+                    "experience": {
+                        "value": "30+",
+                        "label": "Yıl Deneyim"
+                    },
+                    "success": {
+                        "value": "1000+",
+                        "label": "Başarıyla Çözülmüş Davalar"
+                    }
                 }
             }
-        }
-    },
-    "Footer": {
-        "officeHours": "Çalışma Saatleri",
-        "contactUs": "Bize Ulaşın",
-        "quickLinks": "Hızlı Bağlantılar",
-        "privacyPolicy": "Gizlilik Politikası",
-        "termsOfService": "Hizmet Şartları",
-        "cookiePolicy": "Çerez Politikası",
-        "allRightsReserved": "Tüm hakları saklıdır."
-    },
-    "Contact": {
-        "pageTitle": "Bize Ulaşın",
-        "pageDescription": "Hukuk ekibimizle iletişime geçin",
-        "form": {
-            "title": "Bize Mesaj Gönderin",
-            "subtitle": "Aşağıdaki formu doldurun, en kısa sürede size geri dönüş yapacağız.",
-            "firstName": "Ad",
-            "lastName": "Soyad",
-            "email": "E-posta",
-            "phone": "Telefon",
-            "practiceArea": "Hukuk Alanı",
-            "selectPracticeArea": "Hukuk Alanını Seçin",
-            "message": "Mesaj",
-            "send": "Mesajı Gönder",
-            "sending": "Gönderiliyor...",
+        },
+        "practiceAreas": {
+            "pageTitle": "Uzmanlık Alanları | Hukuk Bürosu",
+            "pageDescription": "Çeşitli uzmanlık alanlarında kapsamlı hukuk hizmetlerimizi keşfedin.",
+            "title": "Uzmanlık Alanlarımız",
+            "description": "Geniş bir yelpazede kapsamlı hukuk hizmetleri sunuyoruz. Deneyimli avukatlarımız, özel ihtiyaçlarınıza göre uyarlanmış olağanüstü hukuk temsili sağlamaya adanmıştır.",
+            "contactUs": "İletişim",
             "areas": {
-                "corporate": "Ticaret Hukuku",
-                "family": "Aile Hukuku",
-                "criminal": "Ceza Savunması",
-                "realEstate": "Gayrimenkul",
-                "intellectual": "Fikri Mülkiyet",
-                "litigation": "Dava"
+                "corporate": {
+                    "title": "Şirket Hukuku",
+                    "description": "Her büyüklükteki işletme için kapsamlı hukuk çözümleri.",
+                    "learnMore": "Şirket Hukuku",
+                    "services": {
+                        "formation": "Şirket Kuruluşu ve Yapılanması",
+                        "compliance": "Yasal Uyum",
+                        "mergers": "Birleşme ve Devralmalar",
+                        "contracts": "Sözleşme Görüşmeleri ve Hazırlanması",
+                        "governance": "Kurumsal Yönetim"
+                    },
+                    "serviceDescriptions": {
+                        "formation": "Şirket kuruluşu ve yapılandırma hukukunda uzman rehberlik.",
+                        "compliance": "Yasal uyum ve düzenleme konusunda uzman rehberlik.",
+                        "mergers": "Birleşme ve devralmalar konusunda uzman rehberlik.",
+                        "contracts": "Sözleşme anlaşması ve tasarımı konusunda uzman rehberlik.",
+                        "governance": "Kurumsal yönetim konusunda uzman rehberlik."
+                    },
+                    "serviceFeatures": {
+                        "formation": {
+                            "1": "Şirket kuruluşu ve yapılandırma hukukunda uzman rehberlik.",
+                            "2": "Yasal uyum ve düzenleme konusunda uzman rehberlik.",
+                            "3": "Birleşme ve devralmalar konusunda uzman rehberlik."
+                        },
+                        "compliance": {
+                            "1": "Yasal uyum ve düzenleme konusunda uzman rehberlik.",
+                            "2": "Birleşme ve devralmalar konusunda uzman rehberlik.",
+                            "3": "Sözleşme anlaşması ve tasarımı konusunda uzman rehberlik."
+                        },
+                        "mergers": {
+                            "1": "Birleşme ve devralmalar konusunda uzman rehberlik.",
+                            "2": "Sözleşme anlaşması ve tasarımı konusunda uzman rehberlik.",
+                            "3": "Kurumsal yönetim konusunda uzman rehberlik."
+                        },
+                        "contracts": {
+                            "1": "Sözleşme anlaşması ve tasarımı konusunda uzman rehberlik.",
+                            "2": "Kurumsal yönetim konusunda uzman rehberlik.",
+                            "3": "Birleşme ve devralmalar konusunda uzman rehberlik."
+                        },
+                        "governance": {
+                            "1": "Kurumsal yönetim konusunda uzman rehberlik.",
+                            "2": "Birleşme ve devralmalar konusunda uzman rehberlik.",
+                            "3": "Sözleşme anlaşması ve tasarımı konusunda uzman rehberlik."
+                        }
+                    },
+                    "longDescription": "Firmamız, şirket hukukunda uzmanlaşmış bir ekibimizle çalışıyor. Şirket kuruluşu, yapılandırma, uyum ve düzenleme, birleşme ve devralmalar, sözleşme anlaşması ve tasarımı, kurumsal yönetim ve diğer konulara kapsamlı hukuk hizmetleri sunuyoruz."
+                },
+                "family": {
+                    "title": "Aile Hukuku",
+                    "description": "Aile meseleleri için şefkatli hukuki destek.",
+                    "learnMore": "Aile Hukuku",
+                    "services": {
+                        "divorce": "Boşanma ve Ayrılık",
+                        "custody": "Velayet ve Görüş Hakkı",
+                        "support": "Çocuk ve Eş Desteği",
+                        "adoption": "Evlat Edinme Hizmetleri",
+                        "mediation": "Aile Arabuluculuğu"
+                    }
+                },
+                "criminal": {
+                    "title": "Ceza Hukuku",
+                    "description": "Ceza davalarında stratejik savunma ve temsil.",
+                    "learnMore": "Ceza Hukuku",
+                    "services": {
+                        "defense": "Ceza Savunması",
+                        "appeals": "Ceza Yargılamaları",
+                        "federal": "Federal Suç Savunması",
+                        "state": "Devlet Suçu Savunması",
+                        "investigation": "Ceza Soruşturması"
+                    }
+                },
+                "realEstate": {
+                    "title": "Gayrimenkul Hukuku",
+                    "description": "Gayrimenkul hukukunun tüm yönlerinde uzman rehberlik.",
+                    "learnMore": "Gayrimenkul Hukuku",
+                    "services": {
+                        "transactions": "Gayrimenkul İşlemleri",
+                        "development": "Emlak Geliştirme",
+                        "disputes": "Gayrimenkul Uyuşmazlıkları",
+                        "leasing": "Ticari Kiralama",
+                        "zoning": "İmar ve Arazi Kullanımı"
+                    }
+                },
+                "intellectual": {
+                    "title": "Fikri Mülkiyet Hukuku",
+                    "description": "Fikri mülkiyet hukukunun tüm yönlerinde uzman rehberlik.",
+                    "learnMore": "Fikri Mülkiyet Hukuku",
+                    "services": {
+                        "protection": "Fikri Mülkiyet Koruma",
+                        "enforcement": "Fikri Mülkiyet Uygulanması",
+                        "litigation": "Fikri Mülkiyet Davaları",
+                        "trademarks": "Marka Tescili ve Koruma",
+                        "copyrights": "Telif Hakkı Tescili ve Koruma",
+                        "patents": "Patent Tescili ve Koruma"
+                    }
+                },
+                "litigation": {
+                    "title": "Hukuk Davaları",
+                    "description": "Karmaşık hukuk davaları ve yargılama süreçlerinde yetenekli temsil.",
+                    "learnMore": "Hukuk Davaları",
+                    "services": {
+                        "litigation": "Hukuk Davaları",
+                        "disputes": "Uyuşmazlık Çözümü",
+                        "arbitration": "Tahkim ve Arabuluculuk",
+                        "classActions": "Toplu Davalar",
+                        "consumer": "Tüketici Davaları"
+                    }
+                }
             }
         },
-        "info": {
-            "title": "İletişim Bilgileri",
-            "subtitle": "Bizimle bu kanallardan iletişime geçebilirsiniz",
-            "emailTitle": "E-posta",
-            "phoneTitle": "Telefon",
-            "addressTitle": "Adres",
-            "hoursTitle": "Ofis Saatleri"
+        "attorneys": {
+            "title": "Avukatlarımız",
+            "subtitle": "İhtiyaçlarınızı karşılamaya adanmış deneyimli hukuk profesyonellerimizden oluşan ekibimizle tanışın",
+            "viewAll": "Tüm Avukatları Görüntüle",
+            "viewProfile": "Profili Görüntüle",
+            "contact": "İletişim",
+            "about": "Hakkında",
+            "expertise": "Uzmanlık Alanları",
+            "sectionTitles": {
+                "specialties": "Uzmanlık Alanları",
+                "education": "Eğitim",
+                "barAdmissions": "Baro Üyelikleri",
+                "languages": "Diller"
+            },
+            "roles": {
+                "seniorPartner": "Kıdemli Ortak",
+                "partner": "Ortak",
+                "associate": "Avukat"
+            },
+            "practiceAreas": {
+                "corporate": "Şirket Hukuku",
+                "mergers": "Birleşme ve Devralmalar",
+                "securities": "Menkul Kıymetler Hukuku",
+                "litigation": "Dava Hukuku",
+                "familyLaw": "Aile Hukuku",
+                "realEstate": "Gayrimenkul Hukuku",
+                "intellectual": "Fikri Mülkiyet Hukuku"
+            },
+            "languages": {
+                "english": "İngilizce",
+                "turkish": "Türkçe",
+                "arabic": "Arapça",
+                "french": "Fransızca",
+                "spanish": "İspanyolca"
+            },
+            "bios": {
+                "sarah-mitchell": "Sarah Mitchell, 20 yılı aşkın deneyime sahip tecrübeli bir şirket avukatıdır. Birleşme ve devralmalar, menkul kıymetler hukuku ve dava hukuku alanlarında uzmanlaşmıştır. Sarah, stratejik yaklaşımı ve karmaşık hukuki manzaralarda gezinme yeteneğiyle tanınır."
+            },
+            "education": {
+                "harvard": "Harvard Hukuk Fakültesi",
+                "yale": "Yale Hukuk Fakültesi"
+            },
+            "barAdmissions": {
+                "newYork": "New York",
+                "california": "California"
+            }
+        },
+        "contact": {
+            "info": {
+                "title": "İletişim",
+                "subtitle": "Hukuki ihtiyaçlarınızı görüşmek için sabırsızlanıyoruz. Form aracılığıyla veya doğrudan ofisimizi arayarak bize ulaşın.",
+                "emailTitle": "E-posta",
+                "phoneTitle": "Telefon",
+                "addressTitle": "Adres",
+                "hoursTitle": "Ofis Saatleri"
+            },
+            "form": {
+                "title": "Bize Mesaj Gönderin",
+                "subtitle": "Lütfen bize mesaj göndermek için aşağıdaki formu doldurun. En kısa sürede size geri döneceğiz.",
+                "firstName": "Ad",
+                "lastName": "Soyad",
+                "email": "E-posta",
+                "phone": "Telefon",
+                "message": "Mesaj",
+                "send": "Gönder",
+                "practiceArea": "Uzmanlık Alanı",
+                "selectPracticeArea": "Uzmanlık Alanı Seçin",
+                "areas": {
+                    "corporate": "Şirket Hukuku",
+                    "family": "Aile Hukuku",
+                    "criminal": "Ceza Hukuku",
+                    "realEstate": "Gayrimenkul Hukuku",
+                    "intellectual": "Fikri Mülkiyet Hukuku",
+                    "litigation": "Hukuk Davaları"
+                }
+            }
         }
     }
 }
