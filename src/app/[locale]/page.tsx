@@ -1,10 +1,40 @@
+import { getTranslations } from 'next-intl/server';
 import PageLayout from '@/components/layout/PageLayout';
 import Hero from '@/components/sections/home/Hero';
-import Services from '@/components/sections/home/Services';
-import AboutFirm from '@/components/sections/home/AboutFirm';
-import Testimonials from '@/components/sections/home/Testimonials';
-import Lawyers from '@/components/sections/home/Lawyers';
-import { getTranslations } from 'next-intl/server';
+import dynamic from 'next/dynamic';
+
+// Dynamic imports for below-the-fold sections
+const Services = dynamic(() => import('@/components/sections/home/Services'), {
+    loading: () => (
+        <div className="w-full h-[400px] flex items-center justify-center bg-gray-50">
+            <p className="text-xl">Loading Services...</p>
+        </div>
+    ),
+});
+
+const AboutFirm = dynamic(() => import('@/components/sections/home/AboutFirm'), {
+    loading: () => (
+        <div className="w-full h-[400px] flex items-center justify-center bg-gray-50">
+            <p className="text-xl">Loading About Section...</p>
+        </div>
+    ),
+});
+
+const Lawyers = dynamic(() => import('@/components/sections/home/Lawyers'), {
+    loading: () => (
+        <div className="w-full h-[400px] flex items-center justify-center bg-gray-50">
+            <p className="text-xl">Loading Lawyers Section...</p>
+        </div>
+    ),
+});
+
+const Testimonials = dynamic(() => import('@/components/sections/home/Testimonials'), {
+    loading: () => (
+        <div className="w-full h-[400px] flex items-center justify-center bg-gray-50">
+            <p className="text-xl">Loading Testimonials...</p>
+        </div>
+    ),
+});
 
 export async function generateMetadata() {
     const t = await getTranslations('metadata.pages.home');
