@@ -89,7 +89,7 @@ export default function Services() {
                                             href={`/practice-areas/${service.id}`}
                                             className="flex items-center gap-2"
                                         >
-                                            {t('learnMore')}
+                                            {t(`${service.translationKey}.learnMore`)}
                                             <ArrowRight className="h-4 w-4" />
                                         </Link>
                                     </Button>

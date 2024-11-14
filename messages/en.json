@@ -81,27 +81,33 @@
                 "learnMore": "Learn More",
                 "corporate": {
                     "title": "Corporate Law",
-                    "description": "Expert legal guidance for businesses, including formation, compliance, mergers, and acquisitions."
+                    "description": "Expert legal guidance for businesses, including formation, compliance, mergers, and acquisitions.",
+                    "learnMore": "Corporate Law"
                 },
                 "family": {
                     "title": "Family Law",
-                    "description": "Compassionate representation in divorce, custody, and other family-related legal matters."
+                    "description": "Compassionate representation in divorce, custody, and other family-related legal matters.",
+                    "learnMore": "Family Law Details"
                 },
                 "criminal": {
                     "title": "Criminal Defense",
-                    "description": "Strong defense strategies and representation in criminal cases at both state and federal levels."
+                    "description": "Strong defense strategies and representation in criminal cases at both state and federal levels.",
+                    "learnMore": "Criminal Defense Details"
                 },
                 "realEstate": {
                     "title": "Real Estate Law",
-                    "description": "Comprehensive legal services for real estate transactions, development, and disputes."
+                    "description": "Comprehensive legal services for real estate transactions, development, and disputes.",
+                    "learnMore": "Real Estate Law Details"
                 },
                 "intellectual": {
                     "title": "Intellectual Property",
-                    "description": "Protection and enforcement of patents, trademarks, copyrights, and trade secrets."
+                    "description": "Protection and enforcement of patents, trademarks, copyrights, and trade secrets.",
+                    "learnMore": "Intellectual Property Details"
                 },
                 "litigation": {
                     "title": "Civil Litigation",
-                    "description": "Skilled representation in complex civil disputes and litigation proceedings."
+                    "description": "Skilled representation in complex civil disputes and litigation proceedings.",
+                    "learnMore": "Civil Litigation Details"
                 }
             },
             "aboutFirm": {
