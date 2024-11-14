@@ -35,7 +35,7 @@ export default function Lawyers() {
     return (
         <section className="py-16">
             <div className="container">
-                <div className="flex justify-between items-end mb-12">
+                <div className="flex flex-col md:flex-row gap-4 justify-between items-start md:items-end mb-12">
                     <div>
                         <h2 className="text-3xl font-bold mb-4">{t('title')}</h2>
                         <p className="text-muted-foreground max-w-2xl">{t('subtitle')}</p>
