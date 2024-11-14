@@ -4,6 +4,7 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { ReactNode } from 'react';
 import Navigation from '@/components/navigation/Navigation';
+import LoadingBar from '@/components/navigation/LoadingBar';
 import '@/app/styles/globals.css';
 import { ThemeProvider } from '@/context/ThemeContext';
 import Footer from '@/components/layout/Footer';
@@ -16,8 +17,6 @@ type Props = {
 };
 
 export default async function BaseLayout({ children, locale }: Props) {
-    // Providing all messages to the client
-    // side is the easiest way to get started
     const messages = await getMessages();
 
     return (
@@ -25,6 +24,7 @@ export default async function BaseLayout({ children, locale }: Props) {
             <body className={clsx(inter.className, 'min-h-screen flex flex-col')}>
                 <ThemeProvider>
                     <NextIntlClientProvider messages={messages}>
+                        <LoadingBar />
                         <Navigation />
                         <div className="flex-1">{children}</div>
                         <Footer />
