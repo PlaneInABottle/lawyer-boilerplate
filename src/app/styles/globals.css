@@ -327,6 +327,29 @@
         --input: #b8e1dd;
         --ring: #006d77;
     }
+
+    [data-theme='fitness'] {
+        --background: #1a1b1e;
+        --foreground: #ffffff;
+        --card: #2a2b2e;
+        --card-foreground: #ffffff;
+        --popover: #2a2b2e;
+        --popover-foreground: #ffffff;
+        --primary: #ff6b2c;
+        --primary-rgb: 255, 107, 44;
+        --primary-foreground: #ffffff;
+        --secondary: #ff8f5c;
+        --secondary-foreground: #ffffff;
+        --muted: #2a2b2e;
+        --muted-foreground: #9ca3af;
+        --accent: #ff4f00;
+        --accent-foreground: #ffffff;
+        --destructive: #ef4444;
+        --destructive-foreground: #ffffff;
+        --border: #2a2b2e;
+        --input: #2a2b2e;
+        --ring: #ff6b2c;
+    }
 }
 
 @layer base {

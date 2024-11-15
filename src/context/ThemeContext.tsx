@@ -15,7 +15,8 @@ type Theme =
     | 'vintage'
     | 'nordic'
     | 'minimalist'
-    | 'coastal';
+    | 'coastal'
+    | 'fitness';
 
 interface ThemeContextType {
     theme: Theme;

@@ -20,6 +20,7 @@ export default function ThemeSwitcher() {
         { value: 'nordic', label: 'Nordic' },
         { value: 'minimalist', label: 'Minimalist' },
         { value: 'coastal', label: 'Coastal' },
+        { value: 'fitness', label: 'Fitness' },
     ];
 
     return (
