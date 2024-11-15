@@ -8,6 +8,9 @@ const nextConfig: NextConfig = {
             {
                 hostname: 'images.pexels.com',
             },
+            {
+                hostname: 'csimg.nyc3.cdn.digitaloceanspaces.com',
+            },
         ],
     },
     // experimental: {
