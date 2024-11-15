@@ -2,7 +2,7 @@ import { clsx } from 'clsx';
 import { Inter } from 'next/font/google';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
-import { ReactNode } from 'react';
+import { ReactNode, Suspense } from 'react';
 import Navigation from '@/components/navigation/Navigation';
 import LoadingBar from '@/components/navigation/LoadingBar';
 import '@/app/styles/globals.css';
@@ -24,7 +24,9 @@ export default async function BaseLayout({ children, locale }: Props) {
             <body className={clsx(inter.className, 'min-h-screen flex flex-col')}>
                 <ThemeProvider>
                     <NextIntlClientProvider messages={messages}>
-                        <LoadingBar />
+                        <Suspense fallback={null}>
+                            <LoadingBar />
+                        </Suspense>
                         <Navigation />
                         <div className="flex-1">{children}</div>
                         <Footer />
