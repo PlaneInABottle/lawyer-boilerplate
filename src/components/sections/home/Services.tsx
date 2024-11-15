@@ -86,7 +86,7 @@ export default function ServicesSection() {
                                         className="p-0 h-auto font-semibold hover:no-underline"
                                     >
                                         <Link
-                                            href={`/practice-areas/${service.id}`}
+                                            href={`/services/${service.id}`}
                                             className="flex items-center gap-2"
                                         >
                                             {t(`${service.translationKey}.learnMore`)}
