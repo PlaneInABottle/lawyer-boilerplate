@@ -69,10 +69,10 @@ export default function Hero() {
             </div>
 
             {/* Static Scroll Indicator */}
-            <div className="absolute bottom-8 left-1/2 -translate-x-1/2">
+            <div className="absolute  bottom-8 left-1/2 -translate-x-1/2">
                 <div className="flex flex-col items-center text-white">
-                    <span className="text-sm mb-2">{t('scrollToExplore')}</span>
-                    <div className="w-6 h-10 border-2 border-white rounded-full p-2">
+                    <span className="text-sm mb-4">{t('scrollToExplore')}</span>
+                    <div className="animate-bounce w-6 h-10 border-2 border-white rounded-full p-2">
                         <div className="w-1.5 h-1.5 bg-white rounded-full" />
                     </div>
                 </div>
