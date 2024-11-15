@@ -48,7 +48,7 @@ export default function Hero() {
                             variant="outline"
                             className="text-base bg-transparent text-white border-white hover:bg-white/10"
                         >
-                            <Link href="/practice-areas">
+                            <Link href="/services">
                                 {t('learnMore')}
                                 <ArrowRight className="ml-2 h-5 w-5" />
                             </Link>
