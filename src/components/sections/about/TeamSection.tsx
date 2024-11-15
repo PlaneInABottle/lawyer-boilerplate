@@ -68,7 +68,7 @@ export default function TeamSection() {
                     className="text-center"
                 >
                     <Button asChild size="lg">
-                        <Link href="/attorneys" className="flex items-center gap-2">
+                        <Link href="/team" className="flex items-center gap-2">
                             {t('viewAll')}
                             <ArrowRight className="h-4 w-4" />
                         </Link>

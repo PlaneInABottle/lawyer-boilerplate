@@ -21,7 +21,7 @@ export default async function LawyerProfile({ params }: Props) {
         notFound();
     }
 
-    const t = await getTranslations('pages.attorneys');
+    const t = await getTranslations('pages.team');
 
     return (
         <PageLayout title={lawyer.name}>
@@ -76,7 +76,7 @@ export default async function LawyerProfile({ params }: Props) {
                                 </h3>
                                 <ul className="space-y-1 text-muted-foreground">
                                     {lawyer.specialties.map((specialty) => (
-                                        <li key={specialty}>{t(`practiceAreas.${specialty}`)}</li>
+                                        <li key={specialty}>{t(`services.${specialty}`)}</li>
                                     ))}
                                 </ul>
                             </div>

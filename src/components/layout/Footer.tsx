@@ -40,15 +40,15 @@ export default function Footer() {
                                     href="/practice-areas"
                                     className="text-primary-foreground/80 hover:text-primary-foreground"
                                 >
-                                    {t('links.practiceAreas')}
+                                    {t('links.services')}
                                 </Link>
                             </li>
                             <li>
                                 <Link
-                                    href="/attorneys"
+                                    href="/team"
                                     className="text-primary-foreground/80 hover:text-primary-foreground"
                                 >
-                                    {t('links.attorneys')}
+                                    {t('links.team')}
                                 </Link>
                             </li>
                             <li>

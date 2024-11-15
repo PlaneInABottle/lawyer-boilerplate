@@ -43,8 +43,8 @@ export default function FloatingNav() {
                 {/* Navigation Links */}
                 <div className="hidden md:flex items-center gap-4">
                     <NavigationLink href="/">{t('home')}</NavigationLink>
-                    <NavigationLink href="/practice-areas">{t('practiceAreas')}</NavigationLink>
-                    <NavigationLink href="/attorneys">{t('attorneys')}</NavigationLink>
+                    <NavigationLink href="/practice-areas">{t('services')}</NavigationLink>
+                    <NavigationLink href="/team">{t('team')}</NavigationLink>
                     <NavigationLink href="/about">{t('about')}</NavigationLink>
                 </div>
 

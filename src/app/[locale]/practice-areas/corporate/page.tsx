@@ -1,10 +1,10 @@
 import { getTranslations } from 'next-intl/server';
 import PageLayout from '@/components/layout/PageLayout';
-import CorporateLawService from '@/components/sections/practice-areas/corporate/CorporateLawService';
+import CorporateLawService from '@/components/sections/services/corporate/CorporateLawService';
 
 // export async function generateMetadata({ params: { locale } }: { params: { locale: string } }) {
 export async function generateMetadata() {
-    const t = await getTranslations('metadata.pages.practiceAreas');
+    const t = await getTranslations('metadata.pages.services');
     return {
         title: `${t('title')} | Law Firm`,
         description: t('description'),

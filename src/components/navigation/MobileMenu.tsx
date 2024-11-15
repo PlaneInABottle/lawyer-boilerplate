@@ -101,13 +101,13 @@ export default function MobileMenu() {
                                     onClick={() => setIsOpen(false)}
                                     href="/practice-areas"
                                 >
-                                    {t('practiceAreas')}
+                                    {t('services')}
                                 </NavigationLink>
                             </motion.div>
 
                             <motion.div variants={linkVariants}>
-                                <NavigationLink onClick={() => setIsOpen(false)} href="/attorneys">
-                                    {t('attorneys')}
+                                <NavigationLink onClick={() => setIsOpen(false)} href="/team">
+                                    {t('team')}
                                 </NavigationLink>
                             </motion.div>
 

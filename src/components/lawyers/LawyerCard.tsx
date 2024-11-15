@@ -14,7 +14,7 @@ type LawyerCardProps = {
 };
 
 export default function LawyerCard({ lawyer, variant = 'default' }: LawyerCardProps) {
-    const t = useTranslations('pages.attorneys');
+    const t = useTranslations('pages.team');
 
     return (
         <Card className="group h-full overflow-hidden">
@@ -40,7 +40,7 @@ export default function LawyerCard({ lawyer, variant = 'default' }: LawyerCardPr
                                         key={specialty}
                                         className="bg-muted px-2 py-1 rounded-md text-sm"
                                     >
-                                        {t(`practiceAreas.${specialty}`)}
+                                        {t(`services.${specialty}`)}
                                     </span>
                                 ))}
                             </div>
@@ -62,7 +62,7 @@ export default function LawyerCard({ lawyer, variant = 'default' }: LawyerCardPr
 
             <CardFooter className="p-6 pt-0 flex gap-4">
                 <Button asChild variant="outline" size="sm">
-                    <Link href={`/attorneys/${lawyer.id}`}>{t('viewProfile')}</Link>
+                    <Link href={`/team/${lawyer.id}`}>{t('viewProfile')}</Link>
                 </Button>
                 <div className="flex gap-2">
                     <Button variant="ghost" size="icon" asChild>

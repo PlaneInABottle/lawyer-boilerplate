@@ -1,6 +1,6 @@
 import { getTranslations } from 'next-intl/server';
 import PageLayout from '@/components/layout/PageLayout';
-import PracticeAreas from '@/components/sections/practice-areas/PracticeAreas';
+import Services from '@/components/sections/services/Services';
 
 // type Props = {
 //     params: { locale: string };
@@ -9,7 +9,7 @@ import PracticeAreas from '@/components/sections/practice-areas/PracticeAreas';
 // export async function generateMetadata({ params }: Props) {
 // const { locale } = await params;
 export async function generateMetadata() {
-    const t = await getTranslations('metadata.pages.practiceAreas');
+    const t = await getTranslations('metadata.pages.services');
     return {
         title: t('title'),
         description: t('description'),
@@ -19,7 +19,7 @@ export async function generateMetadata() {
 export default async function PracticeAreasPage() {
     return (
         <PageLayout>
-            <PracticeAreas />
+            <Services />
         </PageLayout>
     );
 }

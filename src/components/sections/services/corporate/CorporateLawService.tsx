@@ -9,7 +9,7 @@ import { ArrowRight, CheckCircle, Users, Building2, Scale, FileText } from 'luci
 import corporateLaw from '/public/images/services/corporate-law.jpeg';
 
 export default function CorporateLawService() {
-    const t = useTranslations('pages.practiceAreas.areas.corporate');
+    const t = useTranslations('pages.services.areas.corporate');
     const commonT = useTranslations('common.buttons');
 
     const features = [

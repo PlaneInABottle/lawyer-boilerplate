@@ -5,7 +5,7 @@ import realEstateLaw from '/public/images/services/real-estate-law.jpeg';
 import intellectualProperty from '/public/images/services/intellectual-property.jpeg';
 import litigation from '/public/images/services/litigation.jpeg';
 
-export const practiceAreas = [
+export const services = [
     {
         id: 'corporate',
         imageUrl: corporateLaw,

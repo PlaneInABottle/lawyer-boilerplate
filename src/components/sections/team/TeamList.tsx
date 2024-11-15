@@ -5,8 +5,8 @@ import { motion } from 'framer-motion';
 import LawyerCard from '@/components/lawyers/LawyerCard';
 import { lawyers } from '@/data/lawyers';
 
-export default function AttorneysList() {
-    const t = useTranslations('pages.attorneys');
+export default function TeamList() {
+    const t = useTranslations('pages.team');
 
     const containerVariants = {
         hidden: { opacity: 0 },

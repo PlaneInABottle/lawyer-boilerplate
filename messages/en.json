@@ -12,11 +12,11 @@
                 "title": "About Us | Law Firm",
                 "description": "Learn about our history, values, and commitment to excellence in legal services"
             },
-            "practiceAreas": {
+            "services": {
                 "title": "Practice Areas | Law Firm",
                 "description": "Explore our comprehensive legal services across various practice areas"
             },
-            "attorneys": {
+            "team": {
                 "title": "Our Attorneys | Law Firm",
                 "description": "Meet our team of experienced legal professionals"
             },
@@ -35,8 +35,8 @@
         },
         "navigation": {
             "home": "Home",
-            "practiceAreas": "Practice Areas",
-            "attorneys": "Attorneys",
+            "services": "Practice Areas",
+            "team": "Attorneys",
             "about": "About Us",
             "contact": "Contact"
         },
@@ -66,8 +66,8 @@
             "links": {
                 "title": "Quick Links",
                 "home": "Home",
-                "practiceAreas": "Practice Areas",
-                "attorneys": "Attorneys",
+                "services": "Practice Areas",
+                "team": "Attorneys",
                 "about": "About",
                 "contact": "Contact"
             }
@@ -84,7 +84,7 @@
                 "subtitle": "Complex Challenges",
                 "description": "Our team of experienced attorneys is dedicated to providing exceptional legal services with a commitment to integrity, excellence, and client success",
                 "contactButton": "Free Consultation",
-                "practiceAreasButton": "Our Services",
+                "servicesButton": "Our Services",
                 "yearsExperience": "Years of Experience",
                 "casesWon": "Cases Successfully Resolved",
                 "scrollToExplore": "Scroll to explore",
@@ -240,7 +240,7 @@
                 }
             }
         },
-        "practiceAreas": {
+        "services": {
             "pageTitle": "Practice Areas | Law Firm",
             "pageDescription": "Explore our comprehensive legal services across various practice areas.",
             "title": "Our Practice Areas",
@@ -357,7 +357,7 @@
                 }
             }
         },
-        "attorneys": {
+        "team": {
             "title": "Our Attorneys",
             "subtitle": "Meet our team of experienced legal professionals dedicated to serving your needs",
             "viewAll": "View All Attorneys",
@@ -376,7 +376,7 @@
                 "partner": "Partner",
                 "associate": "Associate"
             },
-            "practiceAreas": {
+            "services": {
                 "corporate": "Corporate Law",
                 "mergers": "Mergers & Acquisitions",
                 "securities": "Securities Law",

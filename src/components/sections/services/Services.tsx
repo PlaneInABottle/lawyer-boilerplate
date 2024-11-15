@@ -6,11 +6,11 @@ import { Button } from '@/components/ui/button';
 import Image from 'next/image';
 import { ArrowRight } from 'lucide-react';
 import { motion } from 'framer-motion';
-import { practiceAreas } from '@/data/practice-areas';
+import { services } from '@/data/practice-areas';
 import Link from 'next/link';
 
-export default function PracticeAreas() {
-    const t = useTranslations('pages.practiceAreas');
+export default function Services() {
+    const t = useTranslations('pages.services');
     // const commonT = useTranslations('common');
 
     const containerVariants = {
@@ -47,7 +47,7 @@ export default function PracticeAreas() {
                         initial="hidden"
                         animate="visible"
                     >
-                        {practiceAreas.map((area) => (
+                        {services.map((area) => (
                             <motion.div key={area.id} variants={itemVariants}>
                                 <Card className="group h-full hover:shadow-lg transition-shadow duration-300">
                                     <CardHeader className="p-0">

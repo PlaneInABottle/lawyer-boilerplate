@@ -29,7 +29,7 @@ export default function Hero() {
                                 </Link>
                             </Button>
                             <Button asChild variant="outline" size="lg">
-                                <Link href="/practice-areas">{t('practiceAreasButton')}</Link>
+                                <Link href="/practice-areas">{t('servicesButton')}</Link>
                             </Button>
                         </div>
 

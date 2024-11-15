@@ -11,6 +11,13 @@ export default function Navigation() {
     const [scrolled, setScrolled] = useState(false);
     const t = useTranslations('common.navigation');
 
+    const navigationLinks = [
+        { href: '/', label: t('home') },
+        { href: '/services', label: t('services') },
+        { href: '/team', label: t('team') },
+        { href: '/about', label: t('about') },
+        { href: '/contact', label: t('contact') },
+    ];
     useEffect(() => {
         const handleScroll = () => {
             const isScrolled = window.scrollY > 20;
@@ -37,11 +44,11 @@ export default function Navigation() {
 
                 {/* Desktop Navigation */}
                 <div className="hidden lg:flex items-center space-x-6">
-                    <NavigationLink href="/">{t('home')}</NavigationLink>
-                    <NavigationLink href="/practice-areas">{t('practiceAreas')}</NavigationLink>
-                    <NavigationLink href="/attorneys">{t('attorneys')}</NavigationLink>
-                    <NavigationLink href="/about">{t('about')}</NavigationLink>
-                    <NavigationLink href="/contact">{t('contact')}</NavigationLink>
+                    {navigationLinks.map((link) => (
+                        <NavigationLink key={link.href} href={link.href}>
+                            {link.label}
+                        </NavigationLink>
+                    ))}
                 </div>
 
                 {/* Right Side Items */}

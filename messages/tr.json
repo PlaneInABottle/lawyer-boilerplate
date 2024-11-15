@@ -12,11 +12,11 @@
                 "title": "Hakkımızda | Hukuk Bürosu",
                 "description": "Tarihimizi, değerlerimizi ve mükemmellik taahhüdümüzü öğrenin"
             },
-            "practiceAreas": {
+            "services": {
                 "title": "Uygulama Alanları | Hukuk Bürosu",
                 "description": "Çeşitli uygulama alanlarında kapsamlı hukuk hizmetlerimizi keşfedin"
             },
-            "attorneys": {
+            "team": {
                 "title": "Avukatlarımız | Hukuk Bürosu",
                 "description": "Deneyimli hukuk profesyonelleri ekibimizi tanıyın"
             },
@@ -35,8 +35,8 @@
         },
         "navigation": {
             "home": "Ana Sayfa",
-            "practiceAreas": "Uygulama Alanları",
-            "attorneys": "Avukatlar",
+            "services": "Uygulama Alanları",
+            "team": "Avukatlar",
             "about": "Hakkımızda",
             "contact": "İletişim"
         },
@@ -66,8 +66,8 @@
             "links": {
                 "title": "Hızlı Linkler",
                 "home": "Ana Sayfa",
-                "practiceAreas": "Uygulama Alanları",
-                "attorneys": "Avukatlar",
+                "services": "Uygulama Alanları",
+                "team": "Avukatlar",
                 "about": "Hakkımızda",
                 "contact": "İletişim"
             }
@@ -84,7 +84,7 @@
                 "subtitle": "Karmaşık Zorluklar İçin",
                 "description": "Deneyimli avukatlarımızdan oluşan ekibimiz, bütünlük, mükemmeliyet ve müşteri başarısına olan bağlılıkla olağanüstü hukuk hizmetleri sunmaktadır.",
                 "contactButton": "Ücretsiz Danışmanlık",
-                "practiceAreasButton": "Hizmetlerimiz",
+                "servicesButton": "Hizmetlerimiz",
                 "yearsExperience": "Yıl Deneyim",
                 "casesWon": "Başarıyla Çözülmüş Dava Sayısı",
                 "scrollToExplore": "Keşfetmek İçin Kaydır",
@@ -240,7 +240,7 @@
                 }
             }
         },
-        "practiceAreas": {
+        "services": {
             "pageTitle": "Uzmanlık Alanları | Hukuk Bürosu",
             "pageDescription": "Çeşitli uzmanlık alanlarında kapsamlı hukuk hizmetlerimizi keşfedin.",
             "title": "Uzmanlık Alanlarımız",
@@ -357,7 +357,7 @@
                 }
             }
         },
-        "attorneys": {
+        "team": {
             "title": "Avukatlarımız",
             "subtitle": "İhtiyaçlarınızı karşılamaya adanmış deneyimli hukuk profesyonellerimizden oluşan ekibimizle tanışın",
             "viewAll": "Tüm Avukatları Görüntüle",
@@ -376,7 +376,7 @@
                 "partner": "Ortak",
                 "associate": "Avukat"
             },
-            "practiceAreas": {
+            "services": {
                 "corporate": "Şirket Hukuku",
                 "mergers": "Birleşme ve Devralmalar",
                 "securities": "Menkul Kıymetler Hukuku",

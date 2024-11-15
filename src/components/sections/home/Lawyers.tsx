@@ -9,7 +9,7 @@ import { lawyers } from '@/data/lawyers';
 import { ArrowRight } from 'lucide-react';
 
 export default function Lawyers() {
-    const t = useTranslations('pages.attorneys');
+    const t = useTranslations('pages.team');
 
     const containerVariants = {
         hidden: { opacity: 0 },
@@ -41,7 +41,7 @@ export default function Lawyers() {
                         <p className="text-muted-foreground max-w-2xl">{t('subtitle')}</p>
                     </div>
                     <Button asChild>
-                        <Link href="/attorneys" className="flex items-center gap-2">
+                        <Link href="/team" className="flex items-center gap-2">
                             {t('viewAll')}
                             <ArrowRight className="h-4 w-4" />
                         </Link>
