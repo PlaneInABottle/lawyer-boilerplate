@@ -4,11 +4,11 @@ import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { Link } from '@/i18n/routing';
-import LawyerCard from '@/components/lawyers/LawyerCard';
-import { lawyers } from '@/data/lawyers';
+import TeamMemberCard from '@/components/team-members/TeamMemberCard';
+import { teamMembers } from '@/data/team-members';
 import { ArrowRight } from 'lucide-react';
 
-export default function Lawyers() {
+export default function TeamSection() {
     const t = useTranslations('pages.team');
 
     const containerVariants = {
@@ -30,7 +30,7 @@ export default function Lawyers() {
     };
 
     // Only show first 3 lawyers on homepage
-    const featuredLawyers = lawyers.slice(0, 3);
+    const featuredTeamMembers = teamMembers.slice(0, 3);
 
     return (
         <section className="py-16">
@@ -55,9 +55,9 @@ export default function Lawyers() {
                     whileInView="visible"
                     viewport={{ once: true }}
                 >
-                    {featuredLawyers.map((lawyer) => (
-                        <motion.div key={lawyer.id} variants={itemVariants}>
-                            <LawyerCard lawyer={lawyer} />
+                    {featuredTeamMembers.map((teamMember) => (
+                        <motion.div key={teamMember.id} variants={itemVariants}>
+                            <TeamMemberCard teamMember={teamMember} />
                         </motion.div>
                     ))}
                 </motion.div>

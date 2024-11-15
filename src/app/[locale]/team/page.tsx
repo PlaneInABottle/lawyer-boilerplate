@@ -1,6 +1,6 @@
 import { getTranslations } from 'next-intl/server';
 import PageLayout from '@/components/layout/PageLayout';
-import TeamList from '@/components/sections/team/TeamList';
+import TeamListSection from '@/components/sections/team/TeamListSection';
 
 export async function generateMetadata() {
     const t = await getTranslations('metadata.pages.team');
@@ -10,10 +10,10 @@ export async function generateMetadata() {
     };
 }
 
-export default async function AttorneysPage() {
+export default async function TeamPage() {
     return (
         <PageLayout>
-            <TeamList />
+            <TeamListSection />
         </PageLayout>
     );
 }

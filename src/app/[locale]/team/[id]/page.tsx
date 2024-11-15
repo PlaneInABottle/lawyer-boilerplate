@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation';
 import { getTranslations } from 'next-intl/server';
 import Image from 'next/image';
-import { lawyers } from '@/data/lawyers';
+import { teamMembers } from '@/data/team-members';
 import PageLayout from '@/components/layout/PageLayout';
 import { Card, CardContent } from '@/components/ui/card';
 import { Mail, Linkedin } from 'lucide-react';
@@ -15,7 +15,7 @@ type Props = {
 
 export default async function LawyerProfile({ params }: Props) {
     const { id } = await params;
-    const lawyer = lawyers.find((l) => l.id === id);
+    const lawyer = teamMembers.find((l) => l.id === id);
 
     if (!lawyer) {
         notFound();

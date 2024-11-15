@@ -20,7 +20,7 @@ const AboutFirm = dynamic(() => import('@/components/sections/home/AboutFirm'), 
     ),
 });
 
-const Lawyers = dynamic(() => import('@/components/sections/home/Lawyers'), {
+const Lawyers = dynamic(() => import('@/components/sections/home/Team'), {
     loading: () => (
         <div className="w-full h-[400px] flex items-center justify-center bg-gray-50">
             <p className="text-xl">Loading Lawyers Section...</p>

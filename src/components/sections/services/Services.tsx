@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button';
 import Image from 'next/image';
 import { ArrowRight } from 'lucide-react';
 import { motion } from 'framer-motion';
-import { services } from '@/data/practice-areas';
+import { services } from '@/data/services';
 import Link from 'next/link';
 
 export default function Services() {
@@ -84,7 +84,7 @@ export default function Services() {
                                     <CardFooter className="p-6 pt-0">
                                         <Button asChild variant="outline">
                                             <Link
-                                                href={`/practice-areas/${area.id}`}
+                                                href={`/services/${area.id}`}
                                                 className="flex items-center gap-2"
                                             >
                                                 {t(`areas.${area.id}.learnMore`)}

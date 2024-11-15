@@ -2,8 +2,8 @@
 
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
-import { lawyers } from '@/data/lawyers';
-import LawyerCard from '@/components/lawyers/LawyerCard';
+import { teamMembers } from '@/data/team-members';
+import TeamMemberCard from '@/components/team-members/TeamMemberCard';
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
 import { Link } from '@/i18n/routing';
@@ -30,7 +30,7 @@ export default function TeamSection() {
     };
 
     // Filter senior partners and partners for leadership section
-    const leadershipTeam = lawyers.filter(
+    const leadershipTeam = teamMembers.filter(
         (lawyer) => lawyer.role === 'seniorPartner' || lawyer.role === 'partner'
     );
 
@@ -54,9 +54,9 @@ export default function TeamSection() {
                     whileInView="visible"
                     viewport={{ once: true }}
                 >
-                    {leadershipTeam.map((lawyer) => (
-                        <motion.div key={lawyer.id} variants={itemVariants}>
-                            <LawyerCard lawyer={lawyer} />
+                    {leadershipTeam.map((teamMember) => (
+                        <motion.div key={teamMember.id} variants={itemVariants}>
+                            <TeamMemberCard teamMember={teamMember} />
                         </motion.div>
                     ))}
                 </motion.div>

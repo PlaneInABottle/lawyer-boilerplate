@@ -40,7 +40,7 @@ const serviceCards = [
     },
 ];
 
-export default function Services() {
+export default function ServicesSection() {
     const t = useTranslations('pages.home.services');
 
     return (

@@ -2,10 +2,10 @@
 
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
-import LawyerCard from '@/components/lawyers/LawyerCard';
-import { lawyers } from '@/data/lawyers';
+import TeamMemberCard from '@/components/team-members/TeamMemberCard';
+import { teamMembers } from '@/data/team-members';
 
-export default function TeamList() {
+export default function TeamListSection() {
     const t = useTranslations('pages.team');
 
     const containerVariants = {
@@ -45,9 +45,9 @@ export default function TeamList() {
                         initial="hidden"
                         animate="visible"
                     >
-                        {lawyers.map((lawyer) => (
-                            <motion.div key={lawyer.id} variants={itemVariants}>
-                                <LawyerCard lawyer={lawyer} />
+                        {teamMembers.map((teamMember) => (
+                            <motion.div key={teamMember.id} variants={itemVariants}>
+                                <TeamMemberCard teamMember={teamMember} />
                             </motion.div>
                         ))}
                     </motion.div>

@@ -1,6 +1,6 @@
-import { Lawyer } from '@/types/lawyer';
+import { TeamMember } from '@/types/teamMember';
 
-export const lawyers: Lawyer[] = [
+export const teamMembers: TeamMember[] = [
     {
         id: 'sarah-mitchell',
         name: 'Sarah Mitchell',
