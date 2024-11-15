@@ -7,7 +7,7 @@ export const config = {
     // Match only internationalized pathnames
     matcher: [
         '/',
-        '/(tr|en|ar)/:path*',
+        // '/(tr|en|ar)/:path*',
         '/((?!api|_next/static|_next/image|images|favicon.ico|__forms.html).*)',
     ],
 };
