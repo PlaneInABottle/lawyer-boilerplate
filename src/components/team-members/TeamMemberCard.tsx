@@ -62,7 +62,7 @@ export default function TeamMemberCard({ teamMember, variant = 'default' }: Team
 
             <CardFooter className="p-6 pt-0 flex gap-4">
                 <Button asChild variant="outline" size="sm">
-                    <Link href={`/team/${teamMember.id}`}>{t('viewProfile')}</Link>
+                    <Link href={`/team/sarah-mitchell`}>{t('viewProfile')}</Link>
                 </Button>
                 <div className="flex gap-2">
                     <Button variant="ghost" size="icon" asChild>
