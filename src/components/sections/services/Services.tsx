@@ -84,7 +84,7 @@ export default function Services() {
                                     <CardFooter className="p-6 pt-0">
                                         <Button asChild variant="outline">
                                             <Link
-                                                href={`/services/${area.id}`}
+                                                href={`/services/corporate`}
                                                 className="flex items-center gap-2"
                                             >
                                                 {t(`areas.${area.id}.learnMore`)}
