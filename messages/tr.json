@@ -434,5 +434,12 @@
                 }
             }
         }
+    },
+    "errors": {
+        "notFound": {
+            "title": "Sayfa Bulunamadı",
+            "message": "Üzgünüz, aradığınız sayfayı bulamadık. Lütfen URL'yi kontrol edin veya ana sayfamıza geri dönün.",
+            "backHome": "Ana Sayfaya Dön"
+        }
     }
 }
