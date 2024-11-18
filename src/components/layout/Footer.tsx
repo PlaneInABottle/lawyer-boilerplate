@@ -37,7 +37,7 @@ export default function Footer() {
                             </li>
                             <li>
                                 <Link
-                                    href="/practice-areas"
+                                    href="/services"
                                     className="text-primary-foreground/80 hover:text-primary-foreground"
                                 >
                                     {t('links.services')}
