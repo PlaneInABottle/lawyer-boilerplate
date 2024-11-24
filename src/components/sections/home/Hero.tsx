@@ -1,19 +1,19 @@
 import { useTranslations } from 'next-intl';
-import { Button } from '@/components/ui/button';
-import { ArrowRight } from 'lucide-react';
+// import { Button } from '@/components/ui/button';
+// import { ArrowRight } from 'lucide-react';
 import Image from 'next/image';
-import { Link } from '@/i18n/routing';
+// import { Link } from '@/i18n/routing';
 
 export default function Hero() {
     const t = useTranslations('pages.home.hero');
-    const commonT = useTranslations('common.buttons');
+    // const commonT = useTranslations('common.buttons');
 
     return (
         <section className="relative min-h-screen ">
             {/* Optimized Background Image */}
             <div className="absolute inset-0">
                 <Image
-                    src="https://images.pexels.com/photos/5668772/pexels-photo-5668772.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    src="https://images.unsplash.com/photo-1467397774014-032b781f6bba?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     alt="Law Firm Building"
                     fill
                     priority
@@ -24,18 +24,18 @@ export default function Hero() {
                     fetchPriority="high"
                 />
 
-                <div className="absolute inset-0 bg-gradient-to-b from-black/40 to-black/30" />
+                <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-gray-800/50 to-black/50" />
             </div>
 
             {/* Content */}
             <div className="container relative h-[calc(100vh-64px)] flex items-center">
                 <div className="max-w-2xl text-white">
-                    <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+                    <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold mb-6">
                         {t('title')}
                     </h1>
                     <p className="text-lg md:text-xl mb-8 text-gray-200">{t('subtitle')}</p>
 
-                    <div className="flex flex-col sm:flex-row gap-4">
+                    {/* <div className="flex flex-col sm:flex-row gap-4">
                         <Button asChild size="lg" className="text-base">
                             <Link href="/contact">
                                 {commonT('contactUs')}
@@ -53,7 +53,7 @@ export default function Hero() {
                                 <ArrowRight className="ml-2 h-5 w-5" />
                             </Link>
                         </Button>
-                    </div>
+                    </div> */}
 
                     <div className="flex flex-col md:flex-row items-center gap-8 mt-12">
                         <div className="flex items-center gap-2">

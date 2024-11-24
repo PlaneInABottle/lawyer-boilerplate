@@ -11,6 +11,9 @@ const nextConfig: NextConfig = {
             {
                 hostname: 'csimg.nyc3.cdn.digitaloceanspaces.com',
             },
+            {
+                hostname: 'images.unsplash.com',
+            },
         ],
     },
     // experimental: {
